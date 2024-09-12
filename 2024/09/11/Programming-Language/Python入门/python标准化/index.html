@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="OlAXAlO">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2024/09/11/programming-language/python入门/python标准化/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python の 工程化">
+<meta property="og:url" content="http://example.com/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/python%E6%A0%87%E5%87%86%E5%8C%96/index.html">
+<meta property="og:site_name" content="OlAXAlO の blog">
+<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-09-11T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-09-12T11:55:28.126Z">
+<meta property="article:author" content="OlAXAlO">
+<meta property="article:tag" content="Programming-Language">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/icon.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icon.png">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/icon.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            python の 工程化 -
+        
+        OlAXAlO の blog
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/assets/build/styles.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":false,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":4,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"all_rights_reserved"},"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":true,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":false,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/light.jpg","dark":"/images/night.png"},"title":"OlAXAlO の blog","subtitle":{"text":["welcome to my blog",":D     :O     :)","ヾ(*´▽‘*)ﾉ","(´,,•ω•,,‘)","ε=ε=ε=ε=ε=ε=┌(;￣◇￣)┘"],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.7.1","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"About":{"icon":"fa-regular fa-user","submenus":{"Github":"https://github.com/xfoxolx","Blog":"https://ohevan.com"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"努力更新(ง •̀_•́)ง","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"relative","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2024/9/12 00:00:0"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/ur.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                OlAXAlO の blog
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    关于
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/xfoxolx">
+                                                    GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://ohevan.com">
+                                                    BLOG
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-About"
+                        >
+                            <span>
+                                关于
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-About">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/xfoxolx">GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://ohevan.com">BLOG</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>Tags</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>Categories</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">14</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">7</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">36</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="/images/light-3.jpg" alt="python の 工程化" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">python の 工程化</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/avatar.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">OlAXAlO</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-09-12</span>
+        <span class="mobile">2024-09-12</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-09-12 19:55:28</span>
+            <span class="mobile">2024-09-12 19:55:28</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/python/">python</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Programming-Language/">Programming-Language</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/python/">python</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>20 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="708e61e649e27bfd5da9a83c0751a4ec6d25f398ad1c4e3933429d203968d8d9">5844f566621fccb9c583f0174433e53073c0f6e9a4ea7aabda16d437219e13ae64524449c353068092d0d89fbd70003c69772ab5dbd37a28edc761662fd8ed82029f563be37373559324ac9d4d3b191ca9a604354f35b12b073fee26ad41431ed209484a30a0dd1a20407b7896bb237c1dd002b09943aea2e50243b0b8c2a466d4befc4f8223de793465924796ad9c5fa3dc82d3656d5b38f47de6c8002ddc544fa2c9c5941bfe79029b402500161d530b0c2e8904fbc731e7df9714e57259df264a088a3cd9b5fba77f85fff6702e9b1e9f6111b7c215fce5633150a4b3d6c11fcfc3545187de13f2b59d655f1821232b8f6d2159e82096d796d51b068c5e41c288f9e7d6b67a5180f77b86ae1f3e2066404a853aea7775116866bdc3daed5aedf47068ad26493018e2a941605ce404f752d064513309b327a33b869ac8f4433324ec74593789511d02eeb078f81a754beacc169d0553d841bb6c5169ffd4c58b0672f5ec923c7396895213aa01b8be089ec83718453d3cf885bf0fdb4acdeb316f52819f4d0accf4834ddb90365c13160696718214fa34a88cbc7f95e5129987d05fd52ee71c15270013676a45a5ae2718975bba15c5907666b2a7a7b614af85db3be7d68aa71a6c1eea5e78a13d7ad3287c5be190df7649e7d50e73cf8510f673998489e771d345e739827bc9e34bf48b9b464f59970a5aa74598da0a3744fd758e5486caf8719f67e4cb565104a2eee7de5229015e567f726cdbe56c30dcfba71f94dd09dba770893def1ce113ee2e337f6ce6a9320f60cabfda3ee4ae1da3cabcf6bb6f3e7057922adb0c32e19089987f28fd0b9bbaf07987312dc7240ffaffea1ec2ba5f078c74b75783c546f6ed0b1273ef3648f61f156a04a960d0266ef4409cf84a854c59af144469306f55d0f19a976213b528438732a97e84ab0766ff0cfb176d04f880f431953c590efb76748d6dc457bf8fc185fb5e02b2b0eec00b52d35b5044448ca4fb6662c0a5f267d71257878badd4a03441469dd2e1097df2b5a860a12782b349c7408bb04365d83ddce2d3a41fbcd627036671e741c9fa304aa3e9af9a91fd9d6f71a096c6ec0702ab94610e38a782fb43e75cd0f65e70b5feca777c2b2ad1393279ff80163ebdab029b6181c560d5e352252fe96961879437653f98b014496b6b8d1287b4d0b94633a21f3b14a898ac0c6ef4410ca039141e1d0d1d25bd8184bcee0390b61e6336c1ad09a37ec3ea99f0df6632d633041e54ed136b6f34ab38d3cef34795f03f8808b9400c76f3611fbd1f0981dc0fd699f3ea010e2e65b2fad9788191fabaa4d14ccd0ac663860346f8efec3f8d9d016c5ed5513925413d729f7cfd8db9c9d5075e3c98941a54351e16c77b419bdfdcee327dcddb192bc9a8733bb2c378553567b9e04016db37ad9314a9ee42403b22ad0cab02a1fac253bb3e7c8843e5066d011de317dbf403702d26105078775a4091579917546e4f8878b5e47171530d1f60700f70f73703f0d169e30d122ffa248a22cb6466672740cb391b85c1611f59cea5809bc97390ae4e5ac413d3f2f0b907881dcea3e073391780ea29d234c7121e6e5688a0b1c1d366331a8b6023dd4fe68f77417188992fb1596ecbe5d9a37530ac377de2922cd40e8a60942ff3a3bf34d93d8eb73597c6dbd8c556918d91d46608ef74435fd94898d44b4ffb71595893e39b589e93897f0a9024f899e9ff75cabc0650b271c0593ca65f48b039d152911e8578f33d23a74ce566a11fa942b0d429605908069157b6f21c7a3480b9c4b9c4455fcc69e84e6b1729d35cc7838b43e94410f5bd70c0f1cb6713ea1f0c6dee11e06731cf69c814b9b0f0b57028a9298361dbd856ff93ffa00884ab16f4931a47c5104f6e32ff244702c31f46bfe59a5e6d196ec20e04c5495e8d282480b15b1b33c37e08f1606a1c0bc585f42a3ccd6e92174a751f53c3a313fd78db9d60417ce46d4f9aec733d4d8d1565f56a95dc465a7775f68515004514ec4d7cbf30926411b8f9b00795fd1e1cbb6f1f2b0973ad9722374f3e9b0c17e1b185ff83e10785c5c5efb8f68bb80c32739f4ee89f4a1769cee375673c5e06f010b56e01ed1c68c33038417997af69732639d0a6f11fcc741346a6d7978c3a54c24f47683cc91de9f5865177c8e0550afab9e7531bf60097b77982489f7de4993e36e646aace5af393816364aa5b7b52b090d091b978d3f509f2189d1a0782d2440698e7649024006fd207688d69ae1bcb28a55821b761a890b47346f5300631f31c10dd8715f8fbb89e029a08d8fa4d24fe6e5ebc0935405f08f2285a72e824bc86c0abdea634761e3211e9eebd7ace0f989a218d3e76b70ae7a8b894f9afbb7472f6d87d4807c891a797ddd7b4d0ab946c96790186b7fa0a1185abdb9488cb463a33bc54f16a3503dd59dee7a69aa62c8383b5f90b1266a39ef7c56739414c36ee50c1fe3a197151fb140fad0d4df3c9ba820351fff7c4496c76181feaf11af2953117a22c0970c3e17986824fd8060cdbfe06e8a2543bc3daad8a245294899c8ffac0731e63930806662a19cc3d3469d65781d3a3e4ab5a237fdb38d44a7e287dc1ce88888800921843cbb4d5dcc6d29d67e149aa38c0119cb81a1e37cfb42ede7e6b58f32bce3277bf4ad92fdace71f4f402f18c0b00917ee23894a2d7e32889b02302085513720f8d3b42038b5a9d153c3444d90924e973b48373eeb0fa1287bb7cdf6eaa7844f5c9cf82bd0ffad8531d99d094d381d6c555ce84c6f75befdbad125be88c0146ac74e6de8028c0fbef47dbf5f0cfcb8ab83d0280634f75bee1beccff380b76b19b6a8a6d3b1e7794d1ab23d4c7c8ead1231c8b109c6338735ada056392c8031cb42848955941be8682392abcfa99ad26be33e06e8cb4ff77061fa0ee4afd79b4b282bfa8c2c21a0e80c95e3e2f36f723de31e4eeaffdee82078cf67939942245b51270fd30b2b73264a4097c01d6697a9d6571ad2bbebc027397acf05568cc8277d3701837e17c41d835c420f9c13da8a1713f2708d832b75da86e0c4c2c79f7af89cd49ef6e2c6e1f21cd7258840a3495f803409f9932b8ebe6f1a5c5a47ef6285df72496a3f0ab210072db69d83fb426574baf4faf5748610415ff49f8f7bf364577550d93e08621c8312be02235964864820a55a7ac5ef972908fde030bd270af42858e681be2aee291b2c94a0e302eaf9e455298e71fc08f96fa8af0f9a61b70f02309e85b5a2b21e849b20b626237a05374f623c08413f45a65d7baafe837b1ce24cc540bab2c25b667c8a8d101dcabdeddb7419b6466f34c63510bc1da7e374fb45dff794f9cb00a4831508387047fb2339cd7b1acef683f4b7d2b8c7f9a6e2ff66f818b1670c1c0746655b067187d223268639638940d7d6b279737cfeba632f51f0cc5d137aa32e8dc55a69c2b329219dea811541f0acfb833fe0f580e6ef6a26876b3b2a05ea1e0b18494cd5348577e484e6f8f60ffac1abe567c5ae0e89d0edde5e12d275cbbb29d1a3ae18ea3ddf9f9e957c3679de05e62dd293e003117a5f16105958895275931d25b92a4d440e4585a61a8a2fd86e8f1eef2591b8cca83a39996fd6695518deb42556ac4b969a28be52bc19501967d7956322954fec9a93b98846398d831e423a43bd3f96738cbed3ad3ab4cfa83240249a6a07da736df0414cad45609e207a16928a0069d1ff374fa27eb90dc03ef22cdba5a11a2773aac20c99d908ca13198eb3b7b9bb2febd96fe6786c52cd87b00311243f81b6e3bd86e1d82c123c2753d2a3004e88036046c9ad85fe58fc98ced777ce4feb54ebb2e5174d6094e2a1f08f2774495061cf8db4c307bc578be7a6bc391cd325aab5b65049ef758f03ce784572f4eb3ecb26559809c6ddecb1d227f6abdeb92ecdabe527761e13af83e8444efb88e49e41ab2cd1b9f58bc31327453c32c1d44e25b6f012959b483ac63a368a5cfdf93fce9a3c244c84b3a1fc2c5897d6b38df886c994acd34291790708d72801a7e3c67c0744d54b32a18db6edb9a919a39dca5185e531ce5b51cffcaa941335406d781f77407bdc9370b516b33731a473c8d090d5367c052d1d7d8e6e80ff31bdac11eb76adf43536da6a5fd6c54b7e2376494e56fc40df14be7b440bc3155c8333cbca13bb16447d9d3205e517aaeebb91d38929001e99ec2f5bd8a7e8f948da6b37957ba0a860b5bb51bf155e88317390a5aaae9dd882e1bdd86b6a19625298a48b9e4d7716ed83ed6f1439d1edbccce15ae9cdf58a554dd399ced2a383076e3efaccf30bdb1c97f5a143031d9f3a0428e94a54f9c65b679f2e6c5c534be7fd20fce9891cba450e4e67099d1f156e19a4d99e9efa382dadac725135501960498a6e43cefe2263580383749a1aaea1c0bc345707077d119f441731c9c55e3c7d9773e22c9af7e333c8df46589128a5d7e8cad913522e0bf9a120ca6ee706b4eb74284c5951721c84ef290117402f2f017081ec051bb6f52feca0ac76dccbe9e9be71e9e70c707db4719a4d3962311cb3fd77ba73e387b66c7608f0c66f09d50effced9d578b3f397d5883dda2c71ad2b1cee12fb2f53bad8cec1240435ba54ef5ef175737103ad5dfa5c3d4e80acbd28e5961c15a1d8253d2aa1e25c64e4fc1e027c7c86cdecd3fc692241973cd6eedf159460347a1b4eaed4254a2aa943f73bd598f200d295774b8f80fed3d30e3d81071eb2c9e2a18a169b5976dd78b0d797936ff7bf28963b511f47bba4bd6ddfc2e3b208916fa9f210653654cd74b7e6625fe56ef6811b42b26a93e68e57acc1e3fce5c12d817807d32892159e26fe20de26ccd59ab62887a02b2172b396e957fa9e195c0b9a411abd1055173e5951b06ebff2bcb69384298ca86f01b15caafcab16ee82f7a98128ad4634c488f4c87ec3d8e103007e2679059a6d69ce5467233b0827726a83bba2975b689d4fcd6f1f5e49798eff959997380749678adb38a699c3a0e199518172ed51816b56e1bddcdfef526f42ca85214087e38dae248e488719ba46bb0e8eeb7e894fd274435e64dc27581e23d42406e905dd60ed69706e734fed339dea4cafcbdc05fb7529a747190b7796e0512d2e216df146549d0459d3ef36e37d176ccbf783b982745efd4666bb14085cdd569f19197502630c41bfdcc399b41e8b560c38ec50988453c868a8468882ec617ed77d7c42e5f48b30c369f69630b658c289c1cf7e316e1764fa588e90cb27a37639ec057587c45f7c32b23359bbadbe31064c3f0ba3e8bf075205297b6746419ac220113c806a01373bef5a110f27028ce9f348082cfc7fc9f3204ab1762ccd5851489ebd8039bbfcce9850ca9eff9e669132f4e90d0cb24827134ac909c5d5db07c59cdc0b8214e141d05398d7eb4100826e2c9a1263f20030734ca6d1e01bceaadd0e69ccddec2a4d7c12ded25bcd15b33e47bc5922e4382d5f13b84d2e7cdbdf7e3811666c06af39877064cdb3551a0a11c997e5d54ba198bc34f36be3b1a660fddf0e29520f21ba2c541b5891079589ce4a238b9e02b1d842fbe6373cc5be7d2dfaabfbbe6cc7a6e177c28f7432cc55418f04581a0ff3d84d5a3cc86d6f9e130226751f2ac5a95932a6e610998f05daa7b826b7aaf5737e3de251f80694f1584419da18ad96732dcce89dfe7798f33d84a54a25ae8d66b1edff4ec67ce04ba9a4659a9a38cc4c0e7a6c988bf0ad51a3b1cd9dfdf1a1b41ced438a69ea19679126465b3cb92b34bb10215e38a98977bde9b6d495d4fb888b93539afa38a4b168ad4aca3eece35b8a61da8320f8528f8ea74423e2dd5eb7e45b74c010cf2437418b1f8742615e0a74692b6bf9c8b3a7d123092a517496d10a3d1edb41c34c37c7865dd27847abc50cc577a9bd7269ccc7b0894a863fbcf6c38d075a93ffb67b69707c38929fff5837fd0a503d83d5023a35f60ebf607b974b999f6bc6015ae66b8fd3b8f676ce01b7151fc931782ef25a5fdcedaeb52a68fbe40cb24a5b3d81c559adc7c4faed96e67f2453c47a4a242598268b5060da2a653637ac44a1b48bc3888cfd3133ed0a2d4c29e2bc99711800edb875903f46e240958f08936eca0f3cd004ff47ff590978e898fc19e5081df2fd70362fc1db9a9504eed5f767551e54aa0abda3e154332bb85430eb68674f508549dba95ddfeb23e8bc3bdc2fb3d7ad14791667a21bf072e1235ec1e92ae6e49b7159c3cd6b22cfc1ed90c12d497a0a2c1f5aa230cdf0329cafaeb7c09e39fb38fd465fb324335cf6940410afb27f78c4755cd8dccf5442da9b740148b5a11d908e1fa9e0b5df42dba24ac70bf991b528f360003dd8fcb74963b2501b04a657cd8d23415feea2226d7ec672e6faa89277a5d25107a50a56b2fb6407c25be8f2bf0cb7828423ab811f91d760dcce64410e3df1e4c8bb31397eb6a2c5773c543c97312876cee3e21dc3e4eb0407fed3675214567d00ab50dc8ae3535f193e971621979c15e3a95be5166e8e93bdd929b5e57e3aabb5b5221d526665bc511f12e5d1c6589edf098f5ce99edde4e630560e52bd9fc7e0812635b7036fe53250e6d4fbff4a2b6a6422881e0a8284574c546d06c78d110e34c803ec377ed77eab67f76fc6794a47a754870a1e91340de42d5ef752cb3e49c1141910807ef6edb11cde050d455b24450aa481bc9e77e080434869f1520aa6ebfa0030a114f1b80909c85fd9e4b2b0f977d73b76ef3f319b265284bc2690ae2107e50d144a4007aae33fab2c5d5248daa8f3c945d5a66cb602f9a641b1da3d9495c5b7f4551557ff086f377eb3c63a060d0291b8459740f08a99f4967d58db21f7ba53936950b25344bcd8f8ae02319ae9871e4b5e50f1f3d9732ca9d4488eed42a11788e46035b4347f9c4d5637999f7f2d1006000e718a30eef629e4b2b15ac8e724672f4c6a6693064b19be39101d33fddc4144719672d22755f82ae20f49e78cd25e21c1f96f7ac2f6037a2d3d5b688963a5b8392931a8e5048d38a6fe26c7f7b7cbebe7b5ecec05bb09834db975be25c301573d64ce8389b7d680948ac33c66ae8051a581fefaba2f9abba17643b0e44ac06d977bf808a74ccb5725f8c8fd1cd1d131776718ee641ab000a04d38f5fbd810a8c17ae48661bc9d0d55b9d00f37699fc3bf0dee4ff90a28e5de5502545e5357aad51d538bb96b6c284f7d80d9e175ec88323fc3e66017faa556ed2f09a4df0f60634531471ef7573cc86fbd4272ac11531c47c3990410c25ed2323dc636b5ad515ba1b429bce60ba2654b73fc7b00b403d0cdc80d4f4a50829a9ca1b388d4431889077a9d615e2434f8e14be10b5fbee2859cd5a7d5b6a3d942da385f079851735e3e3a90ac9329b25e693abc475fafbc494c9def2e95adf552cb291af072b5f9e99885a0a4a4ea0418e62723270f6b82d2edf34753b0114bfc4a0b584e10625820af5ad144a4ea9213857031d7b38f0a14dbe7105db6f72af12bd4d708549d0d5aefabb807b680977a2b9f2ca651e52a3944ea853be9fc02b4004e9a2b134b6bd74f274a77ea6105d5fca349a69491e26ecc66102ce18f56e70714294963e6abf05ed6d6f3c234c129387b09496312149bba3d533ba8b0837364a0474a287944dd0b887fc32cfd96e0543526378ea26bb67d3d4c0c84fc546c0ad37e6a926acefb20e92667b6457f801cb3cb058890251ba24c5d0e26d9de22231e6e71b56b9c6a818aeb6ad4c3ba971cbd379ef380505e614289339621ae87b5b12eb8da7fa3b2d7fc308d58342f2c1a9274121d3fb35d4714608016ce051f1e091127dc866ec39999c8187148d22a98387086aa9de628a8b307fe8575166a7a09b420b25c2734db09a6a281739b28314f6a94779752160c2e9386abd05eef3510726941627c8a15832f0d4478c162e050ac8fbd69c812ee8c20e5745db5f98334cc04348ca3c7c12d2925fbf3282097066c4ec6f2e16fcc470d06d3a26532ea678fc411ac9fe8b47afe7c37ff3228dbfe801c3b86f445b33518a481a99d381934820ec279707b7031f80d7fcd0eb88902a6e921a13fc2451011d52dd5796391822ca1146eba4ba2e44a3e3975f9815881a986bab6f658d15a44045d31605d473f506f02d87d1343f7a4b2166934637379fb74449d7b049e5314e610ae52990024f5edae98303a91f079be775faa19044ec255fefb56ba29a28243f154b69eac2c3704301f225c4efc72c5619a1cf289b748962cfee493a80a9d45088595a6e7153813978b6e586077786fbb873b6e828bc6bd1b94dead88ccb58e9d8cab105d0066a823be3363c47614565f8fab1e3877a13a698e4ae217cc148c446bf600894b538f3bc4fe662078f046bfa737dcb87ddc14fc5c8ceca9557789cfcbfee1b07a351e020bf4b79d49e6781bc0c431011c3be1b13212b9ff80faa8c41f95fbdca3b79d26cd88bdb77d45296b322c5632e901db9e5927e1ae1763d2fde5538383d7d221a9c2f1d68a93a8689bb097edd940692c77619dd6b73e228bb4ade5a6bda11300056462470866b81fdbd63d9887acb5ae1e87d20f2df9eb81290806819239fa5ddf695d932bd37018aa88317af9b50494734320c3a91ed5b92dd8dfeaed0642eb9f8d77e473a39cf98a4e36f6c6f7b59593b48b50a2116c3eff9553f9fae766facb930d2af74c43670853fde2d74194acea3b4516b14ecc3739b138bda18af84074738735cbea501364597e90e4ec1e6eb62bba3c34da48e4d5fe7f20536f58896b9c7667b8a67e145d2c5a837b57fce1c12e0bc5736eecf674ff29a8447151f6c73c0c0d5c6ed607fdf6b143ac001f3af97f557a2737072ae1d4ca0f6255b2f9004867c42651165059c7c9ef0aba6f5416cc2d0db8dc2ce2c8249e40a961a7c04f89733c93629db1daf4b13378c5bcc062534e0f74316bfc2418b0ca5e3dba350383be197a0aa5d18352f2a1dbd181ab132bc19fb93c2f5efeb7dabacf5268f4d9faccd9753e73cffb64778e0bcac399a450465b2d8d7eebe00af6f4f15dd944ba7b7d82900a1bc4771175de60f8d7fc69c50dd19755b337a6771881a34c173c2215e518feabe368b809da78bf48be3f2d509e743f8a29fd04ca03e27874e5b2bdf1f6efabb706a9b71537dcf9d0bba1a43dfb54aa633901f48046c126326e9fb96c11083a3f56291be9b733b38b23aca6277d79a51eba6c1367bf3182744723eeeef0dad6a06eb3738e19e47498c21a4d964e5fc492b1fd11780a7de87f9908a1cb95917ae83ea08af941aa0d2e0105dfaef6b5414fe669c4d3af953f0173d250c9eb81fce855e93a2266ce4176f6d52e7de2be62ec06a220c899fa14d88cafa7b084d5fbb698bc57f67dcdaada8e86983e81495e3655b714a6b8c95e5e0c0249f4183e7b114797f597dcf6cfdf576857b3b7b24327b0290c2744546af88ee70119fc76aee78f812f4bbe3c49709cf972631403c750b58d792ecb8cdb23a95869533c6050f2e4912af791e1f2f8dea5b951078af83da1911aaa5b244ed12093eaf14cde4c17f92b7c975505cced3241916e692cc0644e3eda75b8ded8d55eec1bc4a2b7c51f34ed9787aae4505155e8fb4a58e1bedd5016f2b27234aeaf14b03dba49cb8fe9294afe93f63140f482126884636c55b5c7da8048b8d59e3b8c68b6515f4610205dd33574c77245971e05b7fc1229e7b8a91ce0ebdb6e2e3832fa815f0d6ece5a6a94569deec98f13853809179405935112e16ee7de9f8a80ef789406a98107e6592931bee035ec3826f691110440b30b6a55b76c52916cf2ee7099f434a7549b8efd5baf7cba7da3f3d713f994a513eab10c788d2aff53410a697f8e11a3c9bf314b37e33bfad584129330acbbe1d73b72f51b793e843f0dcdb5170149689b907fbcf33d4012bfcd9a767a29c98dc44bb35073b81dd440f5cbc531e8820970d85a46a6c6f852fa582e2b98bf5004f801036b257986f560609537496fa9bec55f6959ec08204dde2f2f149120d6654d550ddf0612fe84fab033eecbf8aaebf5c1b27f78245662755d76b933fad49e314b60fbe0de3922f9d691800fa938c784168138f14cc4a9c9659deead2174774cba6bf41fb8199103a3639cb1e688661816c4ef25a584a84bec25f7715d0356e2b4d0ba508c8c04015e34d019343320c8a2f9487cb4397e7ee6424cca92a60591f81f8fca2acb5d0cafdc74220d1ddfab3f8b37ccde0e1e599e0ec43731d2067694901db4bed07ba112c63a210c7ed33cbe89fe94d8e61580da745bcefd4b1b7e2d815312f1b8d9ef4676dac24afcadfb8bfb963227420ca9e48cda8b6634cfb64275ef6b09ce7ea9aaa870183da114919ec0a19751b265b12809f0e4bd4bbd41e7371f2ec36c6610daf29e0e64e986d7b68bdc547a1a2d034479e3494a015308100cd2debe1809618197df70f282ff438e87d546b3e3757203aa59934a7283a5a63318564dd78d4c6338202ae6f46a0d556b491405601674ac66b6b793d0009e0ed20955a5555ead6a10e2ed870455ce05d19f09cafa886e3941e3b267cce474fcf47466c161187683aee862b6c83b0eea707dc10560dfaa5274f4860c16c758c9c86df54066377918c22e26f9d5ca0ef0c015cb1afce88d40f3b901be06d090b3b808038bd67963509880f5392b970f775ba4b177ab084396511a5d36c8dbf6433f7a9682a473bb21d9a00c5d3ef607c2040e69fc177bc675d80cf51143f3d4264aae3ddaf7048ce113ee3671811a0f4a19d31dfeb4cbdd1bfe8b2cf8d8e23c99a37539bd60cd186120c6fad8e5c364b83de240b9ee65386818ec088d6c3bf5abaa97f49612a6376166567b4aede0c7f6ed7084b98ffc7b9b9cad02b166eeaaf39ac38396199cc04ddd1d09b07795b0bbef6835cf9205ccdd88891ff4530ac9220ad299179704c40764c11d01f7f647f73c9d608efe900ee76836c073fdb10f0b41740cb28649e8b90982ac8678f31f516eed0e496837b44ccf9fbcd4ea3321fee61a6b614c50fa2d86f75a5a98cfab42487712714873c16c64802e361eeb74f483c51214d68932c4ff38e74b1c2e8efc0f4c96f19055a02a739d1a9124f1300cc1b14f822ee4c053d1e97f31c4b831488fdd5506b92f4a57a4d44c12a2345246370827320579caee06cd9b9f530681b9c5467d44e9b34cfcbc4696d075bd165012137e63bfe2672bc58c9c155f7444c4c4799d02ec2be058d8ad56249cb9c71067ecdcf17f9ee0a907e43d5d8c20a597aa94ecf92f52e7b08c2565fc4ebfbb46f92a53fec7067222aeabdcceebd8fd1af45546e28d7521194a630554e92edd846b4022788d8051fbe8c657b1e0cc9aed344548a78963aefbe983f391a9e312ec446022266b09f24bb3ddebfb731b5b5d7dd8c251b6a4c87c25df4042b51ccde2db36b29c7e608170284a54e9268748ab078bc9a8bd25ab066ccb6295004f4cbdaf5585bd0739d662c4ee3b8ee932e0a86b4834cb1d146c9dacda94ff050f39e793470e2754ed517ea01c437de437169f7b3c3dd3bacd119309ba7bb1a4f1a02254e6b4335b5aabc520bbe2ca18855a5e2bbde2d3aa4bdb47d8a70ce074dc194a37d2074e165b77155907dfb9562ae6eea7ce2ce37d8c35a0eae29b55d8540e5fd850d4fbdfccd00901e2a8e35a09251d1c6e91f6f639718454105076c5ef1ba12241f3587f4da693524436686fda9943ad054f1f4d5e019518d90981ffb25a536002062fdf0cd392403e8e158d62791be1ff6909f19915f08f537c3a65d71a7e84908ddd0c8a00b713875e2a10104c23da931b235ccca6d4c2bb6e8145a5ca9cedc567ea6f147619ee061cfec64789bfec29c2ee320f285081be93967b6e3e74cb5f562a14858ab429d80597a8657515cca07b1697e8e4e7e4bb875805f3468ac35a51ede09c58a9a118ee570bdd2cb2c77062480823de4c901374c9abd61743e476b58647e749a76f9f42041756adedddaba71798a160e3e988dbc741699a3d7e6492c64dd9aeffbe14c52620c930eee075fae48cbf8fff221bc27ef44981827338d30bd2abdc092973eb21a4a3b399a3371c141ec0f980c3305b6c9538e72a8cb4e1d53cb6dc42592839ad2edd336046db88b4de12a1dc09ac873c0974ea89dac5ce60d96dffb8dd375ca7ab8bed5a18cfcd15f68b28426dc77fd6853209994c3625b0d2b260fdb5c58b9712df0e8549cfaadd1fc9fc5b5e4de90b9f2387f05d352cd65eb307e6519b97c47fe0da2a4479a1aab7a1a1ff7a5e64b539f8f6ecd38e539f11358a2b48e855b16455327bd98ae227edfdc6c7f4837a256e4852180c0c8e366b1b5cc12c448f6fb1a4dc5fd3de8e1a1671f615c7cf5112c206670bdd333db0e80097b710e2a4b9f7fecaa596c9d56312fb2cc4ddd6f087ac2ca226f76be92e6884427366a147d4c44de5403cfc8b6f5a7f8a08c0938ad0d620e213ef590a33f8395212a694ad6244570bb47fe8f2478f5bf0a0625191880db4b7d6511e3ad145812927c9f1416e9d99ecdf8bccbc88b23ee7b72ccdd4dfa2080a7a4b14487e8eefae87b20191151893372b7fbb39e91830ff59b9f0e5572d67ccbf403880b6916782120495cd0cabb3c6917dd74104ebcba89561be698fb7c47c1aa622b8ac0cfc82b5bf6229e516d9833b60c2aa164bd92884e1e0e31660c912d828e58ff6298767cbe9441173d375a54e56bb36c69e031f75e5c0347b2bee85e224527d2eb00fd6c9ee8e7501403aab326f24151398ae08c2c430d9e1c22750fe1f96365617e0733f59171ebaf2a31e05ce4c7c9d21da3d6f200266fcd713e7eab94098cad122461b36466050326952c132fac2eb4ae64a1114c5bada8e33e3edd74a3f1e9e577facacb40f54a0176e45a5be51511ab553237589a4d09b7e7a5bdda9be114e9f9bb9b9c3bf4c310d2fdb903ed62b047bc08fcad58e83f29c21643c66d08367cf90912d1f4dd396f5f8d9b752494e8239129e66ce64636b355fcec62326a4874ffc6e56c96470bf7216249891294c0dcf834e3bca160f28daf5112ba812501dbd93fc8fa83f8f8b9cf33177b2302a7bd071d57a6f4d000b0be0778febc7edcfa7897572b619b3052883e4aa15a0bac45921b0798eba9d677a3c9a9c3ab58a473d8a8682f50907ce1e961c71a20c38d7b45d225e8452a0f4a425d6529113b33b88c1583e254b9d213bd8a80817ff8b4a8c6de6b8adc779a345a07b08c39db952935c1727f1d6c99ed93c75311039eedba685b0567874a29a74edb3c2d66748558e1ff3f725dc5cc67e22076d6a9ee04d8e2ff04717e55f21e710af610f9d2738830af47482488ed8afcf094002b1fecb129db3af33cdf3b902e4bbc74af1dbc6c8c9256c621e1fc4c0a5ffbc71410a447cef657530ff8f3991bc8db62b2210dd16d961e9237806368603010a87024bc6a8d948b775300b0dbec27cc53b3ccf5326ed01d9ab0535a6dff08c7652e1f793ba5dd9dec8063c0028d78fc32959851d1ec21555ca63b78c94cb654657e96628cb2180a388184b40a72c39005e4c85fca362e0b1421ac13a280a1077510e88c98f84c3c26deb2603053302478bf751d4c890e86c2cd1e4816f9f6e725e2522d66afeb7f5d49df6c38ec36c9bc0a86f4c4176086266ee1e7eec348c4654535f2e37cd749b978e6bb2ec3912c13325da35ab2408b7ac5f629f5654e9695bd4092897b187edfdc69d098e4bbf7cd3cba12c65ff589bcd8d7d34802a4797c4752b17003cdce8c633455ef8b7e58b9f1a47a6a61dabfbae6b20a46f02f3bbb73ccb08b0c2543aa4522fdfd0dce23d97f0221b7cfcc3b4df0630abb54f1be341b4141e6c01902f0cb6fa77ceddc171f9c68f2aad1567d61526b64e8792bff82fe80eedb2606f298857b3d78bfe0fade032405fe01181744d44baf021fa0d83ce6d18d9cd256a8a5d83153a8735593c8d18a58745632b962c0783232423dfb932eb4d6bddf913b3a569324529d9b4ef605ad96bc1f8f72b06ee97f06ec2b8338f7ef1fcfa092c5d6e536fd7f56a54bed20fc781e5ef44dd80e902c990e53e0b845a95a19bbfa95d2b2ff46da046f0fdb58178bf7f8b8198ea380e1b3fe00b62e3ab193995a5e828883bfa1d25c138d29a0992829ccc53634c62893138aada2a1c14d2f8d2d0f6f405bd84937dab67cb90cff54a4e5305df8c18a8faa8e1ac0941d360a1959881b01eec99f9266f2a6f8d012e5c8ba8925abc0b9396cf224a52baa075881d2fbe256926cc79877379887faa49f682c9f02e22f81f5cb8a9e2e6aff062596d2304d379eed45cf2c4f2e425f6a8142edcbca6c41210f994152470d303f475dd506b4ada6efbd2fe574b63cb8bab404bd02ff648ab0bf95b613874fb3e0ee0a95f433367354d655b8736c8aa91b4d635581cf5c98cec4f635bafb59003ff48ca57101e7fc013db66daf7d0273e0cb107ba2e368a05a0fcd9e0e56c287648b4e3e6819ede28c2cb3253639f2ed58ed9ca16289bb725fa3e1bdc4ea54a6d05dde7173887eda00e9001bd2e91b8edfad32f3754415d450938c033a169a3241573e31e0ba0fb7d0de2ac4ce2273faccd6201082743c99318e29f9e32cac45128f48df76a8c65ce3b818a13ad6bea24e580eea2a9c3bd8517d3e399008bfc4bab96cd223c5de2b1ae4b5e255466c306c2c7fe7f5462cfb2c66d4091b60eb27d04efd05b234059caf3ded60d7d791a10480a104</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
+<script data-swup-reload-script type="module">
+import {initHBE} from "/js/plugins/hbe.js";
+  console.log("hexo-blog-encrypt: loaded.");
+    initHBE();
+</script>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> python の 工程化</li>
+        <li><strong>作者:</strong> OlAXAlO</li>
+        <li><strong>创建于
+                :</strong> 2024-09-12 00:00:00</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-09-12 19:55:28
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://redefine.ohevan.com/2024/09/11/Programming-Language/Python入门/python标准化/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                版权所有 &#169 OlAXAlO，禁止转载。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Programming-Language/">#Programming-Language</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/python/">#python</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/python%E5%9F%BA%E7%A1%80-4/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">列表</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/1970/01/01/Theory/Algorithm/DataStructure/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item"></span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.example.com',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: false,
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">目录</div>
+        <div class="page-title">python の 工程化</div>
+        
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">OlAXAlO</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 36 篇文章
+                    </span>
+                    
+                        <span>
+                            共 12k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.1</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="站内搜索您需要的内容..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    
+<script src="/js/libs/Swup.min.js"></script>
+
+<script src="/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+
+<script src="/js/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/utils.js" type="module"></script>
+
+<script src="/js/main.js" type="module"></script>
+
+<script src="/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+    
+<script src="/js/libs/anime.min.js"></script>
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/js/layouts/toc.js" type="module"></script>
+
+<script src="/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
+</html>

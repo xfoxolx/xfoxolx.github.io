@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="OlAXAlO">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2024/09/11/programming-language/python入门/python基础-1/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="python 基础数据类型及控制结构">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python 基础数据类型及控制结构">
+<meta property="og:url" content="http://example.com/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/python%E5%9F%BA%E7%A1%80-1/index.html">
+<meta property="og:site_name" content="OlAXAlO の blog">
+<meta property="og:description" content="python 基础数据类型及控制结构">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/images/icon-5.gif">
+<meta property="og:image" content="http://example.com/images/icon-5.gif">
+<meta property="og:image" content="http://example.com/images/icon-5.gif">
+<meta property="og:image" content="http://example.com/images/icon-5.gif">
+<meta property="og:image" content="http://example.com/images/icon-5.gif">
+<meta property="og:image" content="http://example.com/images/icon-5.gif">
+<meta property="og:image" content="http://example.com/images/icon-5.gif">
+<meta property="article:published_time" content="2024-09-11T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-09-12T11:54:12.328Z">
+<meta property="article:author" content="OlAXAlO">
+<meta property="article:tag" content="Programming-Language">
+<meta property="article:tag" content="python">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/images/icon-5.gif">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/icon.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icon.png">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/icon.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            python 基础数据类型及控制结构 -
+        
+        OlAXAlO の blog
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/assets/build/styles.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":false,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":4,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"all_rights_reserved"},"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":true,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":false,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/light.jpg","dark":"/images/night.png"},"title":"OlAXAlO の blog","subtitle":{"text":["welcome to my blog",":D     :O     :)","ヾ(*´▽‘*)ﾉ","(´,,•ω•,,‘)","ε=ε=ε=ε=ε=ε=┌(;￣◇￣)┘"],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.7.1","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"About":{"icon":"fa-regular fa-user","submenus":{"Github":"https://github.com/xfoxolx","Blog":"https://ohevan.com"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"努力更新(ง •̀_•́)ง","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"relative","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2024/9/12 00:00:0"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/ur.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                OlAXAlO の blog
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    关于
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/xfoxolx">
+                                                    GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://ohevan.com">
+                                                    BLOG
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-About"
+                        >
+                            <span>
+                                关于
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-About">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/xfoxolx">GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://ohevan.com">BLOG</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>Tags</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>Categories</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">14</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">7</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">36</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="/images/dark-4.jpg" alt="python 基础数据类型及控制结构" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">python 基础数据类型及控制结构</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/avatar.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">OlAXAlO</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-09-12</span>
+        <span class="mobile">2024-09-12</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-09-12 19:54:12</span>
+            <span class="mobile">2024-09-12 19:54:12</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/python/">python</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Programming-Language/">Programming-Language</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/python/">python</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>1.4k 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>5 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            <h3 id="1-变量及简单数据类型"><a href="#1-变量及简单数据类型" class="headerlink" title="1.变量及简单数据类型"></a>1.<strong>变量及简单数据类型</strong></h3><ul>
+<li><p><strong>变量</strong></p>
+<ul>
+<li>合法字符<ul>
+<li>只能包含字母、数字和下划线。</li>
+<li>不能以数字开头</li>
+<li>区分大小写</li>
+<li>不能使用关键字作为变量名</li>
+</ul>
+</li>
+<li>命名习惯<ul>
+<li>应反应变量的含义</li>
+<li>推荐全小写与下划线分割的命名格式</li>
+<li>类名的每个单词的首字母都应大写，而不是使用下划线分隔。</li>
+</ul>
+</li>
+<li>私有变量及常量<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/icon-5.gif"
+                      width="20" height="20"
+                ><ul>
+<li>单下划线开头表示受保护不应直接访问</li>
+<li>双下划线开头会触发名称修饰机制用来避免子类覆盖</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>字符串</strong></p>
+<ul>
+<li><p>字符串创建</p>
+<ul>
+<li>单引号或双引号、长端落三引号</li>
+</ul>
+</li>
+<li><p>访问字符及切片<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/icon-5.gif"
+                      width="20" height="20"
+                ></p>
+<ul>
+<li><p>正向索引从<code>0</code>开始、反向索引从<code>-1</code>开始</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">str1 = <span class="string">&quot;Hello, World!&quot;</span></span><br><span class="line">first_char = str1[<span class="number">0</span>]   <span class="comment"># &#x27;H&#x27;</span></span><br><span class="line">sub_str1 = str1[<span class="number">0</span>:<span class="number">5</span>]   <span class="comment"># &#x27;Hello&#x27;</span></span><br><span class="line">sub_str2 = str1[<span class="number">7</span>:]    <span class="comment"># &#x27;World!&#x27;</span></span><br><span class="line">sub_str3 = str1[:<span class="number">5</span>]    <span class="comment"># &#x27;Hello&#x27;</span></span><br><span class="line">sub_str4 = str1[::<span class="number">2</span>]   <span class="comment"># &#x27;Hlo ol!&#x27; (步长为2)</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+</li>
+<li><p>字符串拼接与重复</p>
+<ul>
+<li>使用 <code>+ </code>运算符或 <code>join() </code>方法拼接字符串。</li>
+<li>使用 <code>*</code> 运算符重复字符串。</li>
+</ul>
+</li>
+<li><p>字符串常用函数<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/icon-5.gif"
+                      width="20" height="20"
+                ></p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">str_length = <span class="built_in">len</span>(<span class="built_in">str</span>)                                   <span class="comment"># 获取字符串长度</span></span><br><span class="line">str_position = <span class="built_in">str</span>.find(<span class="string">&quot;str-content&quot;</span>)                  <span class="comment"># 查找子字符串位置</span></span><br><span class="line">str_exists = <span class="string">&quot;str-content&quot;</span> <span class="keyword">in</span> <span class="built_in">str</span>                       <span class="comment"># 判断子字符串是否存在</span></span><br><span class="line">new_str = <span class="built_in">str</span>.replace(<span class="string">&quot;old-content&quot;</span>, <span class="string">&quot;new-content&quot;</span>)     <span class="comment"># 替换子字符串</span></span><br><span class="line">upper_str = <span class="built_in">str</span>.upper()                                 <span class="comment"># 大写</span></span><br><span class="line">lower_str = <span class="built_in">str</span>.lower()                                 <span class="comment"># 小写</span></span><br><span class="line">capitalized = <span class="built_in">str</span>.capitalize()                          <span class="comment"># 首字母大写</span></span><br><span class="line">title_str = <span class="built_in">str</span>.title()                                 <span class="comment"># 首字母大写</span></span><br><span class="line"><span class="built_in">str</span>.strip()                                             <span class="comment"># 去除首尾空格</span></span><br><span class="line"><span class="built_in">str</span>.lstrip()                                            <span class="comment"># 去除首部空格</span></span><br><span class="line"><span class="built_in">str</span>.rstrip()                                            <span class="comment"># 去除尾部空格</span></span><br><span class="line"><span class="built_in">str</span>.split(<span class="string">&quot;,&quot;</span>)                                          <span class="comment"># 分割字符串将字符串分割为列表，默认以空格分割</span></span><br></pre></td></tr></table></figure></div></li>
+<li><p>字符串格式化<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/icon-5.gif"
+                      width="20" height="20"
+                ></p>
+<ul>
+<li><code>%</code> 运算符、<code>f</code> 字符串、<code>format()</code> 方法<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">name = <span class="string">&quot;John&quot;</span></span><br><span class="line">age = <span class="number">25</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">&quot;%s :%d &quot;</span> % (name, age))                  <span class="comment">#运算符格式化</span></span><br><span class="line">formatted_str = <span class="string">&quot;Hello, &#123;&#125;!&quot;</span>.<span class="built_in">format</span>(<span class="string">&quot;John&quot;</span>)     <span class="comment">#f 字符串格式化</span></span><br><span class="line">f_str = <span class="string">f&quot;Hello, <span class="subst">&#123;name&#125;</span>!&quot;</span>                       <span class="comment">#format() 方法格式化</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>数字类型</strong></p>
+<ul>
+<li><strong>整数类型</strong><ul>
+<li>没有小数部分、可以为正负 0</li>
+<li>无限精度、可表示多进制</li>
+</ul>
+</li>
+<li><strong>浮点数类型</strong><ul>
+<li>有小数部分、双精度 64 位浮点数存储 -可以使用科学计数法</li>
+</ul>
+</li>
+<li><strong>复数类型</strong><ul>
+<li>表示复数，形式为 a + bj</li>
+</ul>
+</li>
+<li><strong>类型转换</strong><ul>
+<li><code>int()</code>、<code>float()</code>、<code>complex()</code>、<code>str()</code>、<code>bool()</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>布尔类型</strong></p>
+<ul>
+<li>布尔值:<code>True</code>、<code>False</code></li>
+<li>布尔类型转换规则<ul>
+<li>数值：0 转换为 <code>False</code>，非 0 转换为 <code>True</code></li>
+<li>字符串：空字符串为 <code>False</code>，非空字符串为 <code>True</code></li>
+<li>列表、元组、字典、集合：空容器转换为 <code>False</code>，非空容器转换为 <code>True</code>。</li>
+</ul>
+</li>
+<li>布尔值的内置函数<ul>
+<li><code>bool()</code>、<code>all()</code>、<code>any()</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p><strong>None 类型</strong></p>
+<ul>
+<li>使用 <code>is</code> 或 <code>is not</code> 运算符来判断一个变量是否为 None，而不是使用 &#x3D;&#x3D;</li>
+<li><code>None</code> 是 Python 中表示“无值”或“空值”的特殊类型。</li>
+</ul>
+</li>
+<li><p><strong>运算符</strong><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/icon-5.gif"
+                      width="20" height="20"
+                ></p>
+<ul>
+<li><strong>算术运算符</strong><ul>
+<li><code>+</code>、<code>-</code>、<code>*</code>、<code>/</code>、<code>//</code>、<code>%</code>、<code>**</code></li>
+</ul>
+</li>
+<li><strong>比较运算符</strong><ul>
+<li><code>==</code>、<code>!=</code>、<code>&gt;</code>、<code>&lt;</code>、<code>&gt;=</code>、<code>&lt;=</code></li>
+</ul>
+</li>
+<li><strong>逻辑运算符</strong><ul>
+<li><code>and</code>、<code>or</code>、<code>not</code></li>
+</ul>
+</li>
+<li><strong>成员运算符</strong><ul>
+<li><code>in</code>、<code>not in</code></li>
+</ul>
+</li>
+<li><strong>身份运算符</strong><ul>
+<li><code>is</code>、<code>is not</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-控制结构"><a href="#2-控制结构" class="headerlink" title="2.控制结构"></a>2.<strong>控制结构</strong></h3><ul>
+<li><p><strong>条件语句</strong></p>
+<ul>
+<li>基本<code>if</code>语句</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> 条件:  <span class="comment"># 条件为真执行、条件为否跳过</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>if-else</code>语句</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition:</span><br><span class="line">  <span class="comment"># 如果 condition 为 True 执行此代码块</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">  <span class="comment"># 如果 condition 为 False 执行此代码块</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>if-elif-else</code>语句</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition1:</span><br><span class="line">  <span class="comment"># 如果 condition1 为 True 执行此代码块</span></span><br><span class="line"><span class="keyword">elif</span> condition2:</span><br><span class="line">  <span class="comment"># 如果 condition1 为 False 并且 condition2 为 True 执行此代码块</span></span><br><span class="line"><span class="keyword">elif</span> condition3:</span><br><span class="line">  <span class="comment"># 如果 condition1 为 False 并且 condition2 为 False 并且 condition3 为 True 执行此代码块</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">  <span class="comment"># 如果所有条件都为 False，执行此代码块</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>嵌套<code>if</code>语句</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> condition1:</span><br><span class="line">  <span class="keyword">if</span> condition2:</span><br><span class="line">    <span class="comment"># 如果 condition1 和 condition2 都为 True 执行此代码块</span></span><br><span class="line">  <span class="keyword">else</span>:</span><br><span class="line">    <span class="comment"># 如果 condition1 为 True 并且 condition2 为 False 执行此代码块</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">  <span class="comment"># 如果 condition1 为 False 执行此代码块</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>三元运算符<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/icon-5.gif"
+                      width="20" height="20"
+                ><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">value_if_true <span class="keyword">if</span> condition <span class="keyword">else</span> value_if_false</span><br><span class="line"><span class="comment"># 如果 condition 为 True，则返回 value_if_true，否则返回 value_if_false</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+</li>
+<li><p><strong>循环语句</strong></p>
+<ul>
+<li><code>for</code> 循环</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#`for`用于遍历序列（如列表、元组、字符串）或其他可迭代对象。</span></span><br><span class="line"><span class="keyword">for</span> variable <span class="keyword">in</span> iterable:</span><br><span class="line">  <span class="comment"># 循环体</span></span><br><span class="line"><span class="comment">#------------------------------------------------</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>):</span><br><span class="line"><span class="comment"># `range()`函数常用于生成整数序列，以便在`for`循环中使用。</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>while</code> 循环<img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="/images/icon-5.gif"
+                      width="20" height="20"
+                ><ul>
+<li><code>while</code>条件为<code>True</code>时重复执行代码块。条件为<code>False</code>时，循环结束。</li>
+<li><code>while</code>循环通常用于处理未知次数的循环。 故必须有计数器。</li>
+</ul>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> condition:</span><br><span class="line">  <span class="comment"># 循环体</span></span><br><span class="line"><span class="comment">#------------------------------------------------</span></span><br><span class="line">count = <span class="number">0</span> <span class="comment"># 初始化计数器</span></span><br><span class="line"><span class="keyword">while</span> count &lt; <span class="number">5</span>: <span class="comment"># 循环条件</span></span><br><span class="line">  <span class="built_in">print</span>(count)</span><br><span class="line">  count += <span class="number">1</span> <span class="comment"># 更新计数器</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>break</code> 语句<ul>
+<li><code>break</code>语句用于中断循环。</li>
+</ul>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>):</span><br><span class="line">  <span class="keyword">if</span> i == <span class="number">5</span>:</span><br><span class="line">    <span class="keyword">break</span></span><br><span class="line">  <span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>continue</code> 语句<ul>
+<li><code>continue</code>语句用于跳过当前循环的剩余语句，并继续下一次循环。</li>
+</ul>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>):</span><br><span class="line">  <span class="keyword">if</span> i == <span class="number">5</span>:</span><br><span class="line">    <span class="keyword">continue</span></span><br><span class="line">  <span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>pass</code> 语句<ul>
+<li><code>pass</code>语句用于占位符，表示一个空语句，通常用于在需要语句但暂时没有实际代码的情况。</li>
+</ul>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">10</span>):</span><br><span class="line">  <span class="keyword">if</span> i == <span class="number">5</span>:</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line">  <span class="built_in">print</span>(i)</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><code>else</code>子句<ul>
+<li><code>else</code>子句用于在正常循环结束后执行一些代码。</li>
+</ul>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> variable <span class="keyword">in</span> sequence:</span><br><span class="line">  <span class="comment"># 执行的代码块</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">  <span class="comment"># 执行的代码块（仅当未使用 break 时执行）</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">while</span> condition:</span><br><span class="line">  <span class="comment"># 执行的代码块</span></span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">  <span class="comment"># 执行的代码块（仅当未使用 break 时执行）</span></span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>循环中的<code>else</code>子句</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> n <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>, <span class="number">10</span>):</span><br><span class="line">  <span class="keyword">for</span> x <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">2</span>, n):</span><br><span class="line">      <span class="keyword">if</span> n % x == <span class="number">0</span>:      <span class="comment"># 如果 n 可以整除 x，则 n 不是质数</span></span><br><span class="line">          <span class="built_in">print</span>(n, <span class="string">&#x27;equals&#x27;</span>, x, <span class="string">&#x27;*&#x27;</span>, n//x)</span><br><span class="line">          <span class="keyword">break</span></span><br><span class="line">  <span class="keyword">else</span>:                   <span class="comment"># 仅当未brreak时执行、即 n 为质数</span></span><br><span class="line">      <span class="built_in">print</span>(n, <span class="string">&#x27;is a prime number&#x27;</span>)</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>循环嵌套<ul>
+<li>外层循环单次执行内部循环全部执行。</li>
+</ul>
+</li>
+</ul>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">4</span>):          <span class="comment"># 外层循环，从1到3</span></span><br><span class="line">  <span class="keyword">for</span> j <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, <span class="number">3</span>):      <span class="comment"># 内层循环，从1到2</span></span><br><span class="line">      <span class="built_in">print</span>(<span class="string">f&quot;i=<span class="subst">&#123;i&#125;</span>, j=<span class="subst">&#123;j&#125;</span>&quot;</span>)</span><br><span class="line"><span class="comment">#------------------------------------------------</span></span><br><span class="line">i = <span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> i &lt;= <span class="number">3</span>:               <span class="comment"># 外层 while 循环</span></span><br><span class="line">  j = <span class="number">1</span></span><br><span class="line">  <span class="keyword">while</span> j &lt;= <span class="number">2</span>:           <span class="comment"># 内层 while 循环</span></span><br><span class="line">      <span class="built_in">print</span>(<span class="string">f&quot;i=<span class="subst">&#123;i&#125;</span>, j=<span class="subst">&#123;j&#125;</span>&quot;</span>)</span><br><span class="line">      j += <span class="number">1</span></span><br><span class="line">  i += <span class="number">1</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> python 基础数据类型及控制结构</li>
+        <li><strong>作者:</strong> OlAXAlO</li>
+        <li><strong>创建于
+                :</strong> 2024-09-12 00:00:00</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-09-12 19:54:12
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://redefine.ohevan.com/2024/09/11/Programming-Language/Python入门/python基础-1/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                版权所有 &#169 OlAXAlO，禁止转载。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Programming-Language/">#Programming-Language</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/python/">#python</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/py-todo/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">python TODO</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/python%E5%9F%BA%E7%A1%80-2/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">python 进阶数据类型及异常</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.example.com',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: false,
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">目录</div>
+        <div class="page-title">python 基础数据类型及控制结构</div>
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%8F%98%E9%87%8F%E5%8F%8A%E7%AE%80%E5%8D%95%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-text">1.变量及简单数据类型</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84"><span class="nav-text">2.控制结构</span></a></li></ol>
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">OlAXAlO</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 36 篇文章
+                    </span>
+                    
+                        <span>
+                            共 12k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.1</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="站内搜索您需要的内容..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    
+<script src="/js/libs/Swup.min.js"></script>
+
+<script src="/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+
+<script src="/js/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/utils.js" type="module"></script>
+
+<script src="/js/main.js" type="module"></script>
+
+<script src="/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+    
+<script src="/js/libs/anime.min.js"></script>
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/js/layouts/toc.js" type="module"></script>
+
+<script src="/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
+</html>

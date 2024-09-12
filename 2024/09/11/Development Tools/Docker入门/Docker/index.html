@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Hexo Theme Redefine">
+    
+    <meta name="author" content="OlAXAlO">
+    <!-- preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    
+    <!--- Seo Part-->
+    
+    <link rel="canonical" href="http://example.com/2024/09/11/development tools/docker入门/docker/"/>
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="1 days">
+    
+        <meta name="description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Dockerfile &amp; dockercompose">
+<meta property="og:url" content="http://example.com/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/Docker/index.html">
+<meta property="og:site_name" content="OlAXAlO の blog">
+<meta property="og:description" content="Here&#39;s something encrypted, password is required to continue reading.">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-09-11T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-09-12T11:49:13.621Z">
+<meta property="article:author" content="OlAXAlO">
+<meta property="article:tag" content="Deve-Tool">
+<meta property="article:tag" content="Docker">
+<meta name="twitter:card" content="summary">
+    
+    
+    <!--- Icon Part-->
+    <link rel="icon" type="image/png" href="/images/icon.png" sizes="192x192">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/icon.png">
+    <meta name="theme-color" content="#A31F34">
+    <link rel="shortcut icon" href="/images/icon.png">
+    <!--- Page Info-->
+    
+    <title>
+        
+            Dockerfile &amp; dockercompose -
+        
+        OlAXAlO の blog
+    </title>
+
+    
+<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
+
+
+    <!--- Inject Part-->
+    
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    
+        
+<link rel="stylesheet" href="/assets/build/styles.css">
+
+    
+
+    
+<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
+
+    
+<link rel="stylesheet" href="/fonts/Geist/geist.css">
+
+    <!--- Font Part-->
+    
+    
+    
+    
+    
+    
+
+    <script id="hexo-configurations">
+    window.config = {"hostname":"example.com","root":"/","language":"zh-CN","path":"search.xml"};
+    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":false,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":4,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"all_rights_reserved"},"lazyload":true,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":true,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":false,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":true,"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/light.jpg","dark":"/images/night.png"},"title":"OlAXAlO の blog","subtitle":{"text":["welcome to my blog",":D     :O     :)","ヾ(*´▽‘*)ﾉ","(´,,•ω•,,‘)","ε=ε=ε=ε=ε=ε=┌(;￣◇￣)┘"],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"9.3.0"}},"version":"2.7.1","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"},"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"About":{"icon":"fa-regular fa-user","submenus":{"Github":"https://github.com/xfoxolx","Blog":"https://ohevan.com"}}},"search":{"enable":true,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":"努力更新(ง •̀_•́)ง","show_on_mobile":true,"links":{"Archives":{"path":"/archives","icon":"fa-regular fa-archive"},"Tags":{"path":"/tags","icon":"fa-regular fa-tags"},"Categories":{"path":"/categories","icon":"fa-regular fa-folder"}}},"article_date_format":"relative","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2024/9/12 00:00:0"};
+    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
+    window.data = {"masonry":false};
+  </script>
+    
+    <!--- Fontawesome Part-->
+    
+<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/brands.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/solid.min.css">
+
+    
+<link rel="stylesheet" href="/fontawesome/regular.min.css">
+
+    
+    
+    
+    
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+<div class="progress-bar-container">
+    
+        <span class="scroll-progress-bar"></span>
+    
+
+    
+        <span class="pjax-progress-bar"></span>
+<!--        <span class="swup-progress-icon">-->
+<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
+<!--        </span>-->
+    
+</div>
+
+
+
+<main class="page-container" id="swup">
+
+    
+
+    <div class="main-content-container">
+
+
+        <div class="main-content-header">
+            <header class="navbar-container px-6 md:px-12">
+
+    <div class="navbar-content ">
+        <div class="left">
+            
+                <a class="logo-image" href="/">
+                    <img src="/images/ur.png">
+                </a>
+            
+            <a class="logo-title" href="/">
+                
+                OlAXAlO の blog
+                
+            </a>
+        </div>
+
+        <div class="right">
+            <!-- PC -->
+            <div class="desktop">
+                <ul class="navbar-list">
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/"
+                                        >
+                                    <i class="fa-regular fa-house fa-fw"></i>
+                                    首页
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class=""
+                                   href="/archives"
+                                        >
+                                    <i class="fa-regular fa-archive fa-fw"></i>
+                                    归档
+                                    
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                            </li>
+                    
+                        
+                            
+
+                            <li class="navbar-item">
+                                <!-- Menu -->
+                                <a class="has-dropdown"
+                                   href="#"
+                                        onClick=&#34;return false;&#34;>
+                                    <i class="fa-regular fa-user fa-fw"></i>
+                                    关于
+                                    <i class="fa-solid fa-chevron-down fa-fw"></i>
+                                </a>
+
+                                <!-- Submenu -->
+                                
+                                    <ul class="sub-menu">
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://github.com/xfoxolx">
+                                                    GITHUB
+                                                </a>
+                                            </li>
+                                        
+                                            <li>
+                                                <a target="_blank" rel="noopener" href="https://ohevan.com">
+                                                    BLOG
+                                                </a>
+                                            </li>
+                                        
+                                    </ul>
+                                
+                            </li>
+                    
+                    
+                        <li class="navbar-item search search-popup-trigger">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </li>
+                    
+                </ul>
+            </div>
+            <!-- Mobile -->
+            <div class="mobile">
+                
+                    <div class="icon-item search search-popup-trigger"><i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                
+                <div class="icon-item navbar-bar">
+                    <div class="navbar-bar-middle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile sheet -->
+    <div class="navbar-drawer h-screen w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
+        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/"
+                        >
+                            <span>
+                                首页
+                            </span>
+                            
+                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                           href="/archives"
+                        >
+                            <span>
+                                归档
+                            </span>
+                            
+                                <i class="fa-regular fa-archive fa-sm fa-fw"></i>
+                            
+                        </a>
+                        
+
+                        
+                    </li>
+            
+                
+                    
+
+                    <li class="drawer-navbar-item-sub text-base my-1.5 flex flex-col w-full">
+                        
+                        <div class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary cursor-pointer text-2xl font-semibold group border-b border-border-color hover:border-primary w-full "
+                             navbar-data-toggle="submenu-About"
+                        >
+                            <span>
+                                关于
+                            </span>
+                            
+                                <i class="fa-solid fa-chevron-right fa-sm fa-fw transition-all"></i>
+                            
+                        </div>
+                        
+
+                        
+                            <div class="flex-col items-start px-2 py-2 hidden" data-target="submenu-About">
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://github.com/xfoxolx">GITHUB</a>
+                                    </div>
+                                
+                                    <div class="drawer-navbar-item text-base flex flex-col justify-center items-start hover:underline active:underline hover:underline-offset-1 rounded-3xl">
+                                        <a class=" text-third-text-color text-xl"
+                                           target="_blank" rel="noopener" href="https://ohevan.com">BLOG</a>
+                                    </div>
+                                
+                            </div>
+                        
+                    </li>
+            
+
+            
+            
+                
+                    
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/tags"
+                        >
+                            <span>Tags</span>
+                            <i class="fa-regular fa-tags fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+                    
+                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
+                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
+                           href="/categories"
+                        >
+                            <span>Categories</span>
+                            <i class="fa-regular fa-folder fa-sm fa-fw"></i>
+                        </a>
+                    </li>
+                
+            
+        </ul>
+
+        <div class="statistics flex justify-around my-2.5">
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">14</div>
+        <div class="label text-third-text-color text-sm">标签</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">7</div>
+        <div class="label text-third-text-color text-sm">分类</div>
+    </a>
+    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
+        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">36</div>
+        <div class="label text-third-text-color text-sm">文章</div>
+    </a>
+</div>
+    </div>
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="main-content-body">
+
+            
+
+            <div class="main-content">
+
+                
+                    <div class="post-page-container flex relative justify-between box-border w-full h-full">
+    <div class="article-content-container">
+
+        <div class="article-title relative w-full">
+            
+                
+                
+                <img src="/images/dark-3.jpg" alt="Dockerfile &amp; dockercompose" class="w-full h-60 sm:h-72 md:h-80 object-cover sm:rounded-t-large dark:brightness-75"/>
+                
+                <div class="w-full flex items-center absolute bottom-0 justify-start">
+                    <h1 class="article-title-cover text-center mx-6 my-6 text-second-text-color bg-background-color-transparent px-4 py-3 text-3xl sm:text-4xl md:text-5xl font-semibold backdrop-blur-lg rounded-xl border border-border-color ">Dockerfile &amp; dockercompose</h1>
+                </div>
+            
+            </div>
+
+        
+            <div class="article-header flex flex-row gap-2 items-center px-2 sm:px-6 md:px-8">
+                <div class="avatar w-[46px] h-[46px] flex-shrink-0 rounded-medium border border-border-color p-[1px]">
+                    <img src="/images/avatar.jpg">
+                </div>
+                <div class="info flex flex-col justify-between">
+                    <div class="author flex items-center">
+                        <span class="name text-default-text-color text-lg font-semibold">OlAXAlO</span>
+                        
+                    </div>
+                    <div class="meta-info">
+                        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa-regular fa-pen-fancy"></i>&nbsp;
+        <span class="desktop">2024-09-12</span>
+        <span class="mobile">2024-09-12</span>
+        <span class="hover-info">创建</span>
+    </span>
+    
+        <span class="article-date article-meta-item">
+            <i class="fa-regular fa-wrench"></i>&nbsp;
+            <span class="desktop">2024-09-12 19:49:13</span>
+            <span class="mobile">2024-09-12 19:49:13</span>
+            <span class="hover-info">更新</span>
+        </span>
+    
+
+    
+        <span class="article-categories article-meta-item">
+            <i class="fa-regular fa-folders"></i>&nbsp;
+            <ul>
+                
+                
+                    
+                        
+                        <li>
+                            <a href="/categories/Development-Tools/">Development Tools</a>&nbsp;
+                        </li>
+                    
+                    
+                
+            </ul>
+        </span>
+    
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa-regular fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/Deve-Tool/">Deve-Tool</a>&nbsp;
+                    </li>
+                
+                    <li>
+                        | <a href="/tags/Docker/">Docker</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
+
+    
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fa-regular fa-typewriter"></i>&nbsp;<span>20 字</span>
+        </span>
+    
+    
+        <span class="article-min2read article-meta-item">
+            <i class="fa-regular fa-clock"></i>&nbsp;<span>1 分钟</span>
+        </span>
+    
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa-regular fa-eye"></i>&nbsp;<span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+
+                    </div>
+                </div>
+            </div>
+        
+
+        
+
+
+        <div class="article-content markdown-body px-2 sm:px-6 md:px-8 pb-8">
+            
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="381d8800a319009c3989dc09b126fff0d587cbe2c13d4d1249cbc3421d071782">5844f566621fccb9c583f0174433e5309b537f0a9cea6399ad0e7cf5f7462dce24ccfc91b9e51b82134b23348bfff12aa5fc51010cd9bd0bfc9329e9a5829f576549fcdc87b8bfde9865f3a999a15ac32ea08be663fdbac4af7df88105dfc6a34b2049e146fc1eca2e6adaddce89a15a7790b24ce0d6985c85773347387c7deee8fcb164e3eb59e45c7ef09fa5b8d4cfc68f1773b5ae61e71362038884218bffde8cd4d3dbb3460b536116a33b604e5949dfcca4207454282a9a19daa236e5fd7690facac89d4043fb67cc76e970e414773e43cf996138b565f5f9a63655e1e1d05d5a5f92e9078b789a7e116b8d4b195c9611b95ae8a84b562fa33e60ef38c42a9f57ddc936c9d279cbcf5b4d1ce41ea8ea08a52bd7339ef83c56811b6e5ea3568ffc8aa07b9b51d1109a0f73fc8a21e313b97958efcd5e5457a984e2a82a85d1cbf940ed5dcfdea91088eb2ec5fa06ea83a7de2427782a92485ecc70d65d3734fee600117c14eb0c2fc2b6c3dbae1183049e79bc70197bfb1661bbc5045a77e070b65f6d37d5fc7eaeae9af31df32be78be08609f025d0f0381905358e3aefebdef2e5244ef1ef057be0de375806bfc0a377d64432d806d749a3708e3f736716567d0d9a65219f159d6c823831e6f121fcb7c4d98fcd2be45b0bc3d7c82be1305323d4d726e9171c2d3b1f7ecbfe21c150278589a93bf8375f12b2822d99d558389c18cb4a7535e817297a803ee050867aed415cd7b82399d95afe731a08983ead9d452179360e8d556d24dfcc100cd34ab9ac9ba8c19ca8bda684bfcddf109c03ef73d0d7902556e9fc1616fcff52e1b42e553c6e26946528142595c6d3546f525820cc05339d9ea249802cc95acf94e18868ce8d513da212d4d834bf1d3716e5dfd06111864e9289b4b46d439bc45868bf259d15792e3edb8d99feb6b3a814a297a10a02ae3a86507c14519e072351ea0e9c42ab23fc12176a5f295fa1af0c18e9e2bb71e63b51d2f03719a9cf3ae00229fc4e597291a6eb1a21c761806ef3a2a22228cb2b9ec58eca1aaaccfa2715cf73c8813b9dbe3db5eb1380aa13667bf68b9afc8bc4a14713a87bb71e29eb88996f2d10ce3d9bed3e4058699119e1478a2836d60e3c1d464c97cd5d8a0852d5faca283d4c53760ef04b9d7cdd6491592f1fdb4dccd530df021a62c980ddb49fbdb8f68647353bbc365953abc4bd69f63f6a768e1f6c68d09972afa6fd978c1cde98beb19eb63374d58cfa5cd8622e37a84cbac9d7473bec8cfb089cf41835c4214af3c865f01239fb7d6860ba10d7291875bed044d7e5b8f3aa3819c0dbb0715118a7630c64e808136e6bae51156b2cded06c08a9e4fceb30d41208e036a3148404442a501edad3677b9dd861be038854d5b55d204acf4f365b256fd9546e5313671f0752a1c92582287bd769a14ed6af8a5f0cf7d98ade829b571db56df525e8ac718388c2c04a680ec5b9303ce7f795d2e0c1da5d1a3bcf97b0092bfad15051b01940cc08ec3c039f270d3dbf10f063ad50f76ebf13fc91b5ff2f8de36cdc9dab8c5191535f6f96fb733b6a6f8700196039810d27981794c2f1b55adf485dacf3575531fb4c795f847c54665d7c0e77837366c8585d1217622aa13d7aab4640f7ee7d38db60f3e66abf31ae28b98365473bd616a8ff5919041bdc634257d06af054d1016848696514398690573ed5d3b5c549c216b6df78e7fe81d8fa281569619a2219348d1dd9058d601913fe8326995e6b7be8c30eaf64584627df5b3a464e8f0dd7edb0729e84c22a62bea9004d2982eabdab22fe6cf58c1f0027e4432f3cabc6bb8f848b40c6286b8b635e810fdb16dbf1ce1657c807b18ca8b0822f2508636b4d672f0df0c3099397db09d098b3c8324cc332352a8c261f4e8d737a2d56d03faa719f1f7b44312eff4150ee97c1622fec16a813f88eaeade6c10d07c5e6a15f3f7b438b87269c98b40f7029d1587dd0885b22bd3b3f2f589f7c3fcb8e1043525335fd85421502d4f049fead74b55902253136365b096de3bef3f914c7d7425e8dc72fc1736f5331848e293f9350719e6e85c75758494b49f01561194fc5843c7f60e629a2a4b7c7018dbf644f3e6f221395a4442f05c6e7ed63bd3b018a73da8c720b9cef59f92e13433cf696e418482779c92156a702653f51365503953c802f1886e948f13106d19d2f06bfc7b7f2070a139c530bfba1f5cf1078262c89756b8b8d37a29c9011795a1f39ff41ebe6e6aa0102037bc6305b19f7d675a7b02adf6c055d4dcb3d6002f82ab667df8e00d001f36428de2452fe444c408a9ab64dc4d2d8750ad467cf25e41a833c37c9e700c405c6c2626bc482b046c7e2788670f708bf46f6bdb11cf7e398e769101628150b94e3b0a4cbcdd79f69e8291acc5070dfc5d36641c8d4b324fd9b0324944535322d7ba980a603aaac7fae52e14c7cd7ebed449bb71b57e8b004432d64afb3f38a266b582455331fb7eb3a30f57a174fb47f7c735def36655d188cdb1513539cfa045dc1d591073a2d3248785db158567c9e80255c97954b298da04ccb593a0ac4e8cdf0f6f8b001025fc93b59b26aab87c2c109133282abcc45bdf47592609512552dbb152dc156692b43d4637a0ec93cfd9378ec04336731985f24ed291fdc104c1eb499370fc6d2f960e186ca8ff60163f5c530383065bbeef5b56851baeac059edeba5aeb62fef59064153874edee815e8a377b6627363f814a0ea0bbee88e938015d0ae347d2dfb1752deeae243df311e7a893831e9bf09c8bba4024d00b1cfe771f0f8678fe67bb1c6e301fd3ebf7a4f629ca74b17b57dff4adf133aeea9c6635479618b2d7eed22617b8d1400b5e7207fb6e11a276b67cab1b3a3e0811a256475e98adda6478db3d409ccc3d686ecc15c67e9d980e2467abb53612fbf102a9d6fe34325654455e8f98cd91faa31d5b64f0590d24e0a2ceb62ac96464c9d0a853711f76522b76e3e1007cc837c4f8ad47f954875ca70328ff35ba063fa34a021ed6d52f0521d1beb07326febf4cf57138a55e5721fc2a953a210cb63a7f518b0ce12bf73b24c280bfc72241e83e9237137a59311293ab1827dab9eaa773c1b5b36a982d9f02315f1fbcc8abcaff7ed999dd7abc32e32aac91cab6c9a4a28f327cf85cb3e79bb87bf13a2b1f5aa779d6ea4dfe7b6f7bfcb3a25b92b6503be57f5afa28cd09ad9ab94df09471a12a757a4484ccb310e0a2fff51ff124e6e3c03528d54d82c147f252a49175e5fea7d7f3d766f675217cdee430b2509f1ebea363837976de26d39cdc18aae793b822a71257b677936fa71f86309d48b925859c96ce6af98ef3e6edde4dbb32a13a7da5db8ffa6c4b28aac71056a87359b099526eab760678f390e162e4ff4cc6fd62d75cce367c8e016ae236d192c0cb6880798fc41205c2ac2652a96c6d92fb61e3e1efe4324a89675da1cc3cc2124f67e0d34ebd12c141a77dcdfda4971716c95a1b9d594585ab5b9545d8663e3e7023ca70ee174ed6fe0e00893cbf3a06124c5dfe4ee0a66e892df6fc5eacb536245aa82ef44b9c40e8da3aeb75a32929b12ccee74ad4b03f7955ac97b6bd5a0d322d150a4c026c9a03d3fe9dfeddcd2ed31218e67d063a69b40f3067b95502e6ec2d31a7555406fead6c98fd4df952ff909752cb813c80646bd1f0804c1830606947c7f3b98a97817041ff274c672f997f09594d83f166c81622e7bef04f9ba970c44b691f01e7544c74f7628f32a3c892c9a4a1bcd5782782a038d197e8bfdc65ffd88252b15651dd5ff65409098a5763ff2ec0c51386f77a128ea7e7ed9ba89511d461f453233b9cb57c52abb499e0150f759f5de5c9d791aee16880a45341aaf685f3b1732ffefd8ebe1bf4effc68921aa2dc4ed0c7fb43989230b8b9153daae1be2e91d4ad9b5e7464ba4e6c701f5de5d0215dc6cd9f70c18b556a69c7c25f256db02a084f8f193b2504de471827146305d0d22cfab5654c8265578934dd2fa02d90e1f2038b2ce354e1828bda8211e31be74e880580178c5f131ec1306f45d5da541ab349e3f268a97c02cc778f2ebb199a793afcfb07032b56c7550ffd4c49e93d3216f8739e2b24fc2888a723cad77a792747b6409cb5cf8ab29d79accebcc00578fb1e2b7a56ed8a6d664f132cd65d24c0b7ac2c05445ec3c869b3d8292f4a7a780a91179a66e2291b3900cb1aa12cd9e27fec117769ec5db1988f821f233ebbcef132751ed6e6807ec3a3f4fa7c0f0310b8c8cb0e8bf2ce24e589ad2d1c50cdf69c6416030ecb2338280fec4e6f539b775661c96945c3b13ba8a56c194864fad3732c9cac23b4342a3412cadd2daee4d5b94c9085a5a534855dc07e6c9997d24c3795ef7c4fb2d6292c45cc1389941465d66666b96c7557f4c5f57d7c54edf305b327655686c6afb563729c6f490835c34bf4ad6393b7dda1eb50bc34748ee5cdcdd0ce3a22e82e4ff0efc24c6a6f53462b11474564e174bc63e67ac6289181566205e0c157c93e01be4c3848757fffe35e8d41a0f7d67f35f9e3e7f2df03892ec06b11b010d0fa35f3ba30c7077fd80eeef25a22c9badec210885d1fed2647da9ca3f13c8597bb6eb926f70094141e99e42d181dad1b6220128c1db4224a158cd10f6bbaedc4ff3392cbb1c8b38cf96ced329fe8ffedf83af6a2149f5adb4f7eab18c1c29c8531dbdf8a868480e10624c5102fd3953c6800da1d11ede65044e3ffde0ca36f09c63f3bb409e509ad8a1fbf5f361627bc77e1ea547136c2fc14730a3373afbf17a54aeb1cc6b360900367a62ed4d6017675fb48a1d179fdcf4761478eafeb5ca4926b48613148c1026bdf248701ce4174fd1f332ae7c88096977cd46d72f49cbd19477d6a5a91fb464c9c49c8873456f37a6caba7a6bbadacde7bda86a18194135fb176df3064cbf18057804e51ad5bb5c9db72cc3a53cc920f8a1a25733bcaf636de7c2173211ba2e59626de53625439e2c18e02331cdcf447a53708aa85f2317a7e3845f6e3fa6e3e925d7434aaccd23afacf1c6bddcef9f4633e40acab5ce6cdd88776b1e5ed8f007b54a0d339d3d58f4cf1bf1cbe3158667c2d5d6299be37e960d569f21de3c894648bc89cbf0c4edb89024fc5a76e378ac440b91349e9423d3c3a192c3ccf37edb127837d855c34291dccc3d3a37c07c0a6560f3f643a06a769ed37450e33b4b3766e520473af02b9ed64e6aebd613de0bf1d3f54fc11fd249e0440fc5127764f877eebc463554a30d5aeeaae70e73fba7ddab5308c09e84194d4090e7f45f3931fd045599ddea0eea01f0658ec47fce3a3177cb1c1ec3227a6c4fae876d5a430c64f0a6380a99ab5840e9f2a997d02a52d73a29e0f24d9feb87ea5b48b2e6460a02b40e67bf4dfe85c30c7ccc785293e39bc91323d93f869292c7b3dc65ffd363fbe6ac585e01c5e5420e69a5c04ba1424a6c3fc4168bd66385b0f37d9926cab72153832b1987f00357816f36c905ae28680861a48b115d5475e131a63301e538a2b4ff4b3be90af699276d3ec25a17bf3ce89ed5de18be04cdd946343ddeb4ba4958693c747cfc501adabe86e0b6eced62888b29810ef73b6e6bca62a0d8cf606b0d6d7a021152432b414933f578b52ac5c3b03eb3de2009f24a93c51d46b90bbdcd365a4679285624b9648972381c01e1e04de448b401896fe805faeab1a907cc4a74df861d9fa6796c3367e017c03cd2b6cd2280e681bb1eea8b068807cac6dc7e632afcbe4f73e5b86fbfcfde1afe9bc8b042eb1fcabe71eb52adfdaf05a0f4f28d49d85a338d4867ccad65cd59d27abdc752ba9168d0fb0e77ffc36d316c8ee76bd57c85536d600d6239c30317c7835a2251997dbfdc3bfba5314674cea670a5092f7ade623b68c818844c372cf8bdf9d9abb620fa97afe0633e05f7e557207035f537c7daae7f35925af4807483119aefc3970fbaa2f3f25a596fba5945366e73ac6450238a08f1971c3b295e04d8c35e2853616fcb954530f6febfbd409fa465c25270a115c90e3c77c69d67a450ef5d1e5780035297cfb0d9f924d482d0db34ccbcf8bd64e4becc60e3e7957093289e0bd6c5203e006dd48fcaf5d9d7def723f6fe4721644cfc5ac2d8319cf562d3b0a45519dacf2924cf3d6a9597f473384a9f9a66392874fea63e56315c258939923545642a094bc0ef65fcb9ef88fe437758d460af58fb4c818419e0ab0cbe3de589fca4714d3518722d29b0a9a037259da2384ca729145e3d1c15c94e5d4f7c65ac72f37774e3061258eb6ccc67dde9aeec4f76036d1357b0f9ecfadfa13afdf2d37bc4d388a9a4fa43a2c5d8e75d179601dbbde82cf76cd4fd56693111d41e11d26cb59794fe848c14eb951086bf4421a87277fe272ba58ace7596ee5bafadb920dfb7c33e66359c9f5aad4e0a5967c3983fa4b5a260ad3909f8a3607116ee06ac1edb17dc7b55df52b17414cde5a5f71e40419d7e5fd1cfdd2463c8016997ba779b938102361d21e2c61b48a3c14ec458a2ef099eec1a1ecf72cdb23ec999aae9d43e84390756b29049c939a3d19ea85590f2dcfd08f2ff10cf9789f4d36f1a2ec085bced30f89691b1e63e0be9b65f8560bf21dbfbed89eef9b2cd0c14e73f8cffa145f602034d96d3b0f5f1a352c0984d14f43d9786ae5689cab360bc951f09598887d9c1700c6149a1d6e6f6ea7875b98ba41e7db3ece3ee0ffd261aa1965d3bb1303717f2bfc5333f777fa1a505230ed044285b662db643e511ae4346f271c66b77235cd83e11508f8481ea723d6b31e1d19d8d34ce44170d99ea6396e6a4c343bd27b32cba39b1d799bf93989ccd241ef2c150edfc987939d5fea3d9c36ab21f9b4150206d8ae4ffb584964bfef83e4957b9c4437c1c9f4a7b1d7c1f22eeede8826bf45504b82d2e871c3915e21168499977063db7a61ca2f35868bae56b9f9abb3725f61c30b9811d74fd3a9596e28201e08218f7ae023b2e909372c1c9262a225f63728386060ec6882b02f2fc15929a6e44aa03be68a5f25ebb7742c458dc5e41cb9a7ffec1c900ed1cefe8f3d6068cf6959c5f314107b8d3d8359ec6c272e351005f44de444559f0e7e1339345490633cdf12d3a89cfc6a18084c06112987de85691ba8936d3fe7c05a3b39a9029e815443de5665169f603f63b1f62166b4024a66c636142c223f3fc53965db35e36733a6e7159b9d9020ab31de1b11622ad58c9899092555c9e1d40b4d80ccf56c00e9af2e6bd7b0f660c9c573120f9484da97dc0aeba7ce04a2c900fc5f880bbe449b9ed86af1e86cb77bb74edd1ce114eab1caf8c481b158eb4097d41fbf744197090a0ba4c22687226d8817240d644dced3fab64a8d808db66362277845e2f6d0bf86c09dc9ab7a24ffaad34757a409796bf553c14e615d33b8c14028d94e770f88c39089c264dea4f3b42f714067b5492d47bae09daa446e883d8f7eac96ff3e0730a55d7a89a8ae7d6740b7d2ca6f65ae2e3f4c7150fc2483865e3817169cbf0bdde8d47d6ecec3d65432f3216cdd8631968885ae86e2509bf694466e59ad8ebc84c443f430b5be842ad091128144ebc3c49c10138ea7f6f0b5c00e4b8c6025bb19c5e07b3d596b689ba6e8d5c0d90f3f7586d269ee537e25651f722e198283e37c2a09a80f8c280becb63277a48029fac4c91b7e2f0c2727c1bc9894ea557db9447a7f44dd5134c92aae91da2d515355b11b8ce67e53f5eb82a53b0bd825433fb9008b19029e693677e45148e0facbe1778200c93837b0c4578ecc0e7058838f384c1c78a7fb549a15a300f6f3aef86567e12228788b5373d4bc33a5eb6774e2f1fa36c3c0e68b1951fe027194b58bb80094bbab5fa358ceba9d26f3c60815cabe685198af05764624f2e3801ca3ec4ae4276b49fff62d513d0c98e9e1692434e68f0c14a2348957dfd62b32c94bef836608c7b38479b61467a8ec50b65fc5635f007b6b84bd9a8325a14250231fe35c2856e3c075de0241d13bea704a6d34eea87d829a17a23ec9b3ead0a9af120d308af4a1095d11da392267a6cdcc843d7f2ba9a6afa08e2ef51809a2764ff1c2c47e8591810b6739c225b2cf6c30e6d32deb9b4b1acd581c24f870c66b1ce8402861a489135e2d0dbdc39d36e420df84044597e60d631f4fff78f78be61db0408094469f0b0b85685a3c3cbcb2d321d6dfb5d9a3b4fc443b5f6c3ef26adf6e423d6a05e498c47c7ef5dd0a96a2930201dbc04349eb1ef896eb70bab850f2c678b224ffd8073bad6b0f8d247d0cb7d90c2b17a4a3950067bfe3c9825a87d5351a77110c993bad6052105e848265cc02de413b455fb1156c3fe4a18f0094b880863e83e6c228d6d0613ad0ea52c8ab1c0edc8da27153223f77ccce472bc357844dfa18923708161cde420d134028b3fa622cb83a557650db44a1ec7267c70d6ed88f6cb8c055ce62e61cf90819e11c128a849641c27e22fbbce79bdb38c407a31ade788140a342aef8eb3aacafb42ea04114b9cbd6184af94895b4f33a9f8883ac4fd7746f25bcf0c3653b4ac38b2f0a99dafec60b32eacf417b4062fba3039aea128691ee409e615f47ce6f597fd6908bbb23e309ab9d83c4da23d0ad455453ccc365ee57df4439d8f185d80a0f49c6e008749c66b86446d712d7de1d9745a4b7afc51847d5a9b2b159b153d83d422da89e9b7fa4b6f44811dc962d8a62a01d3607563584a4262df2c8144eb41525ddebea0d9500b981a9cc09bb6839a409f88a7ce72a3fde70acf2511b623ef35a7564050a8bd7d5000e4e5da95eba39858352d0d74b589f2f3809b33a9e3151a7bde6c50eed49b4682a738d6b93863b3d2e8058d778038e45dd28b7a3718adbe5de83e9630212b0be94e50a892d2a3ce8785ed3b257bb5b60aca57ba5562734b6e5b620e970e5a1986683faa736d7f9c775b2ff88239a1fa629f086951d74e60fd4b097369fbddf105e66de3992930e630d5b86a23e21226e7822d60d28c2b8cc0a40b8850a4722db9d6da83398606a1b6fbfd0161ed76f8a2166232a79415248ef40f049198854c20daf9d5f796e1c4c3221d926b59c254715102f5753da1a2c389340e1c34df8622286a101b1c6512067997</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
+<script data-swup-reload-script type="module">
+import {initHBE} from "/js/plugins/hbe.js";
+  console.log("hexo-blog-encrypt: loaded.");
+    initHBE();
+</script>
+
+        </div>
+
+        
+            <div class="post-copyright-info w-full my-8 px-2 sm:px-6 md:px-8">
+                <div class="article-copyright-info-container">
+    <ul>
+        <li><strong>标题:</strong> Dockerfile &amp; dockercompose</li>
+        <li><strong>作者:</strong> OlAXAlO</li>
+        <li><strong>创建于
+                :</strong> 2024-09-12 00:00:00</li>
+        
+            <li>
+                <strong>更新于
+                    :</strong> 2024-09-12 19:49:13
+            </li>
+        
+        <li>
+            <strong>链接:</strong> https://redefine.ohevan.com/2024/09/11/Development Tools/Docker入门/Docker/
+        </li>
+        <li>
+            <strong>
+                版权声明:
+            </strong>
+            
+
+            
+                版权所有 &#169 OlAXAlO，禁止转载。
+            
+        </li>
+    </ul>
+</div>
+
+            </div>
+        
+
+        
+            <ul class="post-tags-box text-lg mt-1.5 flex-wrap justify-center flex md:hidden">
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Deve-Tool/">#Deve-Tool</a>&nbsp;
+                    </li>
+                
+                    <li class="tag-item mx-0.5">
+                        <a href="/tags/Docker/">#Docker</a>&nbsp;
+                    </li>
+                
+            </ul>
+        
+
+        
+
+        
+            <div class="article-nav my-8 flex justify-between items-center px-2 sm:px-6 md:px-8">
+                
+                    <div class="article-prev border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="prev"
+                        rel="prev"
+                        href="/2024/09/11/Essay/Markdown%E5%9F%BA%E7%A1%80/"
+                        >
+                            <span class="left arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </span>
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">Markdown 语法</span>
+                                <span class="post-nav-item">上一篇</span>
+                            </span>
+                        </a>
+                    </div>
+                
+                
+                    <div class="article-next border-border-color shadow-redefine-flat shadow-shadow-color-2 rounded-medium px-4 py-2 hover:shadow-redefine-flat-hover hover:shadow-shadow-color-2">
+                        <a class="next"
+                        rel="next"
+                        href="/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/Docker&amp;Gui/"
+                        >
+                            <span class="title flex justify-center items-center">
+                                <span class="post-nav-title-item">Docker の GUI</span>
+                                <span class="post-nav-item">下一篇</span>
+                            </span>
+                            <span class="right arrow-icon flex justify-center items-center">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                
+            </div>
+        
+
+
+        
+            <div class="comment-container px-2 sm:px-6 md:px-8 pb-8">
+                <div class="comments-container mt-10 w-full ">
+    <div id="comment-anchor" class="w-full h-2.5"></div>
+    <div class="comment-area-title w-full my-1.5 md:my-2.5 text-xl md:text-3xl font-bold">
+        评论
+    </div>
+    
+
+        
+            
+    <div id="waline"></div>
+    <script type="module" data-swup-reload-script>
+      import { init } from '/js/libs/waline.mjs';
+
+      function loadWaline() {
+        init({
+          el: '#waline',
+          serverURL: 'https://example.example.com',
+          lang: 'zh-CN',
+          dark: 'body[class~="dark-mode"]',
+          reaction: false,
+          requiredMeta: ['nick', 'mail'],
+          emoji: [],
+          recaptchaV3Key: "wasd",
+          
+        });
+      }
+
+      if (typeof swup !== 'undefined') {
+        loadWaline();
+      } else {
+        window.addEventListener('DOMContentLoaded', loadWaline);
+      }
+    </script>
+
+
+
+        
+    
+</div>
+
+            </div>
+        
+    </div>
+
+    
+        <div class="toc-content-container">
+            <div class="post-toc-wrap">
+    <div class="post-toc">
+        <div class="toc-title">目录</div>
+        <div class="page-title">Dockerfile &amp; dockercompose</div>
+        
+
+    </div>
+</div>
+        </div>
+    
+</div>
+
+
+
+                
+
+            </div>
+
+            
+
+        </div>
+
+        <div class="main-content-footer">
+            <footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
+    <div class="info-container py-3 text-center">
+        
+        <div class="text-center">
+            &copy;
+            
+              <span>2024</span>
+              -
+            
+            2024&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">OlAXAlO</a>
+            
+                
+                <p class="post-count space-x-0.5">
+                    <span>
+                        共撰写了 36 篇文章
+                    </span>
+                    
+                        <span>
+                            共 12k 字
+                        </span>
+                    
+                </p>
+            
+        </div>
+        
+            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
+            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+                
+                
+                    <span id="busuanzi_container_site_pv" class="lg:!block">
+                        <span class="text-sm">总访问量</span>
+                        <span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
+        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
+            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
+            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.7.1</a></span>
+        </div>
+        
+        
+            <div>
+                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
+            </div>
+        
+        
+            <script data-swup-reload-script>
+                try {
+                    function odometer_init() {
+                    const elements = document.querySelectorAll('.odometer');
+                    elements.forEach(el => {
+                        new Odometer({
+                            el,
+                            format: '( ddd).dd',
+                            duration: 200
+                        });
+                    });
+                    }
+                    odometer_init();
+                } catch (error) {}
+            </script>
+        
+        
+        
+    </div>  
+</footer>
+        </div>
+    </div>
+
+    
+        <div class="post-tools">
+            <div class="post-tools-container">
+    <ul class="article-tools-list">
+        <!-- TOC aside toggle -->
+        
+            <li class="right-bottom-tools page-aside-toggle">
+                <i class="fa-regular fa-outdent"></i>
+            </li>
+        
+
+        <!-- go comment -->
+        
+            <li class="go-comment">
+                <i class="fa-regular fa-comments"></i>
+            </li>
+        
+    </ul>
+</div>
+
+        </div>
+    
+
+    <div class="right-side-tools-container">
+        <div class="side-tools-container">
+    <ul class="hidden-tools-list">
+        <li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-plus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
+            <i class="fa-regular fa-magnifying-glass-minus"></i>
+        </li>
+
+        <li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
+            <i class="fa-regular fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+
+        <li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
+            <i class="fa-regular fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="visible-tools-list">
+        <li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
+            <i class="fa-regular fa-cog fa-spin"></i>
+        </li>
+        
+            <li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
+                <i class="arrow-up fas fa-arrow-up"></i>
+                <span class="percent"></span>
+            </li>
+        
+        
+    </ul>
+</div>
+
+    </div>
+
+    <div class="image-viewer-container">
+    <img src="">
+</div>
+
+
+    
+        <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-input-field-pre">
+            <i class="fa-solid fa-keyboard"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="站内搜索您需要的内容..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa-solid fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa-solid fa-spinner fa-spin-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+</main>
+
+
+    
+<script src="/js/libs/Swup.min.js"></script>
+
+<script src="/js/libs/SwupSlideTheme.min.js"></script>
+
+<script src="/js/libs/SwupScriptsPlugin.min.js"></script>
+
+<script src="/js/libs/SwupProgressPlugin.min.js"></script>
+
+<script src="/js/libs/SwupScrollPlugin.min.js"></script>
+
+<script src="/js/libs/SwupPreloadPlugin.min.js"></script>
+
+<script>
+    const swup = new Swup({
+        plugins: [
+            new SwupScriptsPlugin({
+                optin: true,
+            }),
+            new SwupProgressPlugin(),
+            new SwupScrollPlugin({
+                offset: 80,
+            }),
+            new SwupSlideTheme({
+                mainElement: ".main-content-body",
+            }),
+            new SwupPreloadPlugin(),
+        ],
+        containers: ["#swup"],
+    });
+</script>
+
+
+
+
+
+
+
+<script src="/js/tools/imageViewer.js" type="module"></script>
+
+<script src="/js/utils.js" type="module"></script>
+
+<script src="/js/main.js" type="module"></script>
+
+<script src="/js/layouts/navbarShrink.js" type="module"></script>
+
+<script src="/js/tools/scrollTopBottom.js" type="module"></script>
+
+<script src="/js/tools/lightDarkSwitch.js" type="module"></script>
+
+<script src="/js/layouts/categoryList.js" type="module"></script>
+
+
+
+    
+<script src="/js/tools/localSearch.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/codeBlock.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/layouts/lazyload.js" type="module"></script>
+
+
+
+
+    
+<script src="/js/tools/runtime.js"></script>
+
+    
+<script src="/js/libs/odometer.min.js"></script>
+
+    
+<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+
+
+
+
+  
+<script src="/js/libs/Typed.min.js"></script>
+
+  
+<script src="/js/plugins/typed.js" type="module"></script>
+
+
+
+
+
+
+
+
+    
+<script src="/js/libs/anime.min.js"></script>
+
+
+
+<div class="post-scripts" data-swup-reload-script>
+    
+        
+<script src="/js/tools/tocToggle.js" type="module"></script>
+
+<script src="/js/layouts/toc.js" type="module"></script>
+
+<script src="/js/plugins/tabs.js" type="module"></script>
+
+    
+</div>
+
+
+</body>
+</html>
