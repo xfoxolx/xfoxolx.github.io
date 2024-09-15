@@ -30,8 +30,8 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
-    <title>Chapter-2</title>
-    <url>/2024/09/11/English/Chapter-2/</url>
+    <title>Chapter-1</title>
+    <url>/2024/09/11/English/Chapter-1/</url>
     <content><![CDATA[<h2 align="center">articles-1</h2>
 <img  
                      lazyload
@@ -40,16 +40,17 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
-<p>When most people read, they look at printed <code>words</code> on a <code>page</code>. They use their eyes to see the words in <code>front</code> of them. But how does someone read if he is <code>blind</code>?</p>
-<p>当大多数人阅读时，他们会查看页面上的印刷文字。他们用眼睛看眼前的文字。但是如果一个人是盲人，他如何阅读呢？</p>
-<p>Blind people can read too, of <code>course</code>, but they don’t read with their eyes. They use a <code>system</code> called Braille to read.</p>
-<p>盲人当然也能读书，但他们不是用眼睛读书。他们使用一种称为盲文的系统来阅读。</p>
-<p>This system was <code>invented</code> by a man named Louis Braille. Louis Braille lost his <code>sight</code> when he was a little boy. He then created a system to allow blind people like him to read.</p>
-<p>这个系统是由一个名叫路易斯盲文的人发明的。路易斯·布莱叶（Louis Braille）小时候双目失明。然后他创建了一个系统，让像他这样的盲人能够阅读。</p>
-<p>With Braille, you don’t read by looking at printed words. <code>Instead</code>, you read by <code>touching</code> <code>raised</code> dots. These dots can be felt and understood through the fingertips.</p>
-<p>使用盲文时，您无需通过查看印刷文字来阅读。相反，您可以通过触摸凸起的点来阅读。这些点可以通过指尖感受到和理解。</p>
-<p>Different <code>dot</code> <code>shapes</code> stand for different letters. As your <code>finger</code> slides over all of the dots, you can put the letters <code>together</code> to form words in your mind. In that way, it is <code>actually</code> very <code>similar</code> to reading with your eyes!</p>
-<p>不同的点形状代表不同的字母。当你的手指滑过所有的点时，你可以将这些字母组合在一起，在你的脑海中形成单词。这样一来，其实就和用眼睛看书很像了！</p>
+<p>Carly has a <code>large</code> <code>family</code>. She lives with four people. Carly also has two pets.</p>
+<p>卡莉有一个大家庭。她和四个人住在一起。卡莉还有两只宠物。</p>
+<p>Carly’s mom is a <code>doctor</code>. Carly’s mom works at the <code>hospital</code>. Carly’s mom helps people who are sick.</p>
+<p>卡莉的妈妈是一名医生。卡莉的妈妈在医院工作。卡莉的妈妈帮助生病的人。</p>
+<p>Carly’s dad works at home. Carly’s dad <code>cooks</code> for the family. Carly’s dad <code>drives</code> the kids to <code>soccer</code> <code>practice</code>.</p>
+<p>卡莉的爸爸在家工作。卡莉的爸爸为家人做饭。卡莉的爸爸开车送孩子们去练习足球。</p>
+<p>Carly has two <code>brothers</code>. James is ten years old. Scott is fourteen years old.</p>
+<p>卡莉有两个兄弟。詹姆斯十岁了。斯科特十四岁。</p>
+<p>Carly has two pets. Jinx is a small, black cat. Diego is a large, <code>brown</code> dog.</p>
+<p>卡莉有两只宠物。金克丝是一只小黑猫。迭戈是一只大的棕色狗。</p>
+<p>Carly loves her family! 卡莉爱她的家人！</p>
 <h2 align="center">articles-2</h2>
 <img  
                      lazyload
@@ -58,36 +59,30 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
-<p>Police <code>officer</code> Rachel Blair works in Queens, New York. A <code>reporter</code> is asking Rachel about how she does her job.</p>
-<p>警官雷切尔·布莱尔在纽约皇后区工作。一名记者询问雷切尔的工作情况。</p>
-<p>Reporter: How long have you been a police officer?</p>
-<p>记者：您当警察多久了？</p>
-<p>Blair: Six years.</p>
-<p>布莱尔：六年。</p>
-<p>Reporter: How did you get started?</p>
-<p>记者：你是怎么开始的？</p>
-<p>Blair: First, I had to take a lot of tests. Then, I went to the Police <code>Academy</code> for 12 weeks. I learned how to drive a police car, make an <code>arrest</code>, and file a police report. I also had to <code>exercise</code> every day!</p>
-<p>布莱尔：首先，我必须参加很多测试。然后，我去警察学院学习了 12 周。我学会了如何驾驶警车、如何逮捕、如何向警方报案。我还得每天锻炼身体呢！</p>
-<p>Reporter: How do you stay safe on the job?</p>
-<p>记者：工作中如何保证安全？</p>
-<p>Blair: I use my <code>training</code>. That helps me make <code>sure</code> a <code>situation</code> does not get out of <code>control</code>. I am always <code>cautious</code>. If I think a situation is too <code>dangerous</code>, I call for <code>backup</code>. If I run into a dangerous situation without thinking first, I can get hurt.</p>
-<p>布莱尔：我用我的训练。这有助于我确保情况不会失控。我总是很谨慎。如果我认为情况太危险，我会呼叫支援。如果我不经思考就遇到了危险的情况，我可能会受伤。</p>
-<p>Reporter: Are there any new tools that police officers use?</p>
-<p>记者：警察有什么新的工具使用吗？</p>
-<p>Blair: We use <code>special</code> glasses that help us see better in the dark. When I wear the <code>glasses</code>, I can see moving <code>objects</code> like cars and other people at night.</p>
-<p>布莱尔：我们使用特殊的眼镜来帮助我们在黑暗中看得更清楚。当我戴上眼镜时，我可以在晚上看到汽车和其他人等移动物体。</p>
-<p>Reporter: Have you ever saved someone’s life?</p>
-<p>记者：你救过人吗？</p>
-<p>Blair: No, I haven’t. But my partner has. He says it gave him a <code>pretty</code> special feeling.</p>
-<p>布莱尔：不，我没有。但我的伙伴有。他说这给了他一种很特别的感觉。</p>
-<p>Reporter: Do you ever get <code>afraid</code>?</p>
-<p>记者：你有害怕过吗？</p>
-<p>Blair: There is no time to be afraid. I have to think about what I have to do to take care of the situation <code>quickly</code> and safely.</p>
-<p>布莱尔：没有时间害怕。我必须考虑我必须做什么才能快速、安全地处理这种情况。</p>
-<p>Reporter: What do you like best about being a police officer?</p>
-<p>记者：作为一名警察，你最喜欢什么？</p>
-<p>Blair: Helping people!</p>
-<p>布莱尔：帮助人们！</p>
+<p>What is under the <code>ground</code>?</p>
+<p>地下有什么？</p>
+<p><code>Plants</code> <code>grow</code> roots <code>underground</code>.</p>
+<p>植物在地下长根。</p>
+<p>Roots help a plant <code>stay</code> in the <code>earth</code>.</p>
+<p>根帮助植物留在地球上。</p>
+<p><code>Roots</code> help a plant grow tall.</p>
+<p>根帮助植物长高。</p>
+<p>A fox can make a home underground.</p>
+<p>狐狸可以在地下安家。</p>
+<p>A fox can stay <code>safe</code> in its <code>hole</code>.</p>
+<p>狐狸在洞里可以保持安全。</p>
+<p>A hole is a good home.</p>
+<p>一个洞就是一个好家。</p>
+<p><code>Sometimes</code> you can find water underground.</p>
+<p>有时你可以在地下找到水。</p>
+<p>Water from <code>rain</code> can make a <code>pool</code> underground.</p>
+<p>雨水可以在地下形成一个水池。</p>
+<p>This water can be used for drinking.</p>
+<p>此水可用于饮用。</p>
+<p>There are many <code>different</code> things underground.</p>
+<p>地下有许多不同的东西。</p>
+<p>Dig down under the ground and see what you can find!</p>
+<p>往地下挖，看看能找到什么！</p>
 <h2 align="center">articles-3</h2>
 <img  
                      lazyload
@@ -96,6 +91,14 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
+<p>A <code>rhinoceros</code> is big. <code>Elephants</code> are bigger. What is bigger than both of them? The blue <code>whale</code>. Blue whales are one of the biggest <code>animals</code> ever to have lived on earth.</p>
+<p>犀牛很大。大象更大。什么比他们两个都大？蓝鲸。蓝鲸是地球上有史以来最大的动物之一。</p>
+<p>An <code>average</code> blue whale <code>weighs</code> 136,000 kg (300,000 lb) and is about 30 m (100 ft) long. This is about as long as nine cars laid end to end! A blue whale’s <code>heart</code> is about the size of a small <code>van</code>. Its blood <code>vessels</code> (veins and arteries) are so large that a person could <code>actually</code> swim through them. A blue whale’s <code>tongue</code> weighs as much as an elephant!</p>
+<p>蓝鲸平均重 136,000 公斤（300,000 磅），长约 30 m（100 英尺）。这大约相当于九辆车首尾相连那么长！蓝鲸的心脏大约有一辆小货车那么大。它的血管（静脉和动脉）非常大，人实际上可以在其中游泳。蓝鲸的舌头和大象一样重！</p>
+<p>So what does this <code>gigantic</code> animal eat? You might be <code>surprised</code> to learn that the blue whale mainly eats krill, which are tiny <code>shrimp</code>. An <code>adult</code> blue whale can eat over 3600 kg (8000 lb) of krill every day.</p>
+<p>那么这种巨大的动物吃什么？您可能会惊讶地发现蓝鲸主要吃磷虾，即小虾。一头成年蓝鲸每天可以吃掉超过 3600 公斤（8000 磅）的磷虾。</p>
+<p>Once, hundreds of thousands of blue whales swam in <code>oceans</code> all over the world. Today, however, things are different. In the early 1900s, hunters killed almost all of the blue whales. They almost became <code>extinct</code>. Today, there are only about 20,000 blue whales left. It is now <code>illegal</code> to hunt or kill a blue whale. Maybe one day, they will fill the oceans once again.</p>
+<p>曾经，数十万头蓝鲸在世界各地的海洋中游泳。然而今天，情况有所不同。 1900 年代初期，猎人捕杀了几乎所有的蓝鲸。他们几乎灭绝了。如今，蓝鲸只剩下约 20,000 头。现在捕猎或杀死蓝鲸是非法的。也许有一天，它们会再次充满海洋。</p>
 <h2 align="center">articles-4</h2>
 <img  
                      lazyload
@@ -104,6 +107,28 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
+<p>Animals make different <code>types</code> of homes.</p>
+<p>动物建造不同类型的家园。</p>
+<p>An animal might live in a tree, a hole, or a <code>cave</code>.</p>
+<p>动物可能生活在树上、洞里或山洞里。</p>
+<p>A <code>squirrel</code> lives in a tree.</p>
+<p>一只松鼠住在树上。</p>
+<p>Squirrels like to eat <code>nuts</code>.</p>
+<p>松鼠喜欢吃坚果。</p>
+<p>Under the trees, squirrels find nuts.</p>
+<p>松鼠在树下寻找坚果。</p>
+<p>A <code>gopher</code> lives in a hole.</p>
+<p>地鼠住在洞里。</p>
+<p>Gophers like to <code>dig</code>.</p>
+<p>地鼠喜欢挖掘。</p>
+<p>Deep under the ground, gophers dig <code>tunnels</code>.</p>
+<p>地鼠在地下深处挖掘隧道。</p>
+<p>A bear lives in a cave.</p>
+<p>一只熊住在一个山洞里。</p>
+<p>Bears like to sleep during the day and hunt at night.</p>
+<p>熊喜欢白天睡觉，晚上狩猎。</p>
+<p>During the day, most bears hide in their caves.</p>
+<p>白天，大多数熊躲在洞穴里。</p>
 <h2 align="center">articles-5</h2>
 <img  
                      lazyload
@@ -111,27 +136,17 @@ import {initHBE} from "/js/plugins/hbe.js";
                      data-src="/images/icon-6.gif"
                       width="20" height="20"
                 >
+
+<p>The <code>shower</code> in my bathroom is <code>broken</code>. I cannot turn it off. The water keeps coming out. I cannot stop it from coming out. The water is getting on the <code>floor</code>. It is getting on the <code>carpet</code>. It is getting on the wall. This is <code>terrible</code>. My bathroom is a <code>disaster</code>! I don’t know what to do. I need your help. I hope you get this <code>message</code> soon!</p>
+<p>我浴室的淋浴坏了。我无法将其关闭。水不断流出来。我无法阻止它的出现。水正流到地板上。它正在地毯上。它快要爬到墙上了。这很糟糕。我的浴室简直就是一场灾难！我不知道该怎么办。我需要你的帮助。我希望你尽快收到这条消息！</p>
+<p>Your friend<br>你的朋友</p>
+<p>Richard<br>理查德</p>
 ]]></content>
       <categories>
         <category>English</category>
       </categories>
       <tags>
         <tag>English-Article</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>常用命令快速备忘清单</title>
-    <url>/2024/09/11/Essay/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<div class="tabs" id="tab-linux-commands"><ul class="nav-tabs"><li class="tab active"><a class="#linux-commands-1">linux 常用命令</a></li><li class="tab"><a class="#linux-commands-2">linux apt 常用命令</a></li><li class="tab"><a class="#linux-commands-3">linux yum 常用命令</a></li></ul><div class="tab-content"><div class="tab-pane active" id="linux-commands-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">ls            列出当前目录文件列表</span><br><span class="line">mkdir         创建目录（md）</span><br><span class="line">cd            切换路径</span><br><span class="line">pwd            显示当前路径</span><br><span class="line">rm -rf        删除文件</span><br><span class="line">cat            查看文件内容</span><br><span class="line">touch          创建文件</span><br><span class="line">vi             编辑文件</span><br><span class="line">clear          清屏</span><br><span class="line">history        查看历史指令</span><br><span class="line">history -c      清楚历史指令</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="linux-commands-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">apt update        检查更新</span><br><span class="line">apt upgrade       开始更新</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="built_in">sudo</span> apt update &amp;&amp; <span class="built_in">sudo</span> apt upgrade -y 检查并更新</span></span><br><span class="line">apt install xxx    安装包</span><br><span class="line">apt remove xxx    卸载包</span><br><span class="line">apt search xxx    搜索包</span><br><span class="line">apt list           查看已安装包</span><br><span class="line">apt show xxx       查看包信息</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="linux-commands-3"><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">yum update        检查更新</span><br><span class="line">yum upgrade       开始更新</span><br><span class="line">yum install xxx    安装包</span><br><span class="line">yum remove xxx    卸载包</span><br><span class="line">yum search xxx    搜索包</span><br><span class="line">yum list           查看已安装包</span><br><span class="line">yum info xxx       查看包信息</span><br><span class="line">yum clean all     清理缓存</span><br></pre></td></tr></table></figure></div></div></div></div>
-
-
-<div class="tabs" id="tab-commands"><ul class="nav-tabs"><li class="tab active"><a class="#commands-1">CMD 常用命令</a></li><li class="tab"><a class="#commands-2">ssh 常用命令</a></li></ul><div class="tab-content"><div class="tab-pane active" id="commands-1"><div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">history                查看历史指令</span><br><span class="line">history -c             清楚历史指令</span><br><span class="line"><span class="built_in">cls</span>                    清屏</span><br><span class="line"><span class="built_in">cd</span> &gt; Dockerfile.txt    创建文件</span><br><span class="line"><span class="built_in">cd</span>                     显示当前目录</span><br><span class="line"><span class="built_in">cd</span> 路径                切换路径</span><br><span class="line"><span class="built_in">dir</span>                    列出当前目录文件列表</span><br><span class="line"><span class="built_in">tree</span>                   树形列出当前目录结构</span><br><span class="line"><span class="built_in">mkdir</span>                  创建目录（<span class="built_in">md</span>）</span><br><span class="line"><span class="built_in">ipconfig</span>               查看本机ip</span><br><span class="line"><span class="built_in">copy</span> 路径 路径         文件拷贝</span><br><span class="line"><span class="built_in">ping</span> ip                测试网路</span><br><span class="line"><span class="built_in">help</span>                   查看使用帮助</span><br><span class="line"><span class="built_in">net</span> <span class="built_in">start</span>              查看开启了哪些服务</span><br><span class="line"><span class="built_in">echo</span> 信息 &gt;&gt; pass.txt  将&quot;信息&quot;保存到pass.txt文件中</span><br><span class="line"><span class="built_in">find</span> 文件名            查找某文件</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="commands-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5          <span class="comment"># 连接到服务器（默认端口 22）</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5 -p 6222  <span class="comment">#在特定端口上连接</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh -i /path/file.pem root@192.168.1.5    <span class="comment">#通过 pem 文件连接（0400 权限）</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5 bash &lt; script.sh     <span class="comment">#调用本地脚本</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5 <span class="string">&quot;tar cvzf - ~/source&quot;</span> &gt; output.tgz   <span class="comment">#从服务器压缩和下载</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">scp user@server:/dir/file.ext dest/   <span class="comment">#从远程复制到本地</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">scp dest/file.ext user@server:/dir    <span class="comment">#从本地复制到远程</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh-keygen    <span class="comment">#以交互方式生成密钥</span></span></span><br></pre></td></tr></table></figure></div></div></div></div>]]></content>
-      <categories>
-        <category>Essay</category>
-      </categories>
-      <tags>
-        <tag>Essay</tag>
-        <tag>Common commands</tag>
       </tags>
   </entry>
   <entry>
@@ -322,68 +337,8 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
-    <title>Docker の GUI</title>
-    <url>/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/Docker&amp;Gui/</url>
-    <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="f25d22b3d35f0ba1897e6468a2a266ec3588056be86cdf41248ce8f94c6146ce">5844f566621fccb9c583f0174433e530893e3f6a3d9380e6f64fa511999026de33141b7c4ba9034bdc3776f55f0700c8960d1612b0aeb69f14d3cdd81707282da5b8705ea1bcfd8db9ab123f302cc1fee6d387912788503a6f8e34012d0809ab685fe6f33fa6ad6c0574a04e608f9b5dc01b79471f1732b66ba2c2a8d40e4be1ada6518fe211cabb7168c253f95cac052323c8baf7d5592e416235a8c592d4dbadddd35722f96fecdd790d3921167d8e0f523b3a30f44406e770e8a041a17e71cab5e8f106965147b049ea14b4ba45d4974bef18395f75f9b0811e16d1d7fb4e36384da90db41bfc482156db9cac00eae0681464a75b651862e06b214f68f1e27c4558cb45f7b620a0ce4b67515bc3c8879563be69f0b3c7e99db596122a8506d44f83c764332777dcc3b71b5a3499767c0ed3a6717f068ceb514c844d1ed3356c7a6e114d5d91f47b79590cadf34e72d5cc8fcc1d2981b9bd006efa8346f80bcf07899146f55dcf5761a0d3a25ab2e6db5743414792450e27d48fc7a1c5c7889d2df63b068a371ecae3868d96ae61b1166d9bca6507e4e975e6dee700945f014697d1111254b71e64fade92ba19534d2a2e0ef854f4738ca9a0e1a39f6a023e9ac456f5431aa2065e1f99a9e853ab099bab5a7da539fe0425e5203aae8d0a0bf284e9909726e9a0c2a95d0d8500d6f95cd9f25cf2b0da3128fc0417bc6baefd59562b67c88d1b4f545a9d8da3669fefc1a562807a767e34ab159bf0990a7ef1e95ca5137fa8c40c2303bded6eff1c81d25e6d26997f86efdf33db2d6c7d98d39d706372cf160640d55040a5aab96ecb16ccabb986e35f915bbffad74c58135feca80aed4a8442063d37487400575596fa9295a251c27241ddbd545cea53ce403a8eb9f090f2065e9ec6e86e63455f389741160162decb3a5539469d4b42ec5436cbfc8253f68512da2d5eff0e60b5bbfb2abe15a4c339a05c8f5a5e4e34fdfd777e4ccd6add59dd56fc2b1bd22699bbffbec93748f81e808c34c6f93a02a8ec0cbfcd70291df9c5595886a16fc1be9e908f3960a612676608d86a3fae7eafe266bc043d186ac7ea9c043d8b12870c0911bd16c666f46f27fd0d3df50b851900fc13bd421dc29c2fa03c5f45cdc77e9abc71e3d57116bf11b1dd92da7ac1f7c4b0dc6e76162ecb01b871c3d3951a483ac6005fd54ac4d30f3673b2b52dda44e020a4c99a50f876b06a1f08b2ab0e9906cbd5007a910a703252f52d389373225c1ef8273fd237944d04a3bab685c0bdcf26112c533efbb1e59e94e0902b19c69d42b576c791efd0d6d30f99f6f58dcb42fa9089abbd88c035730bfde036efecf3897b75eb856cff7a47aad0786cc1007eb503e7082160d82c7d7edf105b5106a931b77da5f1cf3bb5ed51f61ee91e6ae8beb1cd5e1bbf7e12a14ec054117124b806bd297682305d43636eb990abb8fc470c565db330123af5069368daeea55f17ba3d923ec01af088e373492f4794e5f91250be5019f5070739d223760de9d8d5d1f988fa5f0a3e34e23a11533b9a94596b1180ebcf058668b2bdfcb9a60ab6961e7c54d1e7e0fe94813f507de9a6899eb1605f0fe66c0f2d57852ba97834888f8326932f0ebe5129464d7ceb19f8c0a34b1a25d31ffa258d38af5c296067f9326961843645304d10f397f00d3b3597c691408f062fbd3a7b0d9cbf5b0a8571b1a8d3808711076959e1129c8537bd9cedcb8507cfa5a49faf0172e931ddc75bb162a90c321617e9987aed5f9a2e411e0154642419245abbe6386fa0f19b6f0037bdb2568e6e39d2f89743e44d2055a7892a9e9406dbd70c44334f85402a6890f99fd9f4c0d9c1facabffcd15f38db6ddf9f5c69660377c7537b3e00fdcb73e735d010cbb8d9d0962b57fd331996cd153f62f701a4a2dc2572ff5b0f41a7ce4d84afee436eb4f69db2d8d76e9938ca6845d239e8ab94782ee55c6bb4e1ed4fafb4deff60814ebf170231cd39a5a9021c539c7d2ee08b18ac19e35c1a0598092d2c4e03c15e8138b9f8d9d4cdf85ee939cab83edbc7d5be8baadc9edb8fb84713dbc3b008a1d237533f09e0ac58a3fcf64d0681a17713d66aacda3a29b7b9427cb162768366761bb349349698143ad7edddde4da6b5f9f80ea0985a83afc37f1333b44c1dab10414992062e707716437713ce72d6bbdbf55e0dc2ead337c566d66db758f517bb1c3362c470c4572a8791d5747fdc7da4077bf644d934028b0d9f1d25d4292c397d9bcca89a42d8c30e50fcdbc5427741f8099d85dbc9dca2c841cbea639500841b196174b8603e65e953dd5184a1bf5fb3a1f646650eeefd93695d2a1629db939d6fd6aab8c76adb8074c191778e0cd585aa6470d771f3a61d397fd04447617054037edf67cb961d65d9488827f030a69e9e63f3b80812b077793ccef51460e60b3d0717b0a41f2fadc1e956b6e73266f746854408ad54e6260fc14c00489753918486fd464b17d943d5b701fb0955f35a8d423fcd2a40a0b1747f03e39498f94720d1401bea047bd6369fed93c968f08877c0a24977b78d8f375ef2538529bc1fb8306ff913cc68da998decadc54ba47266444a552c8a5b93b80454f7e04fd6b83a35edeac174267f7206243b293b5a6c5a04c96e141630c5546014babf4b90023d9651cc751c66e7a7aade6c2b93afd2cf6162b3eda468ac7787c18d54d024170cb06d0ade1c5d6f579a1e4d8b41d6343f6939486913005de7eea44fdca697eb3f59b6fd7a2b9be09218994bb7a92545cbe05262a889426740d3aa1cf56bb7145a7de3c75ef587fb66a7ce72b136eb9633752a713ddfa975a0f8b96dea38bc1ab2e997931076ac44eea17aea9f82d1a694643bccce1914271d2c8da65855f273001eb6d3442c4a099b88e71e29d8f45d0faeae3c004ea1892335da9cd7be9722e5a3e8aee3dd613d45e923c0d603533a8514fff48528ddcdb0199e8a35e29a7fd44a3e4a536dead391a3908da20cc5169db88b467b03e068fbab0a4d56afd0856fc1b656ebdc306b194e40da012c253328e3e91ae7ef3762b2732a81f18e8565e7eca09509232daf5b612bc485bc97c60389e2a0cc0e69a0e40fa5e43aabaeeb5d8b39157cc72abad11489a14188cf16085b0a53e44135d8b622dcca0fca3afbb770fe5ad257bbf83f09df7cb0fe15986a5639ecac95d85e13d3d301ea2e984eba367b694e88176288026f09facaa50b577fd5d069bf1b0927807ea2cf12f816abdb9fb984458b1b9a1ca07564a8fa52f494fd36fa37358ade00773ab553f301d76367aac97f680a48031f3abf8ec609b3bbc046eeab821d6ec987a52664d7c69080a8719e4179c8e407f7683b683927716b610350907d8c06974141ff03a7d5466995ef4e18b89ea5e4a2a45ff677e5d461a2aaa38435bdb2ee74ad879bde472843a9b994385a581394309c2eb491f42b293066c0a6e60de98487b87cefc1e960d5307e1185c0f2d3ac3b172331d4aa856eff614db2c18d0f41d30e9d79de075db1f376b5a18c438624041d3ddd280a9108fe63951da67823d2c68d1a6429750d5f5de19e5e6d2df2441252aca60357ccc5473ccc6c3d947fdab448c7faaa7f4d160c33149da8c8080b5e55b04dbdfeb5cc3467d9e8cb911ee26b9f104464d538176f0160656029768c316067eb5c8bbd8e0ae97457eb7600d741ba8c392e3dd7da53f22a58aa6132f5ff7b73974fead1397548d49fea625f79d733a94a9b716cf0fa5227380aa58c9d20cf5d9cc229611cf3cc1dfb6593493ebf1587e3f80276db4bfd590a6a64467a7f4892042a2852d3ac6e7a8508a4082e864b69c9d9060a7a5870bfaa86f1adcd1f4dd98d6182b492480e315bce16182a28b4990fcf31d14d0da1de4ebdc934aa2bb20e2f255c3775150853dddc17f73f9d8f43d840b94308227d638a9f968d78d06c6cd426c3b64886ce2e989cf2f1b6ab383b96307413ee73695c5a9e2aeb9a0cf1bb787e8336648fede37b8f337c9eaa86758409ddd7445d8c009fea734896a1a8c11fc4254669ff93b220e96ccb0aec23b91e304ca6f058a8fac31ee72510aca162fe0e6388299291d82df8bcd2441d4833ce7c26e181be0f8f9d3c6321ddec5fe73443f3c0fc59d1cde974466700e60815eb3f1fbe780a6a19e634f2d57d7ff227ea1c4bd6366973aae1c6017555ee30e5bbd8a2d07320008034f987368a23567bc8e18da749162ce4759da9fc682d3fadadc88c17b8b76ad4228f7a7a846be38d4b84082a8094771dea332b3f62c3b27effbc72eab46c9e9ec9eed22c0324a7baccf00f24dddd9a9c30b72c71c75cd72a95d2942de6f53f39afdc86470d3267b258bc1714ff125becd6560621ef7fe03823e0cf7be9efe96eb24257611ad00c32ec17c8367252789a09e935d02bda6d0ab81173612597788f1c14e8ed6d68e5591ba3f5361dc9dd2d8e842749e3974288340ef1c36331ab5f45a1e12ffe1c2d5b6d668526a240e2ae5417d02b0f94cd6ffade2abd7f798868b8232e6a25ea1b6b7f56b0122a2a8e6327c97c937304a0d978fe44d584f40ba02b84e594410300187f0d885e9c76f22c706afff6c78e06ac8148b199e51a23f83471c3bf303bb6356307c1372530eac062c889af3683eec9612cf2128781dfdaa6f7ba01fd1070be020a63949089ea1547c9d7b032a8ffe35ba6d3b60ed01cd4c7e2c2c73628a43b9144069bffdc405b29991b44e5333ff21e0d5516405877d16acc9cb160e7510964049a1b37cdc8facc73f30dd742a5375ddfb05fe331c432498059f38221dc90fe763777c6c99b78714d1bf2c6ebbb9b5e11d1a72b2e3383f507f6a53071c52dfd4b2eca8c775175994baf826bfcdbb07eaf835fdab4611f656f3fff0067909c7c5c1ee00bf64af8c67abed0e3a9568ab0faad7cb83f44fa861546d50aa3edf9cb67d523dec6348c57338cab931fa5965f5cef0f456c4ce6887ea683c8ffc9bdbed3a1fb821c42a9c4aa122ac2853a9c11df0c3ed97e918137898159777ceb47f11d7f77cb4c4e6ffbd92cc17507068d957e4871bddd8761a1b7f29c7f9e0c22cdd52df90eaa1478abcf15ba19f48b6acd593c35ccc26e97ab37a6a2a227274bd311c243b851063da3a9df5cd83466b704485e96b9b8342183ef5c78316aa286f03466fb352b5bca255dc57a5c9e3c142b79c2b53fad42d15c014ab83c57882fe4208854550fddeff12504a56f756732e8d8d7498ca8742af03d1271db2ae83e44a9a34f6f44c2a43ddbdbadfe4d27a1075f6f44034115faeb1952c055de407ec73ed23822a53eeab1688963150ef37c3adc0abc47cdadc313350c41df4e41f8c80ecbd9527574bbd738b549dd9d40ae7dfecb4534d2fcc2ac3db43ee9386f3091158e62d3adccae92224a8ba16d8ab73602fbb406db3c0a4ef5fb141e5ce90ad117f64bcdd3fc4c3813ac93afa288f6118b3f9c49a63f34f17331f3af8aa833632f8c486d06411e005cd8b79f4f58eb79f3cbeebbab95b29d30731a3d042422fab9cdfbc03d97eb7a543d793c88c60ddf7db1dd8cac3d959662c82956e78748b8f5b681f31824f79c2c07426cf4893b5551b0ca1d62089d09c531df13f485afc73eb631b3513d319b81373b25120ae047ade4a7441df46e3d3af835738003353b712c1f542a0ea53f1a5f12e52ea44fae640d7329712851a4a7d307dfb438114dfdb0239e560b6e5b270b8c686c3081887e26376043805a968d6c3885233728baa80489c09ad040d0bb5e93fea485f248382e957bfadca87d102b0341d18192bd15d4c93d76234e420c65081c7578cbb34d508d94f918cd470bd1c5e7bd9a41684d5198d49a15e27951ba1574bd41147b4c6025ba4cb7a5419c1e08c05eea72a87f76bec837eac8a689a12889de8023af2f56900682f0ac635013803c772c25bc1067c2cc1785e20447c1c60d26f483438b2b2025a1cf59762c752918bd0baf13982e1b985ab45475cb214ebf106436c516cb394eea00e0d1e11a0d830807b16ee8696d5a22a99c864610d3d1bfa685bca5588483b56a5d69a4f47d65b6496bb74bc4e79ba3f44af693678d0f1fa59dc4edae45897265b5b74b6161328001a79f87ec549e3892270920a334a6875191a50b1e0898ebc0f60c305eb6f5ff2b5d4cde8fac957f60ffdabff594315233bbff892e3b3e51c26b29b47f9c7e64660335ffa992660da0e0814a93f28def2211ec35cfd9c9d09613f3afdeb549b73c307a3ad90d3c0bd48d82f08e45addda3aba864a574af46fe8ea919f5cdcd69b6da47bf736aee30826fdeee0b05dfc160068837026324a94bcd0158f2b635815a9b7e8e0da5ac14c9d6510b82090861428d9e693b3e28a6b6ce118e7b361de9ddd09d531c9b440179ee8ee3f680df1b1d38c7e2055e4401279eb3a9b531a52306e584bf8002cef923863efc880845342606d38371c0eed6cc6aa9ccdcc311d860210160837729e14c0a53e7eb9ef91ea05e30b22b0bc424516f1786da626a7cb2c4b2baa85ea4b47fcf325cf1076ccad050211a0632985b31cca7eb4bc63499a7e2e74e19bf0b0229088a65e7253da89a5b6f14bfc832d957f0c488ee59e3b6e06ef0fb122cd84b504baba306df6ea1c6f7a753525abe2a501755deba5a88b2d69d5899591daa172d0d77adf7e0b6fb6f1fee499cdfce45bda08238d1e6ae778235f67b09ec3d20a0e9214d2130c51b699fc5d357da18b372dfed0059688bd1ac4b3559fe400c92a34efb7e3cf921c18cf02ca1954ef8c8bd8436bdc948126e1a6cadc6e76022114e573349a08086fd48aebdb4b48f261de8bdb86ff0e0a9645ed483f896c77720556afd64b216335a0eb0f1f3f5fdb39762f430167a54772edf5473d6cb9418a09e8c8d4b6dc0d718d1cd30bf6b0cc1217bfa8fa0dc1d5024ae4d5a487145e2950b6be81b0fe1e521251a862f60fee6465d918a7c3dfc243ce6fd4f580e79fc897cc4727f6f8ff0712b94a3bfc40ae63afedae75d7b58650fde84d6ea7fad773f78f30d738c4797163054c970c14be45590aa1f746f723af1ed1779599f6196aa614d7e6c3ab72a21aebacd9ad3a47aefcf997ee3b792342d0541e93f70a2f7984ce7716b3adb9e4041ba470eec02b9418ee7c96dbdf296720d1a53f6913c56c12e78452e577194e9218ae40e9cd89c46e370a8e21fc2f86a8fc8a000f64162ca27da4a4313a9630296de4a728778f6cfc232d0d4673ce87d3ccd9b39ac7ef8a4932f8bcb1fa061a6d28914d1cd1de45df98c1188c8c8aadda15c3688077157b77d321dd51567134bc102078b509f472d875a7fc2a91726521b92abb56319c26834a26a55ff6485</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
-<script data-swup-reload-script type="module">
-import {initHBE} from "/js/plugins/hbe.js";
-  console.log("hexo-blog-encrypt: loaded.");
-    initHBE();
-</script>
-]]></content>
-      <categories>
-        <category>Development Tools</category>
-      </categories>
-      <tags>
-        <tag>Deve-Tool</tag>
-        <tag>Docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Dockerfile &amp; dockercompose</title>
-    <url>/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/Docker/</url>
-    <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="381d8800a319009c3989dc09b126fff0d587cbe2c13d4d1249cbc3421d071782">5844f566621fccb9c583f0174433e5309b537f0a9cea6399ad0e7cf5f7462dce24ccfc91b9e51b82134b23348bfff12aa5fc51010cd9bd0bfc9329e9a5829f576549fcdc87b8bfde9865f3a999a15ac32ea08be663fdbac4af7df88105dfc6a34b2049e146fc1eca2e6adaddce89a15a7790b24ce0d6985c85773347387c7deee8fcb164e3eb59e45c7ef09fa5b8d4cfc68f1773b5ae61e71362038884218bffde8cd4d3dbb3460b536116a33b604e5949dfcca4207454282a9a19daa236e5fd7690facac89d4043fb67cc76e970e414773e43cf996138b565f5f9a63655e1e1d05d5a5f92e9078b789a7e116b8d4b195c9611b95ae8a84b562fa33e60ef38c42a9f57ddc936c9d279cbcf5b4d1ce41ea8ea08a52bd7339ef83c56811b6e5ea3568ffc8aa07b9b51d1109a0f73fc8a21e313b97958efcd5e5457a984e2a82a85d1cbf940ed5dcfdea91088eb2ec5fa06ea83a7de2427782a92485ecc70d65d3734fee600117c14eb0c2fc2b6c3dbae1183049e79bc70197bfb1661bbc5045a77e070b65f6d37d5fc7eaeae9af31df32be78be08609f025d0f0381905358e3aefebdef2e5244ef1ef057be0de375806bfc0a377d64432d806d749a3708e3f736716567d0d9a65219f159d6c823831e6f121fcb7c4d98fcd2be45b0bc3d7c82be1305323d4d726e9171c2d3b1f7ecbfe21c150278589a93bf8375f12b2822d99d558389c18cb4a7535e817297a803ee050867aed415cd7b82399d95afe731a08983ead9d452179360e8d556d24dfcc100cd34ab9ac9ba8c19ca8bda684bfcddf109c03ef73d0d7902556e9fc1616fcff52e1b42e553c6e26946528142595c6d3546f525820cc05339d9ea249802cc95acf94e18868ce8d513da212d4d834bf1d3716e5dfd06111864e9289b4b46d439bc45868bf259d15792e3edb8d99feb6b3a814a297a10a02ae3a86507c14519e072351ea0e9c42ab23fc12176a5f295fa1af0c18e9e2bb71e63b51d2f03719a9cf3ae00229fc4e597291a6eb1a21c761806ef3a2a22228cb2b9ec58eca1aaaccfa2715cf73c8813b9dbe3db5eb1380aa13667bf68b9afc8bc4a14713a87bb71e29eb88996f2d10ce3d9bed3e4058699119e1478a2836d60e3c1d464c97cd5d8a0852d5faca283d4c53760ef04b9d7cdd6491592f1fdb4dccd530df021a62c980ddb49fbdb8f68647353bbc365953abc4bd69f63f6a768e1f6c68d09972afa6fd978c1cde98beb19eb63374d58cfa5cd8622e37a84cbac9d7473bec8cfb089cf41835c4214af3c865f01239fb7d6860ba10d7291875bed044d7e5b8f3aa3819c0dbb0715118a7630c64e808136e6bae51156b2cded06c08a9e4fceb30d41208e036a3148404442a501edad3677b9dd861be038854d5b55d204acf4f365b256fd9546e5313671f0752a1c92582287bd769a14ed6af8a5f0cf7d98ade829b571db56df525e8ac718388c2c04a680ec5b9303ce7f795d2e0c1da5d1a3bcf97b0092bfad15051b01940cc08ec3c039f270d3dbf10f063ad50f76ebf13fc91b5ff2f8de36cdc9dab8c5191535f6f96fb733b6a6f8700196039810d27981794c2f1b55adf485dacf3575531fb4c795f847c54665d7c0e77837366c8585d1217622aa13d7aab4640f7ee7d38db60f3e66abf31ae28b98365473bd616a8ff5919041bdc634257d06af054d1016848696514398690573ed5d3b5c549c216b6df78e7fe81d8fa281569619a2219348d1dd9058d601913fe8326995e6b7be8c30eaf64584627df5b3a464e8f0dd7edb0729e84c22a62bea9004d2982eabdab22fe6cf58c1f0027e4432f3cabc6bb8f848b40c6286b8b635e810fdb16dbf1ce1657c807b18ca8b0822f2508636b4d672f0df0c3099397db09d098b3c8324cc332352a8c261f4e8d737a2d56d03faa719f1f7b44312eff4150ee97c1622fec16a813f88eaeade6c10d07c5e6a15f3f7b438b87269c98b40f7029d1587dd0885b22bd3b3f2f589f7c3fcb8e1043525335fd85421502d4f049fead74b55902253136365b096de3bef3f914c7d7425e8dc72fc1736f5331848e293f9350719e6e85c75758494b49f01561194fc5843c7f60e629a2a4b7c7018dbf644f3e6f221395a4442f05c6e7ed63bd3b018a73da8c720b9cef59f92e13433cf696e418482779c92156a702653f51365503953c802f1886e948f13106d19d2f06bfc7b7f2070a139c530bfba1f5cf1078262c89756b8b8d37a29c9011795a1f39ff41ebe6e6aa0102037bc6305b19f7d675a7b02adf6c055d4dcb3d6002f82ab667df8e00d001f36428de2452fe444c408a9ab64dc4d2d8750ad467cf25e41a833c37c9e700c405c6c2626bc482b046c7e2788670f708bf46f6bdb11cf7e398e769101628150b94e3b0a4cbcdd79f69e8291acc5070dfc5d36641c8d4b324fd9b0324944535322d7ba980a603aaac7fae52e14c7cd7ebed449bb71b57e8b004432d64afb3f38a266b582455331fb7eb3a30f57a174fb47f7c735def36655d188cdb1513539cfa045dc1d591073a2d3248785db158567c9e80255c97954b298da04ccb593a0ac4e8cdf0f6f8b001025fc93b59b26aab87c2c109133282abcc45bdf47592609512552dbb152dc156692b43d4637a0ec93cfd9378ec04336731985f24ed291fdc104c1eb499370fc6d2f960e186ca8ff60163f5c530383065bbeef5b56851baeac059edeba5aeb62fef59064153874edee815e8a377b6627363f814a0ea0bbee88e938015d0ae347d2dfb1752deeae243df311e7a893831e9bf09c8bba4024d00b1cfe771f0f8678fe67bb1c6e301fd3ebf7a4f629ca74b17b57dff4adf133aeea9c6635479618b2d7eed22617b8d1400b5e7207fb6e11a276b67cab1b3a3e0811a256475e98adda6478db3d409ccc3d686ecc15c67e9d980e2467abb53612fbf102a9d6fe34325654455e8f98cd91faa31d5b64f0590d24e0a2ceb62ac96464c9d0a853711f76522b76e3e1007cc837c4f8ad47f954875ca70328ff35ba063fa34a021ed6d52f0521d1beb07326febf4cf57138a55e5721fc2a953a210cb63a7f518b0ce12bf73b24c280bfc72241e83e9237137a59311293ab1827dab9eaa773c1b5b36a982d9f02315f1fbcc8abcaff7ed999dd7abc32e32aac91cab6c9a4a28f327cf85cb3e79bb87bf13a2b1f5aa779d6ea4dfe7b6f7bfcb3a25b92b6503be57f5afa28cd09ad9ab94df09471a12a757a4484ccb310e0a2fff51ff124e6e3c03528d54d82c147f252a49175e5fea7d7f3d766f675217cdee430b2509f1ebea363837976de26d39cdc18aae793b822a71257b677936fa71f86309d48b925859c96ce6af98ef3e6edde4dbb32a13a7da5db8ffa6c4b28aac71056a87359b099526eab760678f390e162e4ff4cc6fd62d75cce367c8e016ae236d192c0cb6880798fc41205c2ac2652a96c6d92fb61e3e1efe4324a89675da1cc3cc2124f67e0d34ebd12c141a77dcdfda4971716c95a1b9d594585ab5b9545d8663e3e7023ca70ee174ed6fe0e00893cbf3a06124c5dfe4ee0a66e892df6fc5eacb536245aa82ef44b9c40e8da3aeb75a32929b12ccee74ad4b03f7955ac97b6bd5a0d322d150a4c026c9a03d3fe9dfeddcd2ed31218e67d063a69b40f3067b95502e6ec2d31a7555406fead6c98fd4df952ff909752cb813c80646bd1f0804c1830606947c7f3b98a97817041ff274c672f997f09594d83f166c81622e7bef04f9ba970c44b691f01e7544c74f7628f32a3c892c9a4a1bcd5782782a038d197e8bfdc65ffd88252b15651dd5ff65409098a5763ff2ec0c51386f77a128ea7e7ed9ba89511d461f453233b9cb57c52abb499e0150f759f5de5c9d791aee16880a45341aaf685f3b1732ffefd8ebe1bf4effc68921aa2dc4ed0c7fb43989230b8b9153daae1be2e91d4ad9b5e7464ba4e6c701f5de5d0215dc6cd9f70c18b556a69c7c25f256db02a084f8f193b2504de471827146305d0d22cfab5654c8265578934dd2fa02d90e1f2038b2ce354e1828bda8211e31be74e880580178c5f131ec1306f45d5da541ab349e3f268a97c02cc778f2ebb199a793afcfb07032b56c7550ffd4c49e93d3216f8739e2b24fc2888a723cad77a792747b6409cb5cf8ab29d79accebcc00578fb1e2b7a56ed8a6d664f132cd65d24c0b7ac2c05445ec3c869b3d8292f4a7a780a91179a66e2291b3900cb1aa12cd9e27fec117769ec5db1988f821f233ebbcef132751ed6e6807ec3a3f4fa7c0f0310b8c8cb0e8bf2ce24e589ad2d1c50cdf69c6416030ecb2338280fec4e6f539b775661c96945c3b13ba8a56c194864fad3732c9cac23b4342a3412cadd2daee4d5b94c9085a5a534855dc07e6c9997d24c3795ef7c4fb2d6292c45cc1389941465d66666b96c7557f4c5f57d7c54edf305b327655686c6afb563729c6f490835c34bf4ad6393b7dda1eb50bc34748ee5cdcdd0ce3a22e82e4ff0efc24c6a6f53462b11474564e174bc63e67ac6289181566205e0c157c93e01be4c3848757fffe35e8d41a0f7d67f35f9e3e7f2df03892ec06b11b010d0fa35f3ba30c7077fd80eeef25a22c9badec210885d1fed2647da9ca3f13c8597bb6eb926f70094141e99e42d181dad1b6220128c1db4224a158cd10f6bbaedc4ff3392cbb1c8b38cf96ced329fe8ffedf83af6a2149f5adb4f7eab18c1c29c8531dbdf8a868480e10624c5102fd3953c6800da1d11ede65044e3ffde0ca36f09c63f3bb409e509ad8a1fbf5f361627bc77e1ea547136c2fc14730a3373afbf17a54aeb1cc6b360900367a62ed4d6017675fb48a1d179fdcf4761478eafeb5ca4926b48613148c1026bdf248701ce4174fd1f332ae7c88096977cd46d72f49cbd19477d6a5a91fb464c9c49c8873456f37a6caba7a6bbadacde7bda86a18194135fb176df3064cbf18057804e51ad5bb5c9db72cc3a53cc920f8a1a25733bcaf636de7c2173211ba2e59626de53625439e2c18e02331cdcf447a53708aa85f2317a7e3845f6e3fa6e3e925d7434aaccd23afacf1c6bddcef9f4633e40acab5ce6cdd88776b1e5ed8f007b54a0d339d3d58f4cf1bf1cbe3158667c2d5d6299be37e960d569f21de3c894648bc89cbf0c4edb89024fc5a76e378ac440b91349e9423d3c3a192c3ccf37edb127837d855c34291dccc3d3a37c07c0a6560f3f643a06a769ed37450e33b4b3766e520473af02b9ed64e6aebd613de0bf1d3f54fc11fd249e0440fc5127764f877eebc463554a30d5aeeaae70e73fba7ddab5308c09e84194d4090e7f45f3931fd045599ddea0eea01f0658ec47fce3a3177cb1c1ec3227a6c4fae876d5a430c64f0a6380a99ab5840e9f2a997d02a52d73a29e0f24d9feb87ea5b48b2e6460a02b40e67bf4dfe85c30c7ccc785293e39bc91323d93f869292c7b3dc65ffd363fbe6ac585e01c5e5420e69a5c04ba1424a6c3fc4168bd66385b0f37d9926cab72153832b1987f00357816f36c905ae28680861a48b115d5475e131a63301e538a2b4ff4b3be90af699276d3ec25a17bf3ce89ed5de18be04cdd946343ddeb4ba4958693c747cfc501adabe86e0b6eced62888b29810ef73b6e6bca62a0d8cf606b0d6d7a021152432b414933f578b52ac5c3b03eb3de2009f24a93c51d46b90bbdcd365a4679285624b9648972381c01e1e04de448b401896fe805faeab1a907cc4a74df861d9fa6796c3367e017c03cd2b6cd2280e681bb1eea8b068807cac6dc7e632afcbe4f73e5b86fbfcfde1afe9bc8b042eb1fcabe71eb52adfdaf05a0f4f28d49d85a338d4867ccad65cd59d27abdc752ba9168d0fb0e77ffc36d316c8ee76bd57c85536d600d6239c30317c7835a2251997dbfdc3bfba5314674cea670a5092f7ade623b68c818844c372cf8bdf9d9abb620fa97afe0633e05f7e557207035f537c7daae7f35925af4807483119aefc3970fbaa2f3f25a596fba5945366e73ac6450238a08f1971c3b295e04d8c35e2853616fcb954530f6febfbd409fa465c25270a115c90e3c77c69d67a450ef5d1e5780035297cfb0d9f924d482d0db34ccbcf8bd64e4becc60e3e7957093289e0bd6c5203e006dd48fcaf5d9d7def723f6fe4721644cfc5ac2d8319cf562d3b0a45519dacf2924cf3d6a9597f473384a9f9a66392874fea63e56315c258939923545642a094bc0ef65fcb9ef88fe437758d460af58fb4c818419e0ab0cbe3de589fca4714d3518722d29b0a9a037259da2384ca729145e3d1c15c94e5d4f7c65ac72f37774e3061258eb6ccc67dde9aeec4f76036d1357b0f9ecfadfa13afdf2d37bc4d388a9a4fa43a2c5d8e75d179601dbbde82cf76cd4fd56693111d41e11d26cb59794fe848c14eb951086bf4421a87277fe272ba58ace7596ee5bafadb920dfb7c33e66359c9f5aad4e0a5967c3983fa4b5a260ad3909f8a3607116ee06ac1edb17dc7b55df52b17414cde5a5f71e40419d7e5fd1cfdd2463c8016997ba779b938102361d21e2c61b48a3c14ec458a2ef099eec1a1ecf72cdb23ec999aae9d43e84390756b29049c939a3d19ea85590f2dcfd08f2ff10cf9789f4d36f1a2ec085bced30f89691b1e63e0be9b65f8560bf21dbfbed89eef9b2cd0c14e73f8cffa145f602034d96d3b0f5f1a352c0984d14f43d9786ae5689cab360bc951f09598887d9c1700c6149a1d6e6f6ea7875b98ba41e7db3ece3ee0ffd261aa1965d3bb1303717f2bfc5333f777fa1a505230ed044285b662db643e511ae4346f271c66b77235cd83e11508f8481ea723d6b31e1d19d8d34ce44170d99ea6396e6a4c343bd27b32cba39b1d799bf93989ccd241ef2c150edfc987939d5fea3d9c36ab21f9b4150206d8ae4ffb584964bfef83e4957b9c4437c1c9f4a7b1d7c1f22eeede8826bf45504b82d2e871c3915e21168499977063db7a61ca2f35868bae56b9f9abb3725f61c30b9811d74fd3a9596e28201e08218f7ae023b2e909372c1c9262a225f63728386060ec6882b02f2fc15929a6e44aa03be68a5f25ebb7742c458dc5e41cb9a7ffec1c900ed1cefe8f3d6068cf6959c5f314107b8d3d8359ec6c272e351005f44de444559f0e7e1339345490633cdf12d3a89cfc6a18084c06112987de85691ba8936d3fe7c05a3b39a9029e815443de5665169f603f63b1f62166b4024a66c636142c223f3fc53965db35e36733a6e7159b9d9020ab31de1b11622ad58c9899092555c9e1d40b4d80ccf56c00e9af2e6bd7b0f660c9c573120f9484da97dc0aeba7ce04a2c900fc5f880bbe449b9ed86af1e86cb77bb74edd1ce114eab1caf8c481b158eb4097d41fbf744197090a0ba4c22687226d8817240d644dced3fab64a8d808db66362277845e2f6d0bf86c09dc9ab7a24ffaad34757a409796bf553c14e615d33b8c14028d94e770f88c39089c264dea4f3b42f714067b5492d47bae09daa446e883d8f7eac96ff3e0730a55d7a89a8ae7d6740b7d2ca6f65ae2e3f4c7150fc2483865e3817169cbf0bdde8d47d6ecec3d65432f3216cdd8631968885ae86e2509bf694466e59ad8ebc84c443f430b5be842ad091128144ebc3c49c10138ea7f6f0b5c00e4b8c6025bb19c5e07b3d596b689ba6e8d5c0d90f3f7586d269ee537e25651f722e198283e37c2a09a80f8c280becb63277a48029fac4c91b7e2f0c2727c1bc9894ea557db9447a7f44dd5134c92aae91da2d515355b11b8ce67e53f5eb82a53b0bd825433fb9008b19029e693677e45148e0facbe1778200c93837b0c4578ecc0e7058838f384c1c78a7fb549a15a300f6f3aef86567e12228788b5373d4bc33a5eb6774e2f1fa36c3c0e68b1951fe027194b58bb80094bbab5fa358ceba9d26f3c60815cabe685198af05764624f2e3801ca3ec4ae4276b49fff62d513d0c98e9e1692434e68f0c14a2348957dfd62b32c94bef836608c7b38479b61467a8ec50b65fc5635f007b6b84bd9a8325a14250231fe35c2856e3c075de0241d13bea704a6d34eea87d829a17a23ec9b3ead0a9af120d308af4a1095d11da392267a6cdcc843d7f2ba9a6afa08e2ef51809a2764ff1c2c47e8591810b6739c225b2cf6c30e6d32deb9b4b1acd581c24f870c66b1ce8402861a489135e2d0dbdc39d36e420df84044597e60d631f4fff78f78be61db0408094469f0b0b85685a3c3cbcb2d321d6dfb5d9a3b4fc443b5f6c3ef26adf6e423d6a05e498c47c7ef5dd0a96a2930201dbc04349eb1ef896eb70bab850f2c678b224ffd8073bad6b0f8d247d0cb7d90c2b17a4a3950067bfe3c9825a87d5351a77110c993bad6052105e848265cc02de413b455fb1156c3fe4a18f0094b880863e83e6c228d6d0613ad0ea52c8ab1c0edc8da27153223f77ccce472bc357844dfa18923708161cde420d134028b3fa622cb83a557650db44a1ec7267c70d6ed88f6cb8c055ce62e61cf90819e11c128a849641c27e22fbbce79bdb38c407a31ade788140a342aef8eb3aacafb42ea04114b9cbd6184af94895b4f33a9f8883ac4fd7746f25bcf0c3653b4ac38b2f0a99dafec60b32eacf417b4062fba3039aea128691ee409e615f47ce6f597fd6908bbb23e309ab9d83c4da23d0ad455453ccc365ee57df4439d8f185d80a0f49c6e008749c66b86446d712d7de1d9745a4b7afc51847d5a9b2b159b153d83d422da89e9b7fa4b6f44811dc962d8a62a01d3607563584a4262df2c8144eb41525ddebea0d9500b981a9cc09bb6839a409f88a7ce72a3fde70acf2511b623ef35a7564050a8bd7d5000e4e5da95eba39858352d0d74b589f2f3809b33a9e3151a7bde6c50eed49b4682a738d6b93863b3d2e8058d778038e45dd28b7a3718adbe5de83e9630212b0be94e50a892d2a3ce8785ed3b257bb5b60aca57ba5562734b6e5b620e970e5a1986683faa736d7f9c775b2ff88239a1fa629f086951d74e60fd4b097369fbddf105e66de3992930e630d5b86a23e21226e7822d60d28c2b8cc0a40b8850a4722db9d6da83398606a1b6fbfd0161ed76f8a2166232a79415248ef40f049198854c20daf9d5f796e1c4c3221d926b59c254715102f5753da1a2c389340e1c34df8622286a101b1c6512067997</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
-<script data-swup-reload-script type="module">
-import {initHBE} from "/js/plugins/hbe.js";
-  console.log("hexo-blog-encrypt: loaded.");
-    initHBE();
-</script>
-]]></content>
-      <categories>
-        <category>Development Tools</category>
-      </categories>
-      <tags>
-        <tag>Deve-Tool</tag>
-        <tag>Docker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Chapter-1</title>
-    <url>/2024/09/11/English/Chapter-1/</url>
+    <title>Chapter-2</title>
+    <url>/2024/09/11/English/Chapter-2/</url>
     <content><![CDATA[<h2 align="center">articles-1</h2>
 <img  
                      lazyload
@@ -392,17 +347,16 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
-<p>Carly has a <code>large</code> <code>family</code>. She lives with four people. Carly also has two pets.</p>
-<p>卡莉有一个大家庭。她和四个人住在一起。卡莉还有两只宠物。</p>
-<p>Carly’s mom is a <code>doctor</code>. Carly’s mom works at the <code>hospital</code>. Carly’s mom helps people who are sick.</p>
-<p>卡莉的妈妈是一名医生。卡莉的妈妈在医院工作。卡莉的妈妈帮助生病的人。</p>
-<p>Carly’s dad works at home. Carly’s dad <code>cooks</code> for the family. Carly’s dad <code>drives</code> the kids to <code>soccer</code> <code>practice</code>.</p>
-<p>卡莉的爸爸在家工作。卡莉的爸爸为家人做饭。卡莉的爸爸开车送孩子们去练习足球。</p>
-<p>Carly has two <code>brothers</code>. James is ten years old. Scott is fourteen years old.</p>
-<p>卡莉有两个兄弟。詹姆斯十岁了。斯科特十四岁。</p>
-<p>Carly has two pets. Jinx is a small, black cat. Diego is a large, <code>brown</code> dog.</p>
-<p>卡莉有两只宠物。金克丝是一只小黑猫。迭戈是一只大的棕色狗。</p>
-<p>Carly loves her family! 卡莉爱她的家人！</p>
+<p>When most people read, they look at printed <code>words</code> on a <code>page</code>. They use their eyes to see the words in <code>front</code> of them. But how does someone read if he is <code>blind</code>?</p>
+<p>当大多数人阅读时，他们会查看页面上的印刷文字。他们用眼睛看眼前的文字。但是如果一个人是盲人，他如何阅读呢？</p>
+<p>Blind people can read too, of <code>course</code>, but they don’t read with their eyes. They use a <code>system</code> called Braille to read.</p>
+<p>盲人当然也能读书，但他们不是用眼睛读书。他们使用一种称为盲文的系统来阅读。</p>
+<p>This system was <code>invented</code> by a man named Louis Braille. Louis Braille lost his <code>sight</code> when he was a little boy. He then created a system to allow blind people like him to read.</p>
+<p>这个系统是由一个名叫路易斯盲文的人发明的。路易斯·布莱叶（Louis Braille）小时候双目失明。然后他创建了一个系统，让像他这样的盲人能够阅读。</p>
+<p>With Braille, you don’t read by looking at printed words. <code>Instead</code>, you read by <code>touching</code> <code>raised</code> dots. These dots can be felt and understood through the fingertips.</p>
+<p>使用盲文时，您无需通过查看印刷文字来阅读。相反，您可以通过触摸凸起的点来阅读。这些点可以通过指尖感受到和理解。</p>
+<p>Different <code>dot</code> <code>shapes</code> stand for different letters. As your <code>finger</code> slides over all of the dots, you can put the letters <code>together</code> to form words in your mind. In that way, it is <code>actually</code> very <code>similar</code> to reading with your eyes!</p>
+<p>不同的点形状代表不同的字母。当你的手指滑过所有的点时，你可以将这些字母组合在一起，在你的脑海中形成单词。这样一来，其实就和用眼睛看书很像了！</p>
 <h2 align="center">articles-2</h2>
 <img  
                      lazyload
@@ -411,30 +365,36 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
-<p>What is under the <code>ground</code>?</p>
-<p>地下有什么？</p>
-<p><code>Plants</code> <code>grow</code> roots <code>underground</code>.</p>
-<p>植物在地下长根。</p>
-<p>Roots help a plant <code>stay</code> in the <code>earth</code>.</p>
-<p>根帮助植物留在地球上。</p>
-<p><code>Roots</code> help a plant grow tall.</p>
-<p>根帮助植物长高。</p>
-<p>A fox can make a home underground.</p>
-<p>狐狸可以在地下安家。</p>
-<p>A fox can stay <code>safe</code> in its <code>hole</code>.</p>
-<p>狐狸在洞里可以保持安全。</p>
-<p>A hole is a good home.</p>
-<p>一个洞就是一个好家。</p>
-<p><code>Sometimes</code> you can find water underground.</p>
-<p>有时你可以在地下找到水。</p>
-<p>Water from <code>rain</code> can make a <code>pool</code> underground.</p>
-<p>雨水可以在地下形成一个水池。</p>
-<p>This water can be used for drinking.</p>
-<p>此水可用于饮用。</p>
-<p>There are many <code>different</code> things underground.</p>
-<p>地下有许多不同的东西。</p>
-<p>Dig down under the ground and see what you can find!</p>
-<p>往地下挖，看看能找到什么！</p>
+<p>Police <code>officer</code> Rachel Blair works in Queens, New York. A <code>reporter</code> is asking Rachel about how she does her job.</p>
+<p>警官雷切尔·布莱尔在纽约皇后区工作。一名记者询问雷切尔的工作情况。</p>
+<p>Reporter: How long have you been a police officer?</p>
+<p>记者：您当警察多久了？</p>
+<p>Blair: Six years.</p>
+<p>布莱尔：六年。</p>
+<p>Reporter: How did you get started?</p>
+<p>记者：你是怎么开始的？</p>
+<p>Blair: First, I had to take a lot of tests. Then, I went to the Police <code>Academy</code> for 12 weeks. I learned how to drive a police car, make an <code>arrest</code>, and file a police report. I also had to <code>exercise</code> every day!</p>
+<p>布莱尔：首先，我必须参加很多测试。然后，我去警察学院学习了 12 周。我学会了如何驾驶警车、如何逮捕、如何向警方报案。我还得每天锻炼身体呢！</p>
+<p>Reporter: How do you stay safe on the job?</p>
+<p>记者：工作中如何保证安全？</p>
+<p>Blair: I use my <code>training</code>. That helps me make <code>sure</code> a <code>situation</code> does not get out of <code>control</code>. I am always <code>cautious</code>. If I think a situation is too <code>dangerous</code>, I call for <code>backup</code>. If I run into a dangerous situation without thinking first, I can get hurt.</p>
+<p>布莱尔：我用我的训练。这有助于我确保情况不会失控。我总是很谨慎。如果我认为情况太危险，我会呼叫支援。如果我不经思考就遇到了危险的情况，我可能会受伤。</p>
+<p>Reporter: Are there any new tools that police officers use?</p>
+<p>记者：警察有什么新的工具使用吗？</p>
+<p>Blair: We use <code>special</code> glasses that help us see better in the dark. When I wear the <code>glasses</code>, I can see moving <code>objects</code> like cars and other people at night.</p>
+<p>布莱尔：我们使用特殊的眼镜来帮助我们在黑暗中看得更清楚。当我戴上眼镜时，我可以在晚上看到汽车和其他人等移动物体。</p>
+<p>Reporter: Have you ever saved someone’s life?</p>
+<p>记者：你救过人吗？</p>
+<p>Blair: No, I haven’t. But my partner has. He says it gave him a <code>pretty</code> special feeling.</p>
+<p>布莱尔：不，我没有。但我的伙伴有。他说这给了他一种很特别的感觉。</p>
+<p>Reporter: Do you ever get <code>afraid</code>?</p>
+<p>记者：你有害怕过吗？</p>
+<p>Blair: There is no time to be afraid. I have to think about what I have to do to take care of the situation <code>quickly</code> and safely.</p>
+<p>布莱尔：没有时间害怕。我必须考虑我必须做什么才能快速、安全地处理这种情况。</p>
+<p>Reporter: What do you like best about being a police officer?</p>
+<p>记者：作为一名警察，你最喜欢什么？</p>
+<p>Blair: Helping people!</p>
+<p>布莱尔：帮助人们！</p>
 <h2 align="center">articles-3</h2>
 <img  
                      lazyload
@@ -443,14 +403,6 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
-<p>A <code>rhinoceros</code> is big. <code>Elephants</code> are bigger. What is bigger than both of them? The blue <code>whale</code>. Blue whales are one of the biggest <code>animals</code> ever to have lived on earth.</p>
-<p>犀牛很大。大象更大。什么比他们两个都大？蓝鲸。蓝鲸是地球上有史以来最大的动物之一。</p>
-<p>An <code>average</code> blue whale <code>weighs</code> 136,000 kg (300,000 lb) and is about 30 m (100 ft) long. This is about as long as nine cars laid end to end! A blue whale’s <code>heart</code> is about the size of a small <code>van</code>. Its blood <code>vessels</code> (veins and arteries) are so large that a person could <code>actually</code> swim through them. A blue whale’s <code>tongue</code> weighs as much as an elephant!</p>
-<p>蓝鲸平均重 136,000 公斤（300,000 磅），长约 30 m（100 英尺）。这大约相当于九辆车首尾相连那么长！蓝鲸的心脏大约有一辆小货车那么大。它的血管（静脉和动脉）非常大，人实际上可以在其中游泳。蓝鲸的舌头和大象一样重！</p>
-<p>So what does this <code>gigantic</code> animal eat? You might be <code>surprised</code> to learn that the blue whale mainly eats krill, which are tiny <code>shrimp</code>. An <code>adult</code> blue whale can eat over 3600 kg (8000 lb) of krill every day.</p>
-<p>那么这种巨大的动物吃什么？您可能会惊讶地发现蓝鲸主要吃磷虾，即小虾。一头成年蓝鲸每天可以吃掉超过 3600 公斤（8000 磅）的磷虾。</p>
-<p>Once, hundreds of thousands of blue whales swam in <code>oceans</code> all over the world. Today, however, things are different. In the early 1900s, hunters killed almost all of the blue whales. They almost became <code>extinct</code>. Today, there are only about 20,000 blue whales left. It is now <code>illegal</code> to hunt or kill a blue whale. Maybe one day, they will fill the oceans once again.</p>
-<p>曾经，数十万头蓝鲸在世界各地的海洋中游泳。然而今天，情况有所不同。 1900 年代初期，猎人捕杀了几乎所有的蓝鲸。他们几乎灭绝了。如今，蓝鲸只剩下约 20,000 头。现在捕猎或杀死蓝鲸是非法的。也许有一天，它们会再次充满海洋。</p>
 <h2 align="center">articles-4</h2>
 <img  
                      lazyload
@@ -459,28 +411,6 @@ import {initHBE} from "/js/plugins/hbe.js";
                       width="20" height="20"
                 >
 
-<p>Animals make different <code>types</code> of homes.</p>
-<p>动物建造不同类型的家园。</p>
-<p>An animal might live in a tree, a hole, or a <code>cave</code>.</p>
-<p>动物可能生活在树上、洞里或山洞里。</p>
-<p>A <code>squirrel</code> lives in a tree.</p>
-<p>一只松鼠住在树上。</p>
-<p>Squirrels like to eat <code>nuts</code>.</p>
-<p>松鼠喜欢吃坚果。</p>
-<p>Under the trees, squirrels find nuts.</p>
-<p>松鼠在树下寻找坚果。</p>
-<p>A <code>gopher</code> lives in a hole.</p>
-<p>地鼠住在洞里。</p>
-<p>Gophers like to <code>dig</code>.</p>
-<p>地鼠喜欢挖掘。</p>
-<p>Deep under the ground, gophers dig <code>tunnels</code>.</p>
-<p>地鼠在地下深处挖掘隧道。</p>
-<p>A bear lives in a cave.</p>
-<p>一只熊住在一个山洞里。</p>
-<p>Bears like to sleep during the day and hunt at night.</p>
-<p>熊喜欢白天睡觉，晚上狩猎。</p>
-<p>During the day, most bears hide in their caves.</p>
-<p>白天，大多数熊躲在洞穴里。</p>
 <h2 align="center">articles-5</h2>
 <img  
                      lazyload
@@ -488,17 +418,27 @@ import {initHBE} from "/js/plugins/hbe.js";
                      data-src="/images/icon-6.gif"
                       width="20" height="20"
                 >
-
-<p>The <code>shower</code> in my bathroom is <code>broken</code>. I cannot turn it off. The water keeps coming out. I cannot stop it from coming out. The water is getting on the <code>floor</code>. It is getting on the <code>carpet</code>. It is getting on the wall. This is <code>terrible</code>. My bathroom is a <code>disaster</code>! I don’t know what to do. I need your help. I hope you get this <code>message</code> soon!</p>
-<p>我浴室的淋浴坏了。我无法将其关闭。水不断流出来。我无法阻止它的出现。水正流到地板上。它正在地毯上。它快要爬到墙上了。这很糟糕。我的浴室简直就是一场灾难！我不知道该怎么办。我需要你的帮助。我希望你尽快收到这条消息！</p>
-<p>Your friend<br>你的朋友</p>
-<p>Richard<br>理查德</p>
 ]]></content>
       <categories>
         <category>English</category>
       </categories>
       <tags>
         <tag>English-Article</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常用命令快速备忘清单</title>
+    <url>/2024/09/11/Essay/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<div class="tabs" id="tab-linux-commands"><ul class="nav-tabs"><li class="tab active"><a class="#linux-commands-1">linux 常用命令</a></li><li class="tab"><a class="#linux-commands-2">linux apt 常用命令</a></li><li class="tab"><a class="#linux-commands-3">linux yum 常用命令</a></li></ul><div class="tab-content"><div class="tab-pane active" id="linux-commands-1"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">ls            列出当前目录文件列表</span><br><span class="line">mkdir         创建目录（md）</span><br><span class="line">cd            切换路径</span><br><span class="line">pwd            显示当前路径</span><br><span class="line">rm -rf        删除文件</span><br><span class="line">cat            查看文件内容</span><br><span class="line">touch          创建文件</span><br><span class="line">vi             编辑文件</span><br><span class="line">clear          清屏</span><br><span class="line">history        查看历史指令</span><br><span class="line">history -c      清楚历史指令</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="linux-commands-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line">apt update        检查更新</span><br><span class="line">apt upgrade       开始更新</span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash"><span class="built_in">sudo</span> apt update &amp;&amp; <span class="built_in">sudo</span> apt upgrade -y 检查并更新</span></span><br><span class="line">apt install xxx    安装包</span><br><span class="line">apt remove xxx    卸载包</span><br><span class="line">apt search xxx    搜索包</span><br><span class="line">apt list           查看已安装包</span><br><span class="line">apt show xxx       查看包信息</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="linux-commands-3"><div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">yum update        检查更新</span><br><span class="line">yum upgrade       开始更新</span><br><span class="line">yum install xxx    安装包</span><br><span class="line">yum remove xxx    卸载包</span><br><span class="line">yum search xxx    搜索包</span><br><span class="line">yum list           查看已安装包</span><br><span class="line">yum info xxx       查看包信息</span><br><span class="line">yum clean all     清理缓存</span><br></pre></td></tr></table></figure></div></div></div></div>
+
+
+<div class="tabs" id="tab-commands"><ul class="nav-tabs"><li class="tab active"><a class="#commands-1">CMD 常用命令</a></li><li class="tab"><a class="#commands-2">ssh 常用命令</a></li></ul><div class="tab-content"><div class="tab-pane active" id="commands-1"><div class="highlight-container" data-rel="Cmd"><figure class="iseeu highlight cmd"><table><tr><td class="code"><pre><span class="line">history                查看历史指令</span><br><span class="line">history -c             清楚历史指令</span><br><span class="line"><span class="built_in">cls</span>                    清屏</span><br><span class="line"><span class="built_in">cd</span> &gt; Dockerfile.txt    创建文件</span><br><span class="line"><span class="built_in">cd</span>                     显示当前目录</span><br><span class="line"><span class="built_in">cd</span> 路径                切换路径</span><br><span class="line"><span class="built_in">dir</span>                    列出当前目录文件列表</span><br><span class="line"><span class="built_in">tree</span>                   树形列出当前目录结构</span><br><span class="line"><span class="built_in">mkdir</span>                  创建目录（<span class="built_in">md</span>）</span><br><span class="line"><span class="built_in">ipconfig</span>               查看本机ip</span><br><span class="line"><span class="built_in">copy</span> 路径 路径         文件拷贝</span><br><span class="line"><span class="built_in">ping</span> ip                测试网路</span><br><span class="line"><span class="built_in">help</span>                   查看使用帮助</span><br><span class="line"><span class="built_in">net</span> <span class="built_in">start</span>              查看开启了哪些服务</span><br><span class="line"><span class="built_in">echo</span> 信息 &gt;&gt; pass.txt  将&quot;信息&quot;保存到pass.txt文件中</span><br><span class="line"><span class="built_in">find</span> 文件名            查找某文件</span><br></pre></td></tr></table></figure></div></div><div class="tab-pane" id="commands-2"><div class="highlight-container" data-rel="Shell"><figure class="iseeu highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5          <span class="comment"># 连接到服务器（默认端口 22）</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5 -p 6222  <span class="comment">#在特定端口上连接</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh -i /path/file.pem root@192.168.1.5    <span class="comment">#通过 pem 文件连接（0400 权限）</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5 bash &lt; script.sh     <span class="comment">#调用本地脚本</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh root@192.168.1.5 <span class="string">&quot;tar cvzf - ~/source&quot;</span> &gt; output.tgz   <span class="comment">#从服务器压缩和下载</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">scp user@server:/dir/file.ext dest/   <span class="comment">#从远程复制到本地</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">scp dest/file.ext user@server:/dir    <span class="comment">#从本地复制到远程</span></span></span><br><span class="line"><span class="meta prompt_">$ </span><span class="language-bash">ssh-keygen    <span class="comment">#以交互方式生成密钥</span></span></span><br></pre></td></tr></table></figure></div></div></div></div>]]></content>
+      <categories>
+        <category>Essay</category>
+      </categories>
+      <tags>
+        <tag>Essay</tag>
+        <tag>Common commands</tag>
       </tags>
   </entry>
   <entry>
@@ -542,11 +482,41 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
-    <title>Docker 仓库操作</title>
-    <url>/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/%E8%AE%BF%E9%97%AEDocker%E4%BB%93%E5%BA%93/</url>
+    <title>Dockerfile &amp; dockercompose</title>
+    <url>/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/Docker/</url>
     <content><![CDATA[
 <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="9faaaaf138c610a5773b426aff5ae15514354e41f5a67486c824b092fbfd3ac1">5844f566621fccb9c583f0174433e530893e3f6a3d9380e6f64fa511999026defee4a88f332bf2d0db73ca7c25a4c6fd772bb8506735d2d6667c986fba4c4c11d81af77a7e833dca0ef597fe5e16de170a91b761cce324a21d5a1a6cc95828de29c99cdfc14e07d3da768e6eaad50030fb58448e157e281b0a9d511134a231f77322c1565cb21c75e4f88b04314195351b11976660ca4af6193effde4c1f73fb5154775265f84a567466640645de669ba25a27c185934b05b0a5895a8441b29b9b7effc0a28905b8ca6d0122026f2320749780c82989871e6a81e6693d279b1c72f27cfbf1137bb9d452d483451c6b7674f7288c15f076661063641467dbd52e2fddac4bd30d4f1015480c13ddaaad6442ec6a18dddc18cab698a224b4f5e7589363d7a3f56e5614e2316cb72a9e8438bc41f18b11459560952048d1e1f1063978fd1741a8cfdcaf300fdf2ba36c846dfb17d234ef7de842be469d01639d23c8859ae33a66af0cbf09246af051ef87e01aebea98c4aeaa6d37853b404338d7d9e0f244cc5d3e9b3ba07846d83051960fa0f8db86d243ed6536a58877b4753b51668e0c4e8632f36a0248a0fd8989394d42cf31487e4ec5494f49a71a6090d2b6c8154882752a39e982edd697d7290ea9920d2ba28d1a8520d5deb05cd52ecfbcd5ba942e32ed9de5f9514b7332a98be1731ca605fb07fc54d8be887ccd7bcf0bbab441de0cee47b1ad3021b9b81946ff215249c5bb21fa8717f4e943b524934237df50b516ef970ef57c60de9bb93fc2908f172bb6f81108673f55bf8fed94a5c013cd0353b2792d924da8af5eaa4bb95cb1a1dee5ccb28fb11d7de9b8bbc8e4</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="381d8800a319009c3989dc09b126fff0d587cbe2c13d4d1249cbc3421d071782">5844f566621fccb9c583f0174433e5309b537f0a9cea6399ad0e7cf5f7462dce24ccfc91b9e51b82134b23348bfff12aa5fc51010cd9bd0bfc9329e9a5829f576549fcdc87b8bfde9865f3a999a15ac32ea08be663fdbac4af7df88105dfc6a34b2049e146fc1eca2e6adaddce89a15a7790b24ce0d6985c85773347387c7deee8fcb164e3eb59e45c7ef09fa5b8d4cfc68f1773b5ae61e71362038884218bffde8cd4d3dbb3460b536116a33b604e5949dfcca4207454282a9a19daa236e5fd7690facac89d4043fb67cc76e970e414773e43cf996138b565f5f9a63655e1e1d05d5a5f92e9078b789a7e116b8d4b195c9611b95ae8a84b562fa33e60ef38c42a9f57ddc936c9d279cbcf5b4d1ce41ea8ea08a52bd7339ef83c56811b6e5ea3568ffc8aa07b9b51d1109a0f73fc8a21e313b97958efcd5e5457a984e2a82a85d1cbf940ed5dcfdea91088eb2ec5fa06ea83a7de2427782a92485ecc70d65d3734fee600117c14eb0c2fc2b6c3dbae1183049e79bc70197bfb1661bbc5045a77e070b65f6d37d5fc7eaeae9af31df32be78be08609f025d0f0381905358e3aefebdef2e5244ef1ef057be0de375806bfc0a377d64432d806d749a3708e3f736716567d0d9a65219f159d6c823831e6f121fcb7c4d98fcd2be45b0bc3d7c82be1305323d4d726e9171c2d3b1f7ecbfe21c150278589a93bf8375f12b2822d99d558389c18cb4a7535e817297a803ee050867aed415cd7b82399d95afe731a08983ead9d452179360e8d556d24dfcc100cd34ab9ac9ba8c19ca8bda684bfcddf109c03ef73d0d7902556e9fc1616fcff52e1b42e553c6e26946528142595c6d3546f525820cc05339d9ea249802cc95acf94e18868ce8d513da212d4d834bf1d3716e5dfd06111864e9289b4b46d439bc45868bf259d15792e3edb8d99feb6b3a814a297a10a02ae3a86507c14519e072351ea0e9c42ab23fc12176a5f295fa1af0c18e9e2bb71e63b51d2f03719a9cf3ae00229fc4e597291a6eb1a21c761806ef3a2a22228cb2b9ec58eca1aaaccfa2715cf73c8813b9dbe3db5eb1380aa13667bf68b9afc8bc4a14713a87bb71e29eb88996f2d10ce3d9bed3e4058699119e1478a2836d60e3c1d464c97cd5d8a0852d5faca283d4c53760ef04b9d7cdd6491592f1fdb4dccd530df021a62c980ddb49fbdb8f68647353bbc365953abc4bd69f63f6a768e1f6c68d09972afa6fd978c1cde98beb19eb63374d58cfa5cd8622e37a84cbac9d7473bec8cfb089cf41835c4214af3c865f01239fb7d6860ba10d7291875bed044d7e5b8f3aa3819c0dbb0715118a7630c64e808136e6bae51156b2cded06c08a9e4fceb30d41208e036a3148404442a501edad3677b9dd861be038854d5b55d204acf4f365b256fd9546e5313671f0752a1c92582287bd769a14ed6af8a5f0cf7d98ade829b571db56df525e8ac718388c2c04a680ec5b9303ce7f795d2e0c1da5d1a3bcf97b0092bfad15051b01940cc08ec3c039f270d3dbf10f063ad50f76ebf13fc91b5ff2f8de36cdc9dab8c5191535f6f96fb733b6a6f8700196039810d27981794c2f1b55adf485dacf3575531fb4c795f847c54665d7c0e77837366c8585d1217622aa13d7aab4640f7ee7d38db60f3e66abf31ae28b98365473bd616a8ff5919041bdc634257d06af054d1016848696514398690573ed5d3b5c549c216b6df78e7fe81d8fa281569619a2219348d1dd9058d601913fe8326995e6b7be8c30eaf64584627df5b3a464e8f0dd7edb0729e84c22a62bea9004d2982eabdab22fe6cf58c1f0027e4432f3cabc6bb8f848b40c6286b8b635e810fdb16dbf1ce1657c807b18ca8b0822f2508636b4d672f0df0c3099397db09d098b3c8324cc332352a8c261f4e8d737a2d56d03faa719f1f7b44312eff4150ee97c1622fec16a813f88eaeade6c10d07c5e6a15f3f7b438b87269c98b40f7029d1587dd0885b22bd3b3f2f589f7c3fcb8e1043525335fd85421502d4f049fead74b55902253136365b096de3bef3f914c7d7425e8dc72fc1736f5331848e293f9350719e6e85c75758494b49f01561194fc5843c7f60e629a2a4b7c7018dbf644f3e6f221395a4442f05c6e7ed63bd3b018a73da8c720b9cef59f92e13433cf696e418482779c92156a702653f51365503953c802f1886e948f13106d19d2f06bfc7b7f2070a139c530bfba1f5cf1078262c89756b8b8d37a29c9011795a1f39ff41ebe6e6aa0102037bc6305b19f7d675a7b02adf6c055d4dcb3d6002f82ab667df8e00d001f36428de2452fe444c408a9ab64dc4d2d8750ad467cf25e41a833c37c9e700c405c6c2626bc482b046c7e2788670f708bf46f6bdb11cf7e398e769101628150b94e3b0a4cbcdd79f69e8291acc5070dfc5d36641c8d4b324fd9b0324944535322d7ba980a603aaac7fae52e14c7cd7ebed449bb71b57e8b004432d64afb3f38a266b582455331fb7eb3a30f57a174fb47f7c735def36655d188cdb1513539cfa045dc1d591073a2d3248785db158567c9e80255c97954b298da04ccb593a0ac4e8cdf0f6f8b001025fc93b59b26aab87c2c109133282abcc45bdf47592609512552dbb152dc156692b43d4637a0ec93cfd9378ec04336731985f24ed291fdc104c1eb499370fc6d2f960e186ca8ff60163f5c530383065bbeef5b56851baeac059edeba5aeb62fef59064153874edee815e8a377b6627363f814a0ea0bbee88e938015d0ae347d2dfb1752deeae243df311e7a893831e9bf09c8bba4024d00b1cfe771f0f8678fe67bb1c6e301fd3ebf7a4f629ca74b17b57dff4adf133aeea9c6635479618b2d7eed22617b8d1400b5e7207fb6e11a276b67cab1b3a3e0811a256475e98adda6478db3d409ccc3d686ecc15c67e9d980e2467abb53612fbf102a9d6fe34325654455e8f98cd91faa31d5b64f0590d24e0a2ceb62ac96464c9d0a853711f76522b76e3e1007cc837c4f8ad47f954875ca70328ff35ba063fa34a021ed6d52f0521d1beb07326febf4cf57138a55e5721fc2a953a210cb63a7f518b0ce12bf73b24c280bfc72241e83e9237137a59311293ab1827dab9eaa773c1b5b36a982d9f02315f1fbcc8abcaff7ed999dd7abc32e32aac91cab6c9a4a28f327cf85cb3e79bb87bf13a2b1f5aa779d6ea4dfe7b6f7bfcb3a25b92b6503be57f5afa28cd09ad9ab94df09471a12a757a4484ccb310e0a2fff51ff124e6e3c03528d54d82c147f252a49175e5fea7d7f3d766f675217cdee430b2509f1ebea363837976de26d39cdc18aae793b822a71257b677936fa71f86309d48b925859c96ce6af98ef3e6edde4dbb32a13a7da5db8ffa6c4b28aac71056a87359b099526eab760678f390e162e4ff4cc6fd62d75cce367c8e016ae236d192c0cb6880798fc41205c2ac2652a96c6d92fb61e3e1efe4324a89675da1cc3cc2124f67e0d34ebd12c141a77dcdfda4971716c95a1b9d594585ab5b9545d8663e3e7023ca70ee174ed6fe0e00893cbf3a06124c5dfe4ee0a66e892df6fc5eacb536245aa82ef44b9c40e8da3aeb75a32929b12ccee74ad4b03f7955ac97b6bd5a0d322d150a4c026c9a03d3fe9dfeddcd2ed31218e67d063a69b40f3067b95502e6ec2d31a7555406fead6c98fd4df952ff909752cb813c80646bd1f0804c1830606947c7f3b98a97817041ff274c672f997f09594d83f166c81622e7bef04f9ba970c44b691f01e7544c74f7628f32a3c892c9a4a1bcd5782782a038d197e8bfdc65ffd88252b15651dd5ff65409098a5763ff2ec0c51386f77a128ea7e7ed9ba89511d461f453233b9cb57c52abb499e0150f759f5de5c9d791aee16880a45341aaf685f3b1732ffefd8ebe1bf4effc68921aa2dc4ed0c7fb43989230b8b9153daae1be2e91d4ad9b5e7464ba4e6c701f5de5d0215dc6cd9f70c18b556a69c7c25f256db02a084f8f193b2504de471827146305d0d22cfab5654c8265578934dd2fa02d90e1f2038b2ce354e1828bda8211e31be74e880580178c5f131ec1306f45d5da541ab349e3f268a97c02cc778f2ebb199a793afcfb07032b56c7550ffd4c49e93d3216f8739e2b24fc2888a723cad77a792747b6409cb5cf8ab29d79accebcc00578fb1e2b7a56ed8a6d664f132cd65d24c0b7ac2c05445ec3c869b3d8292f4a7a780a91179a66e2291b3900cb1aa12cd9e27fec117769ec5db1988f821f233ebbcef132751ed6e6807ec3a3f4fa7c0f0310b8c8cb0e8bf2ce24e589ad2d1c50cdf69c6416030ecb2338280fec4e6f539b775661c96945c3b13ba8a56c194864fad3732c9cac23b4342a3412cadd2daee4d5b94c9085a5a534855dc07e6c9997d24c3795ef7c4fb2d6292c45cc1389941465d66666b96c7557f4c5f57d7c54edf305b327655686c6afb563729c6f490835c34bf4ad6393b7dda1eb50bc34748ee5cdcdd0ce3a22e82e4ff0efc24c6a6f53462b11474564e174bc63e67ac6289181566205e0c157c93e01be4c3848757fffe35e8d41a0f7d67f35f9e3e7f2df03892ec06b11b010d0fa35f3ba30c7077fd80eeef25a22c9badec210885d1fed2647da9ca3f13c8597bb6eb926f70094141e99e42d181dad1b6220128c1db4224a158cd10f6bbaedc4ff3392cbb1c8b38cf96ced329fe8ffedf83af6a2149f5adb4f7eab18c1c29c8531dbdf8a868480e10624c5102fd3953c6800da1d11ede65044e3ffde0ca36f09c63f3bb409e509ad8a1fbf5f361627bc77e1ea547136c2fc14730a3373afbf17a54aeb1cc6b360900367a62ed4d6017675fb48a1d179fdcf4761478eafeb5ca4926b48613148c1026bdf248701ce4174fd1f332ae7c88096977cd46d72f49cbd19477d6a5a91fb464c9c49c8873456f37a6caba7a6bbadacde7bda86a18194135fb176df3064cbf18057804e51ad5bb5c9db72cc3a53cc920f8a1a25733bcaf636de7c2173211ba2e59626de53625439e2c18e02331cdcf447a53708aa85f2317a7e3845f6e3fa6e3e925d7434aaccd23afacf1c6bddcef9f4633e40acab5ce6cdd88776b1e5ed8f007b54a0d339d3d58f4cf1bf1cbe3158667c2d5d6299be37e960d569f21de3c894648bc89cbf0c4edb89024fc5a76e378ac440b91349e9423d3c3a192c3ccf37edb127837d855c34291dccc3d3a37c07c0a6560f3f643a06a769ed37450e33b4b3766e520473af02b9ed64e6aebd613de0bf1d3f54fc11fd249e0440fc5127764f877eebc463554a30d5aeeaae70e73fba7ddab5308c09e84194d4090e7f45f3931fd045599ddea0eea01f0658ec47fce3a3177cb1c1ec3227a6c4fae876d5a430c64f0a6380a99ab5840e9f2a997d02a52d73a29e0f24d9feb87ea5b48b2e6460a02b40e67bf4dfe85c30c7ccc785293e39bc91323d93f869292c7b3dc65ffd363fbe6ac585e01c5e5420e69a5c04ba1424a6c3fc4168bd66385b0f37d9926cab72153832b1987f00357816f36c905ae28680861a48b115d5475e131a63301e538a2b4ff4b3be90af699276d3ec25a17bf3ce89ed5de18be04cdd946343ddeb4ba4958693c747cfc501adabe86e0b6eced62888b29810ef73b6e6bca62a0d8cf606b0d6d7a021152432b414933f578b52ac5c3b03eb3de2009f24a93c51d46b90bbdcd365a4679285624b9648972381c01e1e04de448b401896fe805faeab1a907cc4a74df861d9fa6796c3367e017c03cd2b6cd2280e681bb1eea8b068807cac6dc7e632afcbe4f73e5b86fbfcfde1afe9bc8b042eb1fcabe71eb52adfdaf05a0f4f28d49d85a338d4867ccad65cd59d27abdc752ba9168d0fb0e77ffc36d316c8ee76bd57c85536d600d6239c30317c7835a2251997dbfdc3bfba5314674cea670a5092f7ade623b68c818844c372cf8bdf9d9abb620fa97afe0633e05f7e557207035f537c7daae7f35925af4807483119aefc3970fbaa2f3f25a596fba5945366e73ac6450238a08f1971c3b295e04d8c35e2853616fcb954530f6febfbd409fa465c25270a115c90e3c77c69d67a450ef5d1e5780035297cfb0d9f924d482d0db34ccbcf8bd64e4becc60e3e7957093289e0bd6c5203e006dd48fcaf5d9d7def723f6fe4721644cfc5ac2d8319cf562d3b0a45519dacf2924cf3d6a9597f473384a9f9a66392874fea63e56315c258939923545642a094bc0ef65fcb9ef88fe437758d460af58fb4c818419e0ab0cbe3de589fca4714d3518722d29b0a9a037259da2384ca729145e3d1c15c94e5d4f7c65ac72f37774e3061258eb6ccc67dde9aeec4f76036d1357b0f9ecfadfa13afdf2d37bc4d388a9a4fa43a2c5d8e75d179601dbbde82cf76cd4fd56693111d41e11d26cb59794fe848c14eb951086bf4421a87277fe272ba58ace7596ee5bafadb920dfb7c33e66359c9f5aad4e0a5967c3983fa4b5a260ad3909f8a3607116ee06ac1edb17dc7b55df52b17414cde5a5f71e40419d7e5fd1cfdd2463c8016997ba779b938102361d21e2c61b48a3c14ec458a2ef099eec1a1ecf72cdb23ec999aae9d43e84390756b29049c939a3d19ea85590f2dcfd08f2ff10cf9789f4d36f1a2ec085bced30f89691b1e63e0be9b65f8560bf21dbfbed89eef9b2cd0c14e73f8cffa145f602034d96d3b0f5f1a352c0984d14f43d9786ae5689cab360bc951f09598887d9c1700c6149a1d6e6f6ea7875b98ba41e7db3ece3ee0ffd261aa1965d3bb1303717f2bfc5333f777fa1a505230ed044285b662db643e511ae4346f271c66b77235cd83e11508f8481ea723d6b31e1d19d8d34ce44170d99ea6396e6a4c343bd27b32cba39b1d799bf93989ccd241ef2c150edfc987939d5fea3d9c36ab21f9b4150206d8ae4ffb584964bfef83e4957b9c4437c1c9f4a7b1d7c1f22eeede8826bf45504b82d2e871c3915e21168499977063db7a61ca2f35868bae56b9f9abb3725f61c30b9811d74fd3a9596e28201e08218f7ae023b2e909372c1c9262a225f63728386060ec6882b02f2fc15929a6e44aa03be68a5f25ebb7742c458dc5e41cb9a7ffec1c900ed1cefe8f3d6068cf6959c5f314107b8d3d8359ec6c272e351005f44de444559f0e7e1339345490633cdf12d3a89cfc6a18084c06112987de85691ba8936d3fe7c05a3b39a9029e815443de5665169f603f63b1f62166b4024a66c636142c223f3fc53965db35e36733a6e7159b9d9020ab31de1b11622ad58c9899092555c9e1d40b4d80ccf56c00e9af2e6bd7b0f660c9c573120f9484da97dc0aeba7ce04a2c900fc5f880bbe449b9ed86af1e86cb77bb74edd1ce114eab1caf8c481b158eb4097d41fbf744197090a0ba4c22687226d8817240d644dced3fab64a8d808db66362277845e2f6d0bf86c09dc9ab7a24ffaad34757a409796bf553c14e615d33b8c14028d94e770f88c39089c264dea4f3b42f714067b5492d47bae09daa446e883d8f7eac96ff3e0730a55d7a89a8ae7d6740b7d2ca6f65ae2e3f4c7150fc2483865e3817169cbf0bdde8d47d6ecec3d65432f3216cdd8631968885ae86e2509bf694466e59ad8ebc84c443f430b5be842ad091128144ebc3c49c10138ea7f6f0b5c00e4b8c6025bb19c5e07b3d596b689ba6e8d5c0d90f3f7586d269ee537e25651f722e198283e37c2a09a80f8c280becb63277a48029fac4c91b7e2f0c2727c1bc9894ea557db9447a7f44dd5134c92aae91da2d515355b11b8ce67e53f5eb82a53b0bd825433fb9008b19029e693677e45148e0facbe1778200c93837b0c4578ecc0e7058838f384c1c78a7fb549a15a300f6f3aef86567e12228788b5373d4bc33a5eb6774e2f1fa36c3c0e68b1951fe027194b58bb80094bbab5fa358ceba9d26f3c60815cabe685198af05764624f2e3801ca3ec4ae4276b49fff62d513d0c98e9e1692434e68f0c14a2348957dfd62b32c94bef836608c7b38479b61467a8ec50b65fc5635f007b6b84bd9a8325a14250231fe35c2856e3c075de0241d13bea704a6d34eea87d829a17a23ec9b3ead0a9af120d308af4a1095d11da392267a6cdcc843d7f2ba9a6afa08e2ef51809a2764ff1c2c47e8591810b6739c225b2cf6c30e6d32deb9b4b1acd581c24f870c66b1ce8402861a489135e2d0dbdc39d36e420df84044597e60d631f4fff78f78be61db0408094469f0b0b85685a3c3cbcb2d321d6dfb5d9a3b4fc443b5f6c3ef26adf6e423d6a05e498c47c7ef5dd0a96a2930201dbc04349eb1ef896eb70bab850f2c678b224ffd8073bad6b0f8d247d0cb7d90c2b17a4a3950067bfe3c9825a87d5351a77110c993bad6052105e848265cc02de413b455fb1156c3fe4a18f0094b880863e83e6c228d6d0613ad0ea52c8ab1c0edc8da27153223f77ccce472bc357844dfa18923708161cde420d134028b3fa622cb83a557650db44a1ec7267c70d6ed88f6cb8c055ce62e61cf90819e11c128a849641c27e22fbbce79bdb38c407a31ade788140a342aef8eb3aacafb42ea04114b9cbd6184af94895b4f33a9f8883ac4fd7746f25bcf0c3653b4ac38b2f0a99dafec60b32eacf417b4062fba3039aea128691ee409e615f47ce6f597fd6908bbb23e309ab9d83c4da23d0ad455453ccc365ee57df4439d8f185d80a0f49c6e008749c66b86446d712d7de1d9745a4b7afc51847d5a9b2b159b153d83d422da89e9b7fa4b6f44811dc962d8a62a01d3607563584a4262df2c8144eb41525ddebea0d9500b981a9cc09bb6839a409f88a7ce72a3fde70acf2511b623ef35a7564050a8bd7d5000e4e5da95eba39858352d0d74b589f2f3809b33a9e3151a7bde6c50eed49b4682a738d6b93863b3d2e8058d778038e45dd28b7a3718adbe5de83e9630212b0be94e50a892d2a3ce8785ed3b257bb5b60aca57ba5562734b6e5b620e970e5a1986683faa736d7f9c775b2ff88239a1fa629f086951d74e60fd4b097369fbddf105e66de3992930e630d5b86a23e21226e7822d60d28c2b8cc0a40b8850a4722db9d6da83398606a1b6fbfd0161ed76f8a2166232a79415248ef40f049198854c20daf9d5f796e1c4c3221d926b59c254715102f5753da1a2c389340e1c34df8622286a101b1c6512067997</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
+<script data-swup-reload-script type="module">
+import {initHBE} from "/js/plugins/hbe.js";
+  console.log("hexo-blog-encrypt: loaded.");
+    initHBE();
+</script>
+]]></content>
+      <categories>
+        <category>Development Tools</category>
+      </categories>
+      <tags>
+        <tag>Deve-Tool</tag>
+        <tag>Docker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Docker の GUI</title>
+    <url>/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/Docker&amp;Gui/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="f25d22b3d35f0ba1897e6468a2a266ec3588056be86cdf41248ce8f94c6146ce">5844f566621fccb9c583f0174433e530893e3f6a3d9380e6f64fa511999026de33141b7c4ba9034bdc3776f55f0700c8960d1612b0aeb69f14d3cdd81707282da5b8705ea1bcfd8db9ab123f302cc1fee6d387912788503a6f8e34012d0809ab685fe6f33fa6ad6c0574a04e608f9b5dc01b79471f1732b66ba2c2a8d40e4be1ada6518fe211cabb7168c253f95cac052323c8baf7d5592e416235a8c592d4dbadddd35722f96fecdd790d3921167d8e0f523b3a30f44406e770e8a041a17e71cab5e8f106965147b049ea14b4ba45d4974bef18395f75f9b0811e16d1d7fb4e36384da90db41bfc482156db9cac00eae0681464a75b651862e06b214f68f1e27c4558cb45f7b620a0ce4b67515bc3c8879563be69f0b3c7e99db596122a8506d44f83c764332777dcc3b71b5a3499767c0ed3a6717f068ceb514c844d1ed3356c7a6e114d5d91f47b79590cadf34e72d5cc8fcc1d2981b9bd006efa8346f80bcf07899146f55dcf5761a0d3a25ab2e6db5743414792450e27d48fc7a1c5c7889d2df63b068a371ecae3868d96ae61b1166d9bca6507e4e975e6dee700945f014697d1111254b71e64fade92ba19534d2a2e0ef854f4738ca9a0e1a39f6a023e9ac456f5431aa2065e1f99a9e853ab099bab5a7da539fe0425e5203aae8d0a0bf284e9909726e9a0c2a95d0d8500d6f95cd9f25cf2b0da3128fc0417bc6baefd59562b67c88d1b4f545a9d8da3669fefc1a562807a767e34ab159bf0990a7ef1e95ca5137fa8c40c2303bded6eff1c81d25e6d26997f86efdf33db2d6c7d98d39d706372cf160640d55040a5aab96ecb16ccabb986e35f915bbffad74c58135feca80aed4a8442063d37487400575596fa9295a251c27241ddbd545cea53ce403a8eb9f090f2065e9ec6e86e63455f389741160162decb3a5539469d4b42ec5436cbfc8253f68512da2d5eff0e60b5bbfb2abe15a4c339a05c8f5a5e4e34fdfd777e4ccd6add59dd56fc2b1bd22699bbffbec93748f81e808c34c6f93a02a8ec0cbfcd70291df9c5595886a16fc1be9e908f3960a612676608d86a3fae7eafe266bc043d186ac7ea9c043d8b12870c0911bd16c666f46f27fd0d3df50b851900fc13bd421dc29c2fa03c5f45cdc77e9abc71e3d57116bf11b1dd92da7ac1f7c4b0dc6e76162ecb01b871c3d3951a483ac6005fd54ac4d30f3673b2b52dda44e020a4c99a50f876b06a1f08b2ab0e9906cbd5007a910a703252f52d389373225c1ef8273fd237944d04a3bab685c0bdcf26112c533efbb1e59e94e0902b19c69d42b576c791efd0d6d30f99f6f58dcb42fa9089abbd88c035730bfde036efecf3897b75eb856cff7a47aad0786cc1007eb503e7082160d82c7d7edf105b5106a931b77da5f1cf3bb5ed51f61ee91e6ae8beb1cd5e1bbf7e12a14ec054117124b806bd297682305d43636eb990abb8fc470c565db330123af5069368daeea55f17ba3d923ec01af088e373492f4794e5f91250be5019f5070739d223760de9d8d5d1f988fa5f0a3e34e23a11533b9a94596b1180ebcf058668b2bdfcb9a60ab6961e7c54d1e7e0fe94813f507de9a6899eb1605f0fe66c0f2d57852ba97834888f8326932f0ebe5129464d7ceb19f8c0a34b1a25d31ffa258d38af5c296067f9326961843645304d10f397f00d3b3597c691408f062fbd3a7b0d9cbf5b0a8571b1a8d3808711076959e1129c8537bd9cedcb8507cfa5a49faf0172e931ddc75bb162a90c321617e9987aed5f9a2e411e0154642419245abbe6386fa0f19b6f0037bdb2568e6e39d2f89743e44d2055a7892a9e9406dbd70c44334f85402a6890f99fd9f4c0d9c1facabffcd15f38db6ddf9f5c69660377c7537b3e00fdcb73e735d010cbb8d9d0962b57fd331996cd153f62f701a4a2dc2572ff5b0f41a7ce4d84afee436eb4f69db2d8d76e9938ca6845d239e8ab94782ee55c6bb4e1ed4fafb4deff60814ebf170231cd39a5a9021c539c7d2ee08b18ac19e35c1a0598092d2c4e03c15e8138b9f8d9d4cdf85ee939cab83edbc7d5be8baadc9edb8fb84713dbc3b008a1d237533f09e0ac58a3fcf64d0681a17713d66aacda3a29b7b9427cb162768366761bb349349698143ad7edddde4da6b5f9f80ea0985a83afc37f1333b44c1dab10414992062e707716437713ce72d6bbdbf55e0dc2ead337c566d66db758f517bb1c3362c470c4572a8791d5747fdc7da4077bf644d934028b0d9f1d25d4292c397d9bcca89a42d8c30e50fcdbc5427741f8099d85dbc9dca2c841cbea639500841b196174b8603e65e953dd5184a1bf5fb3a1f646650eeefd93695d2a1629db939d6fd6aab8c76adb8074c191778e0cd585aa6470d771f3a61d397fd04447617054037edf67cb961d65d9488827f030a69e9e63f3b80812b077793ccef51460e60b3d0717b0a41f2fadc1e956b6e73266f746854408ad54e6260fc14c00489753918486fd464b17d943d5b701fb0955f35a8d423fcd2a40a0b1747f03e39498f94720d1401bea047bd6369fed93c968f08877c0a24977b78d8f375ef2538529bc1fb8306ff913cc68da998decadc54ba47266444a552c8a5b93b80454f7e04fd6b83a35edeac174267f7206243b293b5a6c5a04c96e141630c5546014babf4b90023d9651cc751c66e7a7aade6c2b93afd2cf6162b3eda468ac7787c18d54d024170cb06d0ade1c5d6f579a1e4d8b41d6343f6939486913005de7eea44fdca697eb3f59b6fd7a2b9be09218994bb7a92545cbe05262a889426740d3aa1cf56bb7145a7de3c75ef587fb66a7ce72b136eb9633752a713ddfa975a0f8b96dea38bc1ab2e997931076ac44eea17aea9f82d1a694643bccce1914271d2c8da65855f273001eb6d3442c4a099b88e71e29d8f45d0faeae3c004ea1892335da9cd7be9722e5a3e8aee3dd613d45e923c0d603533a8514fff48528ddcdb0199e8a35e29a7fd44a3e4a536dead391a3908da20cc5169db88b467b03e068fbab0a4d56afd0856fc1b656ebdc306b194e40da012c253328e3e91ae7ef3762b2732a81f18e8565e7eca09509232daf5b612bc485bc97c60389e2a0cc0e69a0e40fa5e43aabaeeb5d8b39157cc72abad11489a14188cf16085b0a53e44135d8b622dcca0fca3afbb770fe5ad257bbf83f09df7cb0fe15986a5639ecac95d85e13d3d301ea2e984eba367b694e88176288026f09facaa50b577fd5d069bf1b0927807ea2cf12f816abdb9fb984458b1b9a1ca07564a8fa52f494fd36fa37358ade00773ab553f301d76367aac97f680a48031f3abf8ec609b3bbc046eeab821d6ec987a52664d7c69080a8719e4179c8e407f7683b683927716b610350907d8c06974141ff03a7d5466995ef4e18b89ea5e4a2a45ff677e5d461a2aaa38435bdb2ee74ad879bde472843a9b994385a581394309c2eb491f42b293066c0a6e60de98487b87cefc1e960d5307e1185c0f2d3ac3b172331d4aa856eff614db2c18d0f41d30e9d79de075db1f376b5a18c438624041d3ddd280a9108fe63951da67823d2c68d1a6429750d5f5de19e5e6d2df2441252aca60357ccc5473ccc6c3d947fdab448c7faaa7f4d160c33149da8c8080b5e55b04dbdfeb5cc3467d9e8cb911ee26b9f104464d538176f0160656029768c316067eb5c8bbd8e0ae97457eb7600d741ba8c392e3dd7da53f22a58aa6132f5ff7b73974fead1397548d49fea625f79d733a94a9b716cf0fa5227380aa58c9d20cf5d9cc229611cf3cc1dfb6593493ebf1587e3f80276db4bfd590a6a64467a7f4892042a2852d3ac6e7a8508a4082e864b69c9d9060a7a5870bfaa86f1adcd1f4dd98d6182b492480e315bce16182a28b4990fcf31d14d0da1de4ebdc934aa2bb20e2f255c3775150853dddc17f73f9d8f43d840b94308227d638a9f968d78d06c6cd426c3b64886ce2e989cf2f1b6ab383b96307413ee73695c5a9e2aeb9a0cf1bb787e8336648fede37b8f337c9eaa86758409ddd7445d8c009fea734896a1a8c11fc4254669ff93b220e96ccb0aec23b91e304ca6f058a8fac31ee72510aca162fe0e6388299291d82df8bcd2441d4833ce7c26e181be0f8f9d3c6321ddec5fe73443f3c0fc59d1cde974466700e60815eb3f1fbe780a6a19e634f2d57d7ff227ea1c4bd6366973aae1c6017555ee30e5bbd8a2d07320008034f987368a23567bc8e18da749162ce4759da9fc682d3fadadc88c17b8b76ad4228f7a7a846be38d4b84082a8094771dea332b3f62c3b27effbc72eab46c9e9ec9eed22c0324a7baccf00f24dddd9a9c30b72c71c75cd72a95d2942de6f53f39afdc86470d3267b258bc1714ff125becd6560621ef7fe03823e0cf7be9efe96eb24257611ad00c32ec17c8367252789a09e935d02bda6d0ab81173612597788f1c14e8ed6d68e5591ba3f5361dc9dd2d8e842749e3974288340ef1c36331ab5f45a1e12ffe1c2d5b6d668526a240e2ae5417d02b0f94cd6ffade2abd7f798868b8232e6a25ea1b6b7f56b0122a2a8e6327c97c937304a0d978fe44d584f40ba02b84e594410300187f0d885e9c76f22c706afff6c78e06ac8148b199e51a23f83471c3bf303bb6356307c1372530eac062c889af3683eec9612cf2128781dfdaa6f7ba01fd1070be020a63949089ea1547c9d7b032a8ffe35ba6d3b60ed01cd4c7e2c2c73628a43b9144069bffdc405b29991b44e5333ff21e0d5516405877d16acc9cb160e7510964049a1b37cdc8facc73f30dd742a5375ddfb05fe331c432498059f38221dc90fe763777c6c99b78714d1bf2c6ebbb9b5e11d1a72b2e3383f507f6a53071c52dfd4b2eca8c775175994baf826bfcdbb07eaf835fdab4611f656f3fff0067909c7c5c1ee00bf64af8c67abed0e3a9568ab0faad7cb83f44fa861546d50aa3edf9cb67d523dec6348c57338cab931fa5965f5cef0f456c4ce6887ea683c8ffc9bdbed3a1fb821c42a9c4aa122ac2853a9c11df0c3ed97e918137898159777ceb47f11d7f77cb4c4e6ffbd92cc17507068d957e4871bddd8761a1b7f29c7f9e0c22cdd52df90eaa1478abcf15ba19f48b6acd593c35ccc26e97ab37a6a2a227274bd311c243b851063da3a9df5cd83466b704485e96b9b8342183ef5c78316aa286f03466fb352b5bca255dc57a5c9e3c142b79c2b53fad42d15c014ab83c57882fe4208854550fddeff12504a56f756732e8d8d7498ca8742af03d1271db2ae83e44a9a34f6f44c2a43ddbdbadfe4d27a1075f6f44034115faeb1952c055de407ec73ed23822a53eeab1688963150ef37c3adc0abc47cdadc313350c41df4e41f8c80ecbd9527574bbd738b549dd9d40ae7dfecb4534d2fcc2ac3db43ee9386f3091158e62d3adccae92224a8ba16d8ab73602fbb406db3c0a4ef5fb141e5ce90ad117f64bcdd3fc4c3813ac93afa288f6118b3f9c49a63f34f17331f3af8aa833632f8c486d06411e005cd8b79f4f58eb79f3cbeebbab95b29d30731a3d042422fab9cdfbc03d97eb7a543d793c88c60ddf7db1dd8cac3d959662c82956e78748b8f5b681f31824f79c2c07426cf4893b5551b0ca1d62089d09c531df13f485afc73eb631b3513d319b81373b25120ae047ade4a7441df46e3d3af835738003353b712c1f542a0ea53f1a5f12e52ea44fae640d7329712851a4a7d307dfb438114dfdb0239e560b6e5b270b8c686c3081887e26376043805a968d6c3885233728baa80489c09ad040d0bb5e93fea485f248382e957bfadca87d102b0341d18192bd15d4c93d76234e420c65081c7578cbb34d508d94f918cd470bd1c5e7bd9a41684d5198d49a15e27951ba1574bd41147b4c6025ba4cb7a5419c1e08c05eea72a87f76bec837eac8a689a12889de8023af2f56900682f0ac635013803c772c25bc1067c2cc1785e20447c1c60d26f483438b2b2025a1cf59762c752918bd0baf13982e1b985ab45475cb214ebf106436c516cb394eea00e0d1e11a0d830807b16ee8696d5a22a99c864610d3d1bfa685bca5588483b56a5d69a4f47d65b6496bb74bc4e79ba3f44af693678d0f1fa59dc4edae45897265b5b74b6161328001a79f87ec549e3892270920a334a6875191a50b1e0898ebc0f60c305eb6f5ff2b5d4cde8fac957f60ffdabff594315233bbff892e3b3e51c26b29b47f9c7e64660335ffa992660da0e0814a93f28def2211ec35cfd9c9d09613f3afdeb549b73c307a3ad90d3c0bd48d82f08e45addda3aba864a574af46fe8ea919f5cdcd69b6da47bf736aee30826fdeee0b05dfc160068837026324a94bcd0158f2b635815a9b7e8e0da5ac14c9d6510b82090861428d9e693b3e28a6b6ce118e7b361de9ddd09d531c9b440179ee8ee3f680df1b1d38c7e2055e4401279eb3a9b531a52306e584bf8002cef923863efc880845342606d38371c0eed6cc6aa9ccdcc311d860210160837729e14c0a53e7eb9ef91ea05e30b22b0bc424516f1786da626a7cb2c4b2baa85ea4b47fcf325cf1076ccad050211a0632985b31cca7eb4bc63499a7e2e74e19bf0b0229088a65e7253da89a5b6f14bfc832d957f0c488ee59e3b6e06ef0fb122cd84b504baba306df6ea1c6f7a753525abe2a501755deba5a88b2d69d5899591daa172d0d77adf7e0b6fb6f1fee499cdfce45bda08238d1e6ae778235f67b09ec3d20a0e9214d2130c51b699fc5d357da18b372dfed0059688bd1ac4b3559fe400c92a34efb7e3cf921c18cf02ca1954ef8c8bd8436bdc948126e1a6cadc6e76022114e573349a08086fd48aebdb4b48f261de8bdb86ff0e0a9645ed483f896c77720556afd64b216335a0eb0f1f3f5fdb39762f430167a54772edf5473d6cb9418a09e8c8d4b6dc0d718d1cd30bf6b0cc1217bfa8fa0dc1d5024ae4d5a487145e2950b6be81b0fe1e521251a862f60fee6465d918a7c3dfc243ce6fd4f580e79fc897cc4727f6f8ff0712b94a3bfc40ae63afedae75d7b58650fde84d6ea7fad773f78f30d738c4797163054c970c14be45590aa1f746f723af1ed1779599f6196aa614d7e6c3ab72a21aebacd9ad3a47aefcf997ee3b792342d0541e93f70a2f7984ce7716b3adb9e4041ba470eec02b9418ee7c96dbdf296720d1a53f6913c56c12e78452e577194e9218ae40e9cd89c46e370a8e21fc2f86a8fc8a000f64162ca27da4a4313a9630296de4a728778f6cfc232d0d4673ce87d3ccd9b39ac7ef8a4932f8bcb1fa061a6d28914d1cd1de45df98c1188c8c8aadda15c3688077157b77d321dd51567134bc102078b509f472d875a7fc2a91726521b92abb56319c26834a26a55ff6485</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -691,6 +661,36 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
+    <title>Docker 仓库操作</title>
+    <url>/2024/09/11/Development%20Tools/Docker%E5%85%A5%E9%97%A8/%E8%AE%BF%E9%97%AEDocker%E4%BB%93%E5%BA%93/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="9faaaaf138c610a5773b426aff5ae15514354e41f5a67486c824b092fbfd3ac1">5844f566621fccb9c583f0174433e530893e3f6a3d9380e6f64fa511999026defee4a88f332bf2d0db73ca7c25a4c6fd772bb8506735d2d6667c986fba4c4c11d81af77a7e833dca0ef597fe5e16de170a91b761cce324a21d5a1a6cc95828de29c99cdfc14e07d3da768e6eaad50030fb58448e157e281b0a9d511134a231f77322c1565cb21c75e4f88b04314195351b11976660ca4af6193effde4c1f73fb5154775265f84a567466640645de669ba25a27c185934b05b0a5895a8441b29b9b7effc0a28905b8ca6d0122026f2320749780c82989871e6a81e6693d279b1c72f27cfbf1137bb9d452d483451c6b7674f7288c15f076661063641467dbd52e2fddac4bd30d4f1015480c13ddaaad6442ec6a18dddc18cab698a224b4f5e7589363d7a3f56e5614e2316cb72a9e8438bc41f18b11459560952048d1e1f1063978fd1741a8cfdcaf300fdf2ba36c846dfb17d234ef7de842be469d01639d23c8859ae33a66af0cbf09246af051ef87e01aebea98c4aeaa6d37853b404338d7d9e0f244cc5d3e9b3ba07846d83051960fa0f8db86d243ed6536a58877b4753b51668e0c4e8632f36a0248a0fd8989394d42cf31487e4ec5494f49a71a6090d2b6c8154882752a39e982edd697d7290ea9920d2ba28d1a8520d5deb05cd52ecfbcd5ba942e32ed9de5f9514b7332a98be1731ca605fb07fc54d8be887ccd7bcf0bbab441de0cee47b1ad3021b9b81946ff215249c5bb21fa8717f4e943b524934237df50b516ef970ef57c60de9bb93fc2908f172bb6f81108673f55bf8fed94a5c013cd0353b2792d924da8af5eaa4bb95cb1a1dee5ccb28fb11d7de9b8bbc8e4</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
+<script data-swup-reload-script type="module">
+import {initHBE} from "/js/plugins/hbe.js";
+  console.log("hexo-blog-encrypt: loaded.");
+    initHBE();
+</script>
+]]></content>
+      <categories>
+        <category>Development Tools</category>
+      </categories>
+      <tags>
+        <tag>Deve-Tool</tag>
+        <tag>Docker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS 基本教程</title>
     <url>/2024/09/11/Front-End%20Developer/CSS%E5%85%A5%E9%97%A8/%E5%85%A5%E9%97%A8/</url>
     <content><![CDATA[
@@ -751,19 +751,104 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Backtracking/</url>
-    <content><![CDATA[<h1 id="回溯"><a href="#回溯" class="headerlink" title="回溯"></a>回溯</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Arrays&amp;linked-lists/</url>
-    <content><![CDATA[<h1 id="数组-链表"><a href="#数组-链表" class="headerlink" title="数组&amp;链表"></a>数组&amp;链表</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/DataStructure/</url>
-    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1>]]></content>
+    <title>python &amp; import</title>
+    <url>/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/import%E6%B5%85%E6%9E%90/</url>
+    <content><![CDATA[<p>在主程序中导入位于不同目录的模块或包。根据模块或包的所在位置及具体需求，可以采用不同的方法来导入这些模块或包。</p>
+<h3 id="1-模块在主程序的子目录中"><a href="#1-模块在主程序的子目录中" class="headerlink" title="1. 模块在主程序的子目录中"></a>1. <strong>模块在主程序的子目录中</strong></h3><p>假设目录结构如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">project/</span><br><span class="line">    main.py</span><br><span class="line">    subdir/</span><br><span class="line">        my_module.py</span><br></pre></td></tr></table></figure></div>
+
+<p><code>main.py</code> 是主程序，<code>my_module.py</code> 是要导入的模块。</p>
+<h4 id="导入方法："><a href="#导入方法：" class="headerlink" title="导入方法："></a>导入方法：</h4><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">from</span> subdir <span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用模块中的内容</span></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="2-模块在主程序的父目录中"><a href="#2-模块在主程序的父目录中" class="headerlink" title="2. 模块在主程序的父目录中"></a>2. <strong>模块在主程序的父目录中</strong></h3><p>假设目录结构如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">project/</span><br><span class="line">    subdir/</span><br><span class="line">        main.py</span><br><span class="line">    my_module.py</span><br></pre></td></tr></table></figure></div>
+
+<p>此时，<code>my_module.py</code> 在 <code>main.py</code> 的父目录中。</p>
+<h4 id="导入方法：-1"><a href="#导入方法：-1" class="headerlink" title="导入方法："></a>导入方法：</h4><p>要导入父目录中的模块，可以使用 <code>sys.path</code> 或者 <code>..</code> 相对导入。</p>
+<h5 id="方法-1：使用-sys-path-临时修改搜索路径"><a href="#方法-1：使用-sys-path-临时修改搜索路径" class="headerlink" title="方法 1：使用 sys.path 临时修改搜索路径"></a>方法 1：使用 <code>sys.path</code> 临时修改搜索路径</h5><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line">sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
+
+<h5 id="方法-2：使用相对导入（仅适用于包内模块）"><a href="#方法-2：使用相对导入（仅适用于包内模块）" class="headerlink" title="方法 2：使用相对导入（仅适用于包内模块）"></a>方法 2：使用相对导入（仅适用于包内模块）</h5><p>如果 <code>main.py</code> 位于包内，可以使用相对导入：</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">from</span> .. <span class="keyword">import</span> my_module  <span class="comment"># 这需要main.py位于一个包中</span></span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="3-模块在主程序的兄弟目录中"><a href="#3-模块在主程序的兄弟目录中" class="headerlink" title="3. 模块在主程序的兄弟目录中"></a>3. <strong>模块在主程序的兄弟目录中</strong></h3><p>假设目录结构如下：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">project/</span><br><span class="line">    main.py</span><br><span class="line">    sibling_dir/</span><br><span class="line">        my_module.py</span><br></pre></td></tr></table></figure></div>
+
+<p>此时，<code>my_module.py</code> 在与 <code>main.py</code> 平级的 <code>sibling_dir</code> 目录中。</p>
+<h4 id="导入方法：-2"><a href="#导入方法：-2" class="headerlink" title="导入方法："></a>导入方法：</h4><p>类似于导入父目录中的模块，可以使用 <code>sys.path</code>。</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line">sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), <span class="string">&#x27;sibling_dir&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="4-模块在任意目录中"><a href="#4-模块在任意目录中" class="headerlink" title="4. 模块在任意目录中"></a>4. <strong>模块在任意目录中</strong></h3><p>如果模块或包位于系统的任意位置，可以通过以下几种方式导入：</p>
+<h4 id="方法-1：将路径添加到-sys-path"><a href="#方法-1：将路径添加到-sys-path" class="headerlink" title="方法 1：将路径添加到 sys.path"></a>方法 1：将路径添加到 <code>sys.path</code></h4><p>可以将模块所在的路径添加到 <code>sys.path</code> 中。</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">sys.path.append(<span class="string">&#x27;/path/to/directory&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
+
+<h4 id="方法-2：设置-PYTHONPATH-环境变量"><a href="#方法-2：设置-PYTHONPATH-环境变量" class="headerlink" title="方法 2：设置 PYTHONPATH 环境变量"></a>方法 2：设置 <code>PYTHONPATH</code> 环境变量</h4><p>在运行 Python 程序时，可以通过设置 <code>PYTHONPATH</code> 环境变量来指定额外的搜索路径。</p>
+<p>在终端中运行：</p>
+<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PYTHONPATH=<span class="variable">$PYTHONPATH</span>:/path/to/directory</span><br><span class="line">python main.py</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="5-模块在已安装的包或库中"><a href="#5-模块在已安装的包或库中" class="headerlink" title="5. 模块在已安装的包或库中"></a>5. <strong>模块在已安装的包或库中</strong></h3><p>如果模块或包已经安装到 Python 的标准库路径或通过<code>pip</code>安装，则可以直接导入而不需要任何额外操作。</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> some_installed_module</span><br><span class="line"></span><br><span class="line">some_installed_module.some_function()</span><br></pre></td></tr></table></figure></div>
+
+<h3 id="6-使用-importlib-动态导入模块"><a href="#6-使用-importlib-动态导入模块" class="headerlink" title="6. 使用 importlib 动态导入模块"></a>6. <strong>使用 <code>importlib</code> 动态导入模块</strong></h3><p>如果你需要在运行时动态地导入模块，可以使用 <code>importlib</code> 模块。</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> importlib</span><br><span class="line"></span><br><span class="line">my_module = importlib.import_module(<span class="string">&#x27;my_module&#x27;</span>)</span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
+
+<p>这种方式适用于需要根据条件动态导入模块的情况。</p>
+<hr>
+<p><code>import</code>语句的几种常见用法：</p>
+<h3 id="1-导入整个模块"><a href="#1-导入整个模块" class="headerlink" title="1. 导入整个模块"></a>1. <strong>导入整个模块</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> module_name</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>这会导入整个模块的内容，使用时需要通过 <code>module_name.</code> 进行访问。</li>
+<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="built_in">print</span>(math.sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="2-导入模块中的特定对象"><a href="#2-导入模块中的特定对象" class="headerlink" title="2. 导入模块中的特定对象"></a>2. <strong>导入模块中的特定对象</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> function_name</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>这只导入模块中的特定对象，可以直接使用而不需要模块名前缀。</li>
+<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> sqrt</span><br><span class="line"><span class="built_in">print</span>(sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="3-导入模块中的多个对象"><a href="#3-导入模块中的多个对象" class="headerlink" title="3. 导入模块中的多个对象"></a>3. <strong>导入模块中的多个对象</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> function1, function2</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>可以一次性导入多个对象，使用时不需要模块名前缀。</li>
+<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> sqrt, <span class="built_in">pow</span></span><br><span class="line"><span class="built_in">print</span>(sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">pow</span>(<span class="number">2</span>, <span class="number">3</span>))  <span class="comment"># 输出：8.0</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="4-导入模块中的所有对象"><a href="#4-导入模块中的所有对象" class="headerlink" title="4. 导入模块中的所有对象"></a>4. <strong>导入模块中的所有对象</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> *</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li>这会导入模块中的所有对象，使用时不需要模块名前缀。</li>
+<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> *</span><br><span class="line"><span class="built_in">print</span>(sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br><span class="line"><span class="built_in">print</span>(pi)        <span class="comment"># 输出：3.141592653589793</span></span><br></pre></td></tr></table></figure></div></li>
+<li><strong>注意</strong>：这种方式可能会引入命名冲突，不推荐在大型项目中使用。</li>
+</ul>
+<h3 id="5-为模块或对象设置别名"><a href="#5-为模块或对象设置别名" class="headerlink" title="5. 为模块或对象设置别名"></a>5. <strong>为模块或对象设置别名</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> module_name <span class="keyword">as</span> alias_name</span><br><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> function_name <span class="keyword">as</span> alias_name</span><br></pre></td></tr></table></figure></div>
+
+<ul>
+<li><p>通过设置别名，可以简化调用，或者避免命名冲突。</p>
+</li>
+<li><p><strong>例子</strong>：</p>
+<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="built_in">print</span>(np.array([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]))</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> sqrt <span class="keyword">as</span> s</span><br><span class="line"><span class="built_in">print</span>(s(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="6-相对导入"><a href="#6-相对导入" class="headerlink" title="6. 相对导入"></a>6. <strong>相对导入</strong></h3><ul>
+<li>在包结构中，可以使用相对导入来导入同一个包内的模块。</li>
+<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> . <span class="keyword">import</span> sibling_module</span><br><span class="line"><span class="keyword">from</span> ..parent_package <span class="keyword">import</span> parent_module</span><br></pre></td></tr></table></figure></div></li>
+<li><code>.</code> 表示当前目录，<code>..</code> 表示上级目录。</li>
+</ul>
+<h3 id="7-延迟导入"><a href="#7-延迟导入" class="headerlink" title="7. 延迟导入"></a>7. <strong>延迟导入</strong></h3><ul>
+<li>你也可以在函数或代码块中使用 <code>import</code>，这被称为延迟导入或局部导入。</li>
+<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">some_function</span>():</span><br><span class="line">    <span class="keyword">import</span> math</span><br><span class="line">    <span class="keyword">return</span> math.sqrt(<span class="number">16</span>)</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<h3 id="8-导入包"><a href="#8-导入包" class="headerlink" title="8. 导入包"></a>8. <strong>导入包</strong></h3><ul>
+<li>如果模块被组织成了包结构，导入包时实际上是导入包中的 <code>__init__.py</code> 文件。</li>
+<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> my_package</span><br></pre></td></tr></table></figure></div></li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>python</category>
+      </categories>
+      <tags>
+        <tag>Programming-Language</tag>
+        <tag>python</tag>
+      </tags>
   </entry>
   <entry>
     <title>HTML 基本教程</title>
@@ -917,91 +1002,11 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Divide&amp;Conquer/</url>
-    <content><![CDATA[<h1 id="分治"><a href="#分治" class="headerlink" title="分治"></a>分治</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Dynamic-Programming/</url>
-    <content><![CDATA[<h1 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Greedy/</url>
-    <content><![CDATA[<h1 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Graph/</url>
-    <content><![CDATA[<h1 id="图"><a href="#图" class="headerlink" title="图"></a>图</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Hash-table/</url>
-    <content><![CDATA[<h1 id="哈希表"><a href="#哈希表" class="headerlink" title="哈希表"></a>哈希表</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Introduction/</url>
-    <content><![CDATA[<h1 id="绪论"><a href="#绪论" class="headerlink" title="绪论"></a>绪论</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Heap/</url>
-    <content><![CDATA[<h1 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Searching/</url>
-    <content><![CDATA[<h1 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Sorting/</url>
-    <content><![CDATA[<h1 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h1>]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Tree/</url>
-    <content><![CDATA[<h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1>]]></content>
-  </entry>
-  <entry>
     <title>python TODO</title>
     <url>/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/py-todo/</url>
     <content><![CDATA[
 <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <script id="hbeData" type="hbeData" data-hmacdigest="4f519fac1e666e61e3cfcb57b5f42175f314b2b34c2b547ababb964d07e61d88">5844f566621fccb9c583f0174433e53073c0f6e9a4ea7aabda16d437219e13aefffc310be8a5a8f2fe4d287218f364fea920bce066c4f2504219f65bec6d525eed8a8f75247be22bfc3922364ec9bd149671af3eee51c7a1b82efe6ebcd6044a3436f66a6e0d983b770d21e4871c03e2ea4153f84f67ebfe32e7cd510ae6b1934e720f2426110708b8094a9f5a46d3bb791d0ee2279ae5074695dfa0c9072c71df3d1d3a3777e927809bbcd2eb5ef180471e7ca1b62f3c87cf7e0d2a20b2ddc6a1d7d62b4b9a241af9307236c5b5651428d0d4ac769f820b4ef83ce2a9501e51a57b22ef8fdfcf249b900a146283e69728c4a07e3b484cf6401953b584bb16128d3fbee2b5282f0c6928452fc773df1103776bf035564c84bb2981db5524bfb4a95bfa016fb459ccd4e1291ae071161f9fc08d5696ce8a8acf7556e92b6ddbded863117deb7becc915714fe5c9fb2dcd5b6f8acb938d384312049453e1f311a1ef84e6ec4a8cd681bb19c3f6e93fbf823e50db271bff7802b1cb4651fdc088f8b383e26a1ae707d81774cba69eed12a11758e9c8f2c2880c263a21e19c8766b85c45c958d4349b79175612ce28bde54ef6af18eaae9eb802f998312243408ffd6844cd9dd17b5265e2a7c05321a0382f1b487a2668e0e798dfc43ec51578a25ad36336bce173a6b7fc56bb57c765adf4056441eeefcd1955c023fefae2b0314dfdf6ec11f6fd76930e6feb519d17d43d2fe1382279d68a3842426386fa90d3299555b4123de87c4b12f21e3397982c993557af42db383c5330e56d7413dbc724b2a67c84624ad8bbcee0da8ddb6d7fc7add24a74d8804e4d64e754bd23110d34c85cc7c869b28caea0e1451ad7fe6b6ae366eb5cedc99dba032ddbd392bca74c5b00e49024f6b4472dd1436cf0c1e604b01a25c0bdb19d3b7aa6b5d63c13a8d282baeae615e26ed36b17e1d31e8298850713e44ec9715328a8967476e6df977dc71ed20b48b97941c2cfb42816dc554b36eacc98839bbc6cae816bf5eff4c7012d7eafb396a72fd667af153e130ce26af6141f7ad6874cfd967229f10da2efa125649ca1ec8f6f57ed2074483f28586ec9990b83a3879b15750934c32882bbb6922a942b1d074659ed52d725a32cc9afb53ffa624e0ca23af911405380b2274bc069b5ee9c121aff372ad1824884b1aea7f1b6c5a34a9f09af2043c70d7e82a4bd5531e55076e86ea92d50869ecc54fa73b389bf565576560b1e85a7b5c744c155d2f295ae4fc8382433c352a5420f3623107d4647d0e19d0fe6eee7c0c7ae82523988d5192f23d34f14d65db16ac2a2a64a69d59fb70eeb5eb55808fb497ec8c813cd24b3df004fa78ea0b885ae487b32575245029a33e7e37ab95257c87ccd6c23f5dba9a3bf694b3dacc146bb4e7e833a8524a6fb617d8e95cb00cf6c379ea4c93af4fe770478b9b0d473854418ea892757fa3caa99f0fc4ea2231ee0ae9ad39ab5213dfe12352aa0ca2569cd0a310559835a5b0b3fa139a186c5e0cb17c1dae128924057d4f71f52cc571745b5bfdf70acd574a7bc44b12f44430f22e3a74c4c92f13fa54ea7fb0de25a7f630bbef3df9edd9351735704e5e8014c836dee4fe6c5ab502d204db36b868314cb1099a07755fa9b1b006e44b67c05a80978e0c3ec6e53e0fe6e45ca9a43c6edff805bbc7f7060119d5bcb2f299e1b007d1126f9563af550a189fd1b12d96cf8f9e27efec46919458f33651ebab142c488a4c98cabb9f4fa208737a1a8a68cca48c2919511e798329ab19fcc4c1d57105aae043d0b7275a2603d5eacf33b523e575048a17725f0ebbdeb35a888250abdb44b466a3d708c634439d66e120a2455d93e131eb15a9bbb06bb2f0ef94018c45ccacf47a80d9b019b8901a2711b250357d9945195212c04d8d76c6db7d359494c1f7c5f93b1152d52b9a86eb52187ac7c6b99f53f0d99d736f9c7ea130627a0fee76804f61663de77392179e9dd42e043d9d2b24da2bb4a8adb72397c3b48411390f645720377abe47c6bdd463fc14a46192a41d23396c70edc7db443ddd4c7189be7666868549bad30cce078e530b64c94b57f6ecc8b0f331db138a5753ac0b1405fd6a8eb0831b85947611b39d0232043ebec018db2fba4b767005d0127aba8b5f75207360a654f03a00bd33f7e9727017b87445bb5c4332be1cec200f48162938dd0ea63b1f4dc298c4740f80bfdf8fb16279a4aeccb094b8c9be5c2b3a60274756aea7ecd1760fa1050820a7112e932c4ddc74ebb93bec1389da6d351689a1b05e3b7dc8de7469ca85eb9f907a2c5d6abe221e86a27747bf52274ff2cdfd8a33254b4a732f212dc8fad387f6736a5d6cc202f8bcb12273c45f18706292fcf86d9a4d073c21a37579080d1087e7c7f8379abb7e856175a129e9b1f6be404dba6d17fdfb1389a06ef74b211136025c25ba597603bfc63da84ae7d15d653141ff893da6bef06e0ff4421543ddb71d334ccb38dfd14712e9fe8616a349faebb76ba2cc59fd3fb30a109fd7cb68253bfc41265ebd254afa7ea19f2423f5227423dbebe8776889b6108179bccf6218b141936e71187b051dd01f29d126cd8358493cdc48cf3091d0776001cee55625f103fc38eb36b45e33d5db2614903000dccce305af5b888a99ac8ef2f9c58fef6f9c4fc90f1a765ba2fd63137f147a7f54b16d9ccdc750357aae7faf1f4eaeff508d33918bf7a95e18280c6d80a76d64f77aa8a2d580995123fdeef61faa0a638e875f3981fb702a72ef1f2c970ddbc32c600be2fa6ffd88015520d6cbf0fa96df9c0a1d80cd5939e34d71d8efc7412ebefcde79249c2a9200b6bf719076d0e587818072c915e24327ccd27608489ec227316f82d771316fe2613627f48426ababd98c919e60a6c206f455b86caa2ad551c152944f9b713cd25a4782f97e7de45b8cdee8cbe7de042ca887ac15dc7152e421f096c67928d0ba37d28373710e8e018e16f2c3186cbfb34a9f158ba1701092489ed26bf6555e4577c318108a9a3909cb5bbb341ff32839a25362d07fca2b436f90ae32c223ef6d12a0440d07948e22b87d704388c2f719342eee8ff0ce56e4147e8bed44d03ac81eec7949191cd2accc62d9d366873c37381522e8635eab2edb8c932b5f1d27567c3449c0946718ac91562c25bfed8681113362efed39a1c35e2fec49e644c795a18d1a19559bf665278fd6df19f2046f0d969a4f8b78d7d15c3f3eff50aca1bdf471a0aba6f33361b8cd121c1752fe2ab0c9ac85702585ed1b127d13aba765ae2533dff256f8b804ddc4c97dc4e1ea39f6d46bc0cb8f3007bebcfb601305eb7176f3ea829a48c8ee46e78a74e7172dfc94ec01a25baee009e2ef875c0d010d3e7b8068689d9e022afc657d41c086686126accd00105b63b0cb395a6e834a302d24cca9a2b5df8645c552227fe5bafcb8b28682ba1715aa156512ac6a10109217c5b15a75ac42f0c607d05870c53180bf12efec3ddb3b7e75589e3ff128cbb4eded3c9934193889d198910f46e8906c94f5e7a671982f95b4ab1e0a4910ee371eae7c0553d403429ef9da4de2a51281a741cb6e27ee68f3cd93ce31d76ed4f32b0fed3f0881e5cff101201d48e4c12b7e683663c511b6015ea0b7ebfc788a77375a9ed791115175cb81badc2b03c720197435251b2e4b7c80ffdded24c5bad3fc2a57b709987fed5a558fa057df0f9d97842b1997363f83ab81048700ce28c2391e8ff6479f808f8b4c98caad760c2033d571a683aea348b210e30cbcd303b97d437a5b3e9796dc0ea76ffd482c0c112e48cd53db5e507f343659250e5933d720e408d8661991d35c00ba4ad2eb9ce237e554a47027f6977fde4ba16bcb6bc6b5cd478450284efaa2e56617cb777b9d04b57b3882d9dd7d0332ad7533e81dbf7c0c1920ab190fd5d9810cc717361519acad320d8cceaa1f08a55ea415a7ee75151a4991521579138ad189468a25df7cf8b3a28dc715afd1f3032e66d10629b088fd422e999c4eb1768e447e1fcfecd77d9d03049d1d8d5a61c3c4693236275ecefd4892c967154dd2632e54efde6e4ebd4658c1445b8943149ae8f9fe48bded84f8a8b82a16337a0faadacbd2422d059f2fe65b74fc5c1b530b65066ace50e4f595d9bdde2045152ff8ca4b51c1641b3964fcc20d6f167a4b317adf683924d4e9d8821a8de2048c230f2105cac3d0f6047da648d30276850f88f84e2a151c79eaf88ab50623cf9d71bae70b83da7087d8ee4a6510859a39c12bed70b26495ee34d5e70402f7c3e50641093ea6acdbfd0f8c7d748000888cc677ee7ae4173f7181da83cdafb90b3eda348b1970be65fa3c216f42cbfd1ff457b7db40b1dfad653dafd07b100d243209170b4989ff03107d4a9632913d0b056b1fe23a34a3e88b7f559d96ceee0593cdc493d7614bbe477599930faa1657ace68ff91e175943ab522dd1dd6301c904e3ac673c5a3d083aeab4512fa138250c696a84c6a83495c4c9ef6dd7b8995b42f977f022a59e3f2a9c4ee1da789ba2e4752f4f1b2fb7ba9b84c1f84eb143d91ae33c4fc196f38968d9ca0befd0c0d94e4b61f263b51a90ec9f7b7972b0a3e2f42c9c8aa088069c27fc6d7ef132b3cffa861b6fbf38d4c637dcf1e5725545ee634dd2d744a838225a19cca7be8458c0430a7a7b69e226271db289d844bfc83c97384a2bc14d4282ea58a95378e7b78b2570319ca994936cb2bf0209cdd452d556c240a57c818f10ae4403007058a7430c2326abc2c22ed141cbb3c42adc280621699ae665118acba70c5f89985ac2de830bf8b94c26468bf46b63989bc353a9ff2affc2a8f33944c453c94621105e68b724b9baf6c43b0de7b8e68e9d928225ba6efdb0be936e1d39858b2d4890baaf128ff8589949a1e8413bb01b544c4fed425e1a2073764532c8406371b28a87ca83caeb261df709711ac9165fbe18d1cd44283370fbeb5430384fae85d91b636576668beba3b1a3c7c919c414ce2d8a7d5c11ade3ceaa78c418f9f8d0effff67f0af4a8f7fdda82a0d8e4918f0249bbd0c2be88ec38d3c7391b3222fcc8d75b9536621fb62a94bbf6c758e7bea56eab4e98ca966ed78787b2e52688440cfee4f83220a6aacf4c6bd1cd504f09cb519a74e5fe60cb5af84bae255a77213f5da7ceeafa116212d762055cc788eb05b20f253b9dad74645575349f701017472839f8dd1adf0207c61c13bdd3795567e2080f842b5fd305ff940f0e7f2ffb5316655a82542ba7290c737cbd2584fc0b25205c5e08f0ff949fe90106c6f52e2a0cff4a9857db48648c997e77a3fcced82aebbbffcedec04df1f992619472309473c6ff40e98ce2da4846364472dbbe149a3353f4da43fa39ecccc45a3c23e12770c7b28c4b8ec6a94a84f50874725345768562bbc581cfc3169673c4bff79e4c6852e6829a1ef96ecdbc86c88bdafd5ee12f7524be4bf7b606a6e7490a91686061f981bf18e597adb2cc59935ad3f0600a0497dbf901d16ee35b12e3f72921ec02809e4ac11cde10fad00f514696998e81a7c151480d4d6e34970889d53abac26a3ef340f16132474c1900134d57e3e96a487665b7b499cf631a609887e0d15f606f38e24b546d6deb9680dd83571f1d8a4792f328e465b20817c6cf3ad98b534b14a17dfc2c8d7ff7701ea9847f73a491a3bdd96f74f9ccc</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
-<script data-swup-reload-script type="module">
-import {initHBE} from "/js/plugins/hbe.js";
-  console.log("hexo-blog-encrypt: loaded.");
-    initHBE();
-</script>
-]]></content>
-      <categories>
-        <category>python</category>
-      </categories>
-      <tags>
-        <tag>Programming-Language</tag>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>PyInstaller的使用</title>
-    <url>/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/PyInstaller%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[
-<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c22e9494d66cec01f84c9e1b87cab8e40c51dc764f658793768a780235502d66">5844f566621fccb9c583f0174433e5301661b317bde36d366eebd9d9b250e235</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -1278,101 +1283,26 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/1970/01/01/Theory/Algorithm/Stack&amp;queue/</url>
-    <content><![CDATA[<h1 id="栈与队列"><a href="#栈与队列" class="headerlink" title="栈与队列"></a>栈与队列</h1>]]></content>
-  </entry>
-  <entry>
-    <title>python &amp; import</title>
-    <url>/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/import%E6%B5%85%E6%9E%90/</url>
-    <content><![CDATA[<p>在主程序中导入位于不同目录的模块或包。根据模块或包的所在位置及具体需求，可以采用不同的方法来导入这些模块或包。</p>
-<h3 id="1-模块在主程序的子目录中"><a href="#1-模块在主程序的子目录中" class="headerlink" title="1. 模块在主程序的子目录中"></a>1. <strong>模块在主程序的子目录中</strong></h3><p>假设目录结构如下：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">project/</span><br><span class="line">    main.py</span><br><span class="line">    subdir/</span><br><span class="line">        my_module.py</span><br></pre></td></tr></table></figure></div>
-
-<p><code>main.py</code> 是主程序，<code>my_module.py</code> 是要导入的模块。</p>
-<h4 id="导入方法："><a href="#导入方法：" class="headerlink" title="导入方法："></a>导入方法：</h4><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">from</span> subdir <span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line"><span class="comment"># 使用模块中的内容</span></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="2-模块在主程序的父目录中"><a href="#2-模块在主程序的父目录中" class="headerlink" title="2. 模块在主程序的父目录中"></a>2. <strong>模块在主程序的父目录中</strong></h3><p>假设目录结构如下：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">project/</span><br><span class="line">    subdir/</span><br><span class="line">        main.py</span><br><span class="line">    my_module.py</span><br></pre></td></tr></table></figure></div>
-
-<p>此时，<code>my_module.py</code> 在 <code>main.py</code> 的父目录中。</p>
-<h4 id="导入方法：-1"><a href="#导入方法：-1" class="headerlink" title="导入方法："></a>导入方法：</h4><p>要导入父目录中的模块，可以使用 <code>sys.path</code> 或者 <code>..</code> 相对导入。</p>
-<h5 id="方法-1：使用-sys-path-临时修改搜索路径"><a href="#方法-1：使用-sys-path-临时修改搜索路径" class="headerlink" title="方法 1：使用 sys.path 临时修改搜索路径"></a>方法 1：使用 <code>sys.path</code> 临时修改搜索路径</h5><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line">sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
-
-<h5 id="方法-2：使用相对导入（仅适用于包内模块）"><a href="#方法-2：使用相对导入（仅适用于包内模块）" class="headerlink" title="方法 2：使用相对导入（仅适用于包内模块）"></a>方法 2：使用相对导入（仅适用于包内模块）</h5><p>如果 <code>main.py</code> 位于包内，可以使用相对导入：</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">from</span> .. <span class="keyword">import</span> my_module  <span class="comment"># 这需要main.py位于一个包中</span></span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="3-模块在主程序的兄弟目录中"><a href="#3-模块在主程序的兄弟目录中" class="headerlink" title="3. 模块在主程序的兄弟目录中"></a>3. <strong>模块在主程序的兄弟目录中</strong></h3><p>假设目录结构如下：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">project/</span><br><span class="line">    main.py</span><br><span class="line">    sibling_dir/</span><br><span class="line">        my_module.py</span><br></pre></td></tr></table></figure></div>
-
-<p>此时，<code>my_module.py</code> 在与 <code>main.py</code> 平级的 <code>sibling_dir</code> 目录中。</p>
-<h4 id="导入方法：-2"><a href="#导入方法：-2" class="headerlink" title="导入方法："></a>导入方法：</h4><p>类似于导入父目录中的模块，可以使用 <code>sys.path</code>。</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line"><span class="keyword">import</span> os</span><br><span class="line">sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), <span class="string">&#x27;sibling_dir&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="4-模块在任意目录中"><a href="#4-模块在任意目录中" class="headerlink" title="4. 模块在任意目录中"></a>4. <strong>模块在任意目录中</strong></h3><p>如果模块或包位于系统的任意位置，可以通过以下几种方式导入：</p>
-<h4 id="方法-1：将路径添加到-sys-path"><a href="#方法-1：将路径添加到-sys-path" class="headerlink" title="方法 1：将路径添加到 sys.path"></a>方法 1：将路径添加到 <code>sys.path</code></h4><p>可以将模块所在的路径添加到 <code>sys.path</code> 中。</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># main.py</span></span><br><span class="line"><span class="keyword">import</span> sys</span><br><span class="line">sys.path.append(<span class="string">&#x27;/path/to/directory&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> my_module</span><br><span class="line"></span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
-
-<h4 id="方法-2：设置-PYTHONPATH-环境变量"><a href="#方法-2：设置-PYTHONPATH-环境变量" class="headerlink" title="方法 2：设置 PYTHONPATH 环境变量"></a>方法 2：设置 <code>PYTHONPATH</code> 环境变量</h4><p>在运行 Python 程序时，可以通过设置 <code>PYTHONPATH</code> 环境变量来指定额外的搜索路径。</p>
-<p>在终端中运行：</p>
-<div class="highlight-container" data-rel="Bash"><figure class="iseeu highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">export</span> PYTHONPATH=<span class="variable">$PYTHONPATH</span>:/path/to/directory</span><br><span class="line">python main.py</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="5-模块在已安装的包或库中"><a href="#5-模块在已安装的包或库中" class="headerlink" title="5. 模块在已安装的包或库中"></a>5. <strong>模块在已安装的包或库中</strong></h3><p>如果模块或包已经安装到 Python 的标准库路径或通过<code>pip</code>安装，则可以直接导入而不需要任何额外操作。</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> some_installed_module</span><br><span class="line"></span><br><span class="line">some_installed_module.some_function()</span><br></pre></td></tr></table></figure></div>
-
-<h3 id="6-使用-importlib-动态导入模块"><a href="#6-使用-importlib-动态导入模块" class="headerlink" title="6. 使用 importlib 动态导入模块"></a>6. <strong>使用 <code>importlib</code> 动态导入模块</strong></h3><p>如果你需要在运行时动态地导入模块，可以使用 <code>importlib</code> 模块。</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> importlib</span><br><span class="line"></span><br><span class="line">my_module = importlib.import_module(<span class="string">&#x27;my_module&#x27;</span>)</span><br><span class="line">my_module.some_function()</span><br></pre></td></tr></table></figure></div>
-
-<p>这种方式适用于需要根据条件动态导入模块的情况。</p>
-<hr>
-<p><code>import</code>语句的几种常见用法：</p>
-<h3 id="1-导入整个模块"><a href="#1-导入整个模块" class="headerlink" title="1. 导入整个模块"></a>1. <strong>导入整个模块</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> module_name</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>这会导入整个模块的内容，使用时需要通过 <code>module_name.</code> 进行访问。</li>
-<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="built_in">print</span>(math.sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br></pre></td></tr></table></figure></div></li>
-</ul>
-<h3 id="2-导入模块中的特定对象"><a href="#2-导入模块中的特定对象" class="headerlink" title="2. 导入模块中的特定对象"></a>2. <strong>导入模块中的特定对象</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> function_name</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>这只导入模块中的特定对象，可以直接使用而不需要模块名前缀。</li>
-<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> sqrt</span><br><span class="line"><span class="built_in">print</span>(sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br></pre></td></tr></table></figure></div></li>
-</ul>
-<h3 id="3-导入模块中的多个对象"><a href="#3-导入模块中的多个对象" class="headerlink" title="3. 导入模块中的多个对象"></a>3. <strong>导入模块中的多个对象</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> function1, function2</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>可以一次性导入多个对象，使用时不需要模块名前缀。</li>
-<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> sqrt, <span class="built_in">pow</span></span><br><span class="line"><span class="built_in">print</span>(sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br><span class="line"><span class="built_in">print</span>(<span class="built_in">pow</span>(<span class="number">2</span>, <span class="number">3</span>))  <span class="comment"># 输出：8.0</span></span><br></pre></td></tr></table></figure></div></li>
-</ul>
-<h3 id="4-导入模块中的所有对象"><a href="#4-导入模块中的所有对象" class="headerlink" title="4. 导入模块中的所有对象"></a>4. <strong>导入模块中的所有对象</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> *</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li>这会导入模块中的所有对象，使用时不需要模块名前缀。</li>
-<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> *</span><br><span class="line"><span class="built_in">print</span>(sqrt(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br><span class="line"><span class="built_in">print</span>(pi)        <span class="comment"># 输出：3.141592653589793</span></span><br></pre></td></tr></table></figure></div></li>
-<li><strong>注意</strong>：这种方式可能会引入命名冲突，不推荐在大型项目中使用。</li>
-</ul>
-<h3 id="5-为模块或对象设置别名"><a href="#5-为模块或对象设置别名" class="headerlink" title="5. 为模块或对象设置别名"></a>5. <strong>为模块或对象设置别名</strong></h3><div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> module_name <span class="keyword">as</span> alias_name</span><br><span class="line"><span class="keyword">from</span> module_name <span class="keyword">import</span> function_name <span class="keyword">as</span> alias_name</span><br></pre></td></tr></table></figure></div>
-
-<ul>
-<li><p>通过设置别名，可以简化调用，或者避免命名冲突。</p>
-</li>
-<li><p><strong>例子</strong>：</p>
-<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="built_in">print</span>(np.array([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]))</span><br><span class="line"></span><br><span class="line"><span class="keyword">from</span> math <span class="keyword">import</span> sqrt <span class="keyword">as</span> s</span><br><span class="line"><span class="built_in">print</span>(s(<span class="number">16</span>))  <span class="comment"># 输出：4.0</span></span><br></pre></td></tr></table></figure></div></li>
-</ul>
-<h3 id="6-相对导入"><a href="#6-相对导入" class="headerlink" title="6. 相对导入"></a>6. <strong>相对导入</strong></h3><ul>
-<li>在包结构中，可以使用相对导入来导入同一个包内的模块。</li>
-<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> . <span class="keyword">import</span> sibling_module</span><br><span class="line"><span class="keyword">from</span> ..parent_package <span class="keyword">import</span> parent_module</span><br></pre></td></tr></table></figure></div></li>
-<li><code>.</code> 表示当前目录，<code>..</code> 表示上级目录。</li>
-</ul>
-<h3 id="7-延迟导入"><a href="#7-延迟导入" class="headerlink" title="7. 延迟导入"></a>7. <strong>延迟导入</strong></h3><ul>
-<li>你也可以在函数或代码块中使用 <code>import</code>，这被称为延迟导入或局部导入。</li>
-<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">some_function</span>():</span><br><span class="line">    <span class="keyword">import</span> math</span><br><span class="line">    <span class="keyword">return</span> math.sqrt(<span class="number">16</span>)</span><br></pre></td></tr></table></figure></div></li>
-</ul>
-<h3 id="8-导入包"><a href="#8-导入包" class="headerlink" title="8. 导入包"></a>8. <strong>导入包</strong></h3><ul>
-<li>如果模块被组织成了包结构，导入包时实际上是导入包中的 <code>__init__.py</code> 文件。</li>
-<li><strong>例子</strong>：<div class="highlight-container" data-rel="Python"><figure class="iseeu highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> my_package</span><br></pre></td></tr></table></figure></div></li>
-</ul>
-<hr>
+    <title>PyInstaller的使用</title>
+    <url>/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/PyInstaller%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c22e9494d66cec01f84c9e1b87cab8e40c51dc764f658793768a780235502d66">5844f566621fccb9c583f0174433e5301661b317bde36d366eebd9d9b250e235</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
+<script data-swup-reload-script type="module">
+import {initHBE} from "/js/plugins/hbe.js";
+  console.log("hexo-blog-encrypt: loaded.");
+    initHBE();
+</script>
 ]]></content>
       <categories>
         <category>python</category>
@@ -1659,6 +1589,21 @@ import {initHBE} from "/js/plugins/hbe.js";
       </tags>
   </entry>
   <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Backtracking/</url>
+    <content><![CDATA[<h1 id="回溯"><a href="#回溯" class="headerlink" title="回溯"></a>回溯</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/DataStructure/</url>
+    <content><![CDATA[<h1 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Divide&amp;Conquer/</url>
+    <content><![CDATA[<h1 id="分治"><a href="#分治" class="headerlink" title="分治"></a>分治</h1>]]></content>
+  </entry>
+  <entry>
     <title>python の 工程化</title>
     <url>/2024/09/11/Programming-Language/Python%E5%85%A5%E9%97%A8/python%E6%A0%87%E5%87%86%E5%8C%96/</url>
     <content><![CDATA[
@@ -1687,5 +1632,84 @@ import {initHBE} from "/js/plugins/hbe.js";
         <tag>Programming-Language</tag>
         <tag>python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Arrays&amp;linked-lists/</url>
+    <content><![CDATA[<h1 id="数组-链表"><a href="#数组-链表" class="headerlink" title="数组&amp;链表"></a>数组&amp;链表</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Graph/</url>
+    <content><![CDATA[<h1 id="图"><a href="#图" class="headerlink" title="图"></a>图</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Dynamic-Programming/</url>
+    <content><![CDATA[<h1 id="动态规划"><a href="#动态规划" class="headerlink" title="动态规划"></a>动态规划</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Greedy/</url>
+    <content><![CDATA[<h1 id="贪心"><a href="#贪心" class="headerlink" title="贪心"></a>贪心</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Hash-table/</url>
+    <content><![CDATA[<h1 id="哈希表"><a href="#哈希表" class="headerlink" title="哈希表"></a>哈希表</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Heap/</url>
+    <content><![CDATA[<h1 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Searching/</url>
+    <content><![CDATA[<h1 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Sorting/</url>
+    <content><![CDATA[<h1 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h1>]]></content>
+  </entry>
+  <entry>
+    <title>算法绪论</title>
+    <url>/2024/09/13/Theory/Algorithm/Introduction/</url>
+    <content><![CDATA[
+<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="4191c7b5d7ccde1fe950eb774bad1ffc5bd7c0ffeb9d6707e8a8eaf36bb9cbf7">5844f566621fccb9c583f0174433e530893e3f6a3d9380e6f64fa511999026de482d11edb9c199fb16930237675dad52849153ec5dff1bd84bc9720537e3928b2fe5cedca150aadffd84505f4ce8522cfd9f4e395b0297aefb45a363db64c5e79b303cdc4f02b4d472a1cc38ecf5c62bfd035389aee60139798be7f6d2d0e19960ecb8d3b00b41744ae595d2c23a2a00c922329c5d1d1f30f772bb858ad2219569dddf55e504e1f8e402c8cdf635cfcbb5becee4a487f9e48b323303926a9db431eb823e83e5091987896d12a5bcda60bedc90fe4647cec9e535f20340875cfd14751aea75fc85827f6a15a92f168e806328a21881410b3047884e95e6ea9c3ffe75c722108d0e6857af349733e34a9958b4c8364bbdf5215896f51c2d38ac99b2629feae717cda1522f42986eef342cb301c51ca5a731c388dfca635a5910bfe0921363717b2bc11f522863e03ba3a28ab866afad18ede10c51d8e9a3be385b4845da6637929758d7ade8a214f968edc792593b3bde0129796a37e5f06b0e11fb9091b9cd75e72c79e35a23b8067e5939a53c93a8b4ef98c44a6d217a5621804cd0a02616cfc59aea0e3e519f8b58abff14c4e26bf3ed865644f49b3edbe7905aa194456164d5d4a974a7742db29092169aa643cf231adba0a4421c75f518705626e32231db2b8609307da6b70860e1d189533d4e81efdbdc30090ad3ccb7df0fb94593dcf25b73061d2ddfa332a75a0821452db05267c76de1a76d0dbf454a06093e56bc574ff0218b0af5031f7c77dd3715b09da51e536e0bf1fe32168924d087af0e13a6e3dcc6be9393cf483ee81b9a728a1e37c17883efd274256d5364045ba2c5b1e7c455373e0a6ab66d28025ce4b8cb4c812ca0e04a4d172358c0af333bd2e4b50f75ad5fc480d80f6e6b3f22929f5092b2328fb524e32abbb5c0c55772c3c62fc7e7e0f106e0ce0b1ab343728cd56a30a65468450e306c9a6a597ca6fbb3252968e3c4f4cfd0723a9c8aa05221de49ce2a097d09b7bf413c9dc3dd73f7949b35374ddb13a67922271ca98f7fd53cb682656791726a90b8371668e5cab4c4aa65b01e0feb9582bbe022b3489dfffdef87ac747f05e7f3907cfb6fcc15a160c41c4a6a1c7e31ca75cd037d55751fd9577592dfb3ce48a0588d80a25755b2d401ab180d1efa0c62107b3da91636d1bd53c92b06e148f66420fb38ea7c9bfa8b778e7b061db1cf6bd80eb08f1ea793600e4b5fae66ba9562d20aafc00884d020562538661ab1ce58004037a7596e943a5992ed9080c69bc64aa83ca27d1d1e5ef976dcf8c408723df2b7ea920ab98c473819dd7d4b758f85c889fe85bf6a48b55710662793e6848020f7165afd13e08b2349612e33168c5d2e709fda7699be367519c817b0733c1db5acfbaaa2045f232c75d7dadc093abc69428fe1fe183413e1f34fa85b2e4cc1577a47454a87ac13df66c1d94b9a95bb9370aea04d4fa3c5e46464efc4d3d32330d2b878b91d98611c74fa1b65b4eaca9cc47fce83ed9259733f518d9e3f6fa22d5d80af1e8f53d48bcaf3899e1d6b1a1892797c50a940f063fc1cf5f2f810be7270d71e7f8d8483c576001cfdb2ec37aeab6cee23fc1da280b02108229b213a814af6312c9c2f143e919669311a6ec2475321c45888df78ff55682d98178a60a2797227c68bb5348088eade1ea925c2e94b504d38e9e7b43969e457b6be9cf97132c892b776249f9fa7bacd51bf45e5125da50d07e472317a7f152c147d48bf99320657b9f3b019946cd88af52ddd7929d02c0434f0d50bd6ce61e9eea45aee5c29006e2a5f2d1a5503ecf996c02f259e82040475102cb37fd3bebabc2d1100ee29e81e5de222683d086a1dc23d05fc97aa67d1957c29272fc03567f715d405e4bc2677726c87fb34fa7deffb7734f053260aafad08059f5bdb1aca3aa811b29b42887828d2fa60df9aaa5ea3bd06d3dfb1036ba3f9e9e741b43549f409f99cd30585be44d4ef19469b2f18c8d38b5544eb084d3b3e30be4e968eb2c10dc6248d6321900022bd214e320a62c19382e2a60ea5e9472d4f65e0e29761d0699e9d726150537427e27d86a7569430b296d92bf0acc532a4036ef365d5c1b6c235c45b9e0d39be4dfde4ece44bae54a1b0fc9560134f091179164ec5096055f1d90813761f6a97213056ec749e63fbc51b38e0c035afc26c113f3f64fb8f3fae3f3d703c95b5b8bc1b299d3b5cc461d1e636bd7ab5192a5d5943fd8965feb254671560fa46bd0019d222be413840c5f971246e128abc1a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<link href="/css/hbe.style.css" rel="stylesheet" type="text/css"><script data-swup-reload-script type="module" src="/js/plugins/hbe.js"></script>
+<script data-swup-reload-script type="module">
+import {initHBE} from "/js/plugins/hbe.js";
+  console.log("hexo-blog-encrypt: loaded.");
+    initHBE();
+</script>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>Algorithm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Stack&amp;queue/</url>
+    <content><![CDATA[<h1 id="栈与队列"><a href="#栈与队列" class="headerlink" title="栈与队列"></a>栈与队列</h1>]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/1970/01/01/Theory/Algorithm/Tree/</url>
+    <content><![CDATA[<h1 id="树"><a href="#树" class="headerlink" title="树"></a>树</h1>]]></content>
   </entry>
 </search>
